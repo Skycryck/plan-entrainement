@@ -1,7 +1,7 @@
 # Zones d'entraînement
 
 **Référence actuelle : FTP 155 W** (test 11/06/2026) · FC seuil 178 bpm · FC max ≥ 193 bpm
-À recalculer après chaque retest (S8, S16, S22).
+À recalculer après chaque retest (S8 le 04/08, S16 le 22/09 post-coupure).
 
 | Zone | % FTP | Watts (HT) | FC extérieur | Sensation |
 |---|---|---|---|---|
@@ -19,5 +19,5 @@ Si 2 séances sweet spot d'affilée semblent faciles (RPE ≤ 6/10) → cibles +
 ## Protocole test FTP 20 min (HT)
 
 1. Échauffement 25 min : 15 min progressif + 3×1 min haute cadence + 5 min fort + 10 min facile
-2. 20 min à fond RÉGULIER — consigne pour S8 : partir à ~165 W et tenir, pas de sprint final
+2. 20 min à fond RÉGULIER — consigne pour S8 et S16 : partir à ~165 W et tenir, pas de sprint final
 3. FTP = puissance moyenne × 0,95. Bouton Lap au début/fin. ERG désactivé.

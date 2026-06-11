@@ -30,11 +30,14 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 ## Conventions du dépôt
 
 - Cocher les séances dans `suivi/journal.md` (- [ ] → - [x]) avec note éventuelle
-- Tout nouveau test → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
+- Tout nouveau test (FTP : S8, S16 ; chronos : S3, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
 - Modifications du `.ics` : TOUJOURS conserver les UID existants
   (`plan-velo-s{semaine}-{a|b|c}@claude`) pour éviter les doublons côté calendriers
 - Semaine N : lundi = 2026-06-08 + 7×(N-1). A=mardi, B=vendredi, C=dimanche (déplaçables)
-- Semaines de récupération : 4, 8, 12, 16, 20 — ne jamais les supprimer pour "rattraper"
+- ⚠️ COUPURE VÉLO du 21/08 au 13/09 (vacances + rando itinérante, S12-S14) :
+  footings Z2 optionnels, la semaine de rando = la charge. Reprise progressive S15,
+  retest FTP S16 (22/09). Le 150 km+ est en S21 (01/11), test final boucle S23 (13/11)
+- Semaines de récupération : 4, 8, 20 — ne jamais les supprimer pour "rattraper"
 - Séance ratée : on ne rattrape pas. 2+ semaines ratées : reculer d'une semaine dans le plan
 
 ## Données Strava utiles

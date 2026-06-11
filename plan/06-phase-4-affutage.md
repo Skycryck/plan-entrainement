@@ -1,9 +1,8 @@
-# Phase 4 — AFFÛTAGE & OBJECTIFS (semaines 22-24) · 2 → 22 novembre
+# Phase 4 — AFFÛTAGE & OBJECTIFS (S23-S24) · 9 → 22 novembre
 
-Volume -30 %, intensité conservée. Tests finaux.
+Volume réduit, intensité conservée.
 
 | Sem. | A | B | C |
 |---|---|---|---|
-| 22 | 4×4 min @105 %, r4 | 1h Z2 + 3×1 min vifs | 3h Z2 |
-| 23 | 30 min dont 3×3 min @105 % | ⏱️ TEST FINAL : boucle de référence chrono | 2h30 Z2 |
-| 24 | 40 min Z2 + accélérations | 1h Z2 très souple (veille) | 🏆 SORTIE OBJECTIF 150 km+ |
+| 23 (09-15/11) | 4×4 min @105 %, r4 | ⏱️ **TEST FINAL** boucle de référence (ven. 13/11) | 2h30 Z2 |
+| 24 (16-22/11) | 40 min Z2 + accélérations | 1h Z2 très souple | 🏆 **SORTIE OBJECTIF 150 km+** (dim. 22/11) |
