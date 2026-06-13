@@ -34,7 +34,7 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 - Modifications du `.ics` : TOUJOURS conserver les UID existants
   (`plan-velo-s{semaine}-{a|b|c}@claude`) pour éviter les doublons côté calendriers
 - Semaine N : lundi = 2026-06-08 + 7×(N-1). A=mardi, B=vendredi, C=dimanche (déplaçables)
-- ⚠️ COUPURE VÉLO du 21/08 au 13/09 (vacances + rando itinérante, S12-S14) :
+- ⚠️ COUPURE VÉLO du 24/08 au 13/09 (vacances dès le 25/08 + rando itinérante, S12-S14) :
   footings Z2 optionnels, la semaine de rando = la charge. Reprise progressive S15,
   retest FTP S16 (22/09). Le 150 km+ est en S21 (01/11), test final boucle S23 (13/11)
 - Semaines de récupération : 4, 8, 20 — ne jamais les supprimer pour "rattraper"
