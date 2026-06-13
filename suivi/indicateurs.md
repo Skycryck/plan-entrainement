@@ -9,6 +9,7 @@ Sur les 2 premières heures des sorties longues, vitesse moyenne quand FC ≈ 13
 | Date | Sortie | Vitesse @ ~135 bpm | Notes (vent, parcours) |
 |---|---|---|---|
 | 07/06/2026 | 92 km | ~23,8 km/h (FC moy 131) | Référence pré-plan |
+| 13/06/2026 | 81,7 km | n/a (parcours vallonné) | 762 m D+ — non comparable à la réf plate. Vitesse moy globale 23,3 km/h, solide vu le dénivelé |
 
 ## 2. Dérive cardiaque sur les longues
 
@@ -16,6 +17,7 @@ FC moyenne 1re heure vs 3e heure à allure constante. < 5 % = foncier solide, > 
 
 | Date | Sortie | FC h1 | FC h3 | Dérive | Notes |
 |---|---|---|---|---|---|
+| 13/06/2026 | 81,7 km | ~137 | ~146 | ~7 % | Surévaluée : 762 m D+ avec les grosses bosses concentrées en 3e heure → pas un Z2 propre. À refaire sur du plat |
 
 ## 3. Progression distance longue
 

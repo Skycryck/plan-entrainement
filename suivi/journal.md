@@ -3,7 +3,7 @@
 Cocher chaque séance faite. Ajouter une note courte si utile (RPE /10, météo, ajustement).
 
 A = home trainer (mardi) · B = qualité (vendredi) · C = longue (dimanche). Jours déplaçables.
-⚠️ Coupure vélo du 21/08 au 13/09 (vacances + rando itinérante) — plan v3.
+⚠️ Coupure vélo du 24/08 au 13/09 (vacances dès le 25/08 + rando itinérante) — plan v3.
 
 
 ## Phase 1 — Base
@@ -13,7 +13,7 @@ A = home trainer (mardi) · B = qualité (vendredi) · C = longue (dimanche). Jo
 Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 - [x] **S1-A** (jeu. 11/06) — Test FTP 20 min → **155 W** (20 min @ 163 W, négative split, FCmax 193)
-- [ ] **S1-C** (sam. 13/06) — Sortie longue 80 km Z2 stricte (120-148 bpm)
+- [x] **S1-C** (sam. 13/06) — Sortie longue 81,7 km (3h30, **762 m D+**) — FCmoy 144, max 176. Parcours vallonné, Z2 difficile à tenir sur les bosses (ta remarque 😅). FCmoy 144 = plafond Z2, acceptable vu le dénivelé. Dérive ~7 % mais surévaluée (bosses concentrées en fin).
 - [ ] **S1-B** (dim. 14/06) — 1h-1h15 Z2 + test FCmax sur bosse (45 min souple sans test si jambes cuites)
   - Notes : 
 ### Semaine 2 (15/06 → 21/06)
@@ -76,7 +76,8 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 11 (17/08 → 23/08)
 
 - [ ] **S11-A** (18/08) — Seuil 2×18 min @95-100%
-- [ ] **S11-B** (20/08) — JEUDI 20/08 : 1h30 dont 2×15 min Z3 (dernière avant coupure)
+- [ ] **S11-B** (21/08) — 2h allure libre soutenue Z3
+- [ ] **S11-C** (23/08) — 4h15 (~105 km) Z2 (dernière avant coupure)
   - Notes : 
 
 ## Coupure vélo (vacances + rando)

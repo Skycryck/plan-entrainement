@@ -1,6 +1,6 @@
 # Phase 2 — BUILD (S9-S11, puis S15-S19) · coupée par les vacances
 
-But : élever le seuil. ⚠️ Coupure vélo du 21/08 au 13/09 → le Build se fait en deux blocs.
+But : élever le seuil. ⚠️ Coupure vélo du 24/08 au 13/09 → le Build se fait en deux blocs.
 
 ## Bloc 1 — avant la coupure (S9-S11)
 
@@ -8,7 +8,7 @@ But : élever le seuil. ⚠️ Coupure vélo du 21/08 au 13/09 → le Build se f
 |---|---|---|---|
 | 9 (03-09/08) | Seuil 2×15 min @95-100 % | 1h45 dont 2×15 min @155-165 bpm | 3h30 (~90 km) |
 | 10 (10-16/08) | VO2 5×3 min @110-115 %, r3 | 2h dont 2×20 min @155-165 bpm | 4h (~100 km) |
-| 11 (17-23/08) | Seuil 2×18 min @95-100 % | **JEUDI 20/08** : 1h30 dont 2×15 min Z3 | — (départ le 21/08) |
+| 11 (17-23/08) | Seuil 2×18 min @95-100 % | 2h allure libre soutenue (Z3) | 4h15 (~105 km) — dernière avant coupure |
 
 ## Coupure vélo (S12-S14 · 24/08 → 13/09)
 
