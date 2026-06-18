@@ -14,11 +14,11 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 - [x] **S1-A** (jeu. 11/06) — Test FTP 20 min → **155 W** (20 min @ 163 W, négative split, FCmax 193)
 - [x] **S1-C** (sam. 13/06) — Sortie longue 81,7 km (3h30, **762 m D+**) — FCmoy 144, max 176. Parcours vallonné, Z2 difficile à tenir sur les bosses (ta remarque 😅). FCmoy 144 = plafond Z2, acceptable vu le dénivelé. Dérive ~7 % mais surévaluée (bosses concentrées en fin).
-- [ ] **S1-B** (dim. 14/06) — 1h-1h15 Z2 + test FCmax sur bosse (45 min souple sans test si jambes cuites)
+- [x] **S1-B** (dim. 14/06) — 28,5 km / 1h10 Z2 (FCmoy **129**, max 168 sur 1 sprint) — parfait Z2. ⏳ Test FCmax NON fait : élastique de ceinture HS, nouvelle commandée → à caler sur une bosse dès réception.
   - Notes : 
 ### Semaine 2 (15/06 → 21/06)
 
-- [ ] **S2-A** (16/06) — 2×12 min SS 136-143 W, r5
+- [x] **S2-A** (16/06) — 2×12 min SS, r5. Sans ERG (pas réussi à l'activer sur l'Edge) → puissance instantanée en dents de scie, MAIS **moyennes des blocs pile bonnes : 135,6 W puis 135,7 W** (cible 136-143), cadence 93/95, FC 141/147. Stimulus réussi. MAJ firmware + calibration faites après coup. Prochaine séance prévue sur MyWhoosh (ERG). ⚠️ FC à relativiser : fatigue boulot + 1re sortie avec le nouvel élastique → FC anormalement basse (peine à monter en Z2 à l'échauffement malgré la vitesse). Ne pas en déduire grand-chose ce jour-là.
 - [ ] **S2-B** (19/06) — 1h30 Z2 + 4×5 min Z3
 - [ ] **S2-C** (21/06) — 3h (~70 km) Z2
   - Notes : 
