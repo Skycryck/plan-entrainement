@@ -23,4 +23,4 @@ Règles : même sens, départ lancé, solo, sans arrêt, vent < 20 km/h sinon d�
 | Date | Protocole | FCmax atteinte | Notes |
 |---|---|---|---|
 | 11/06/2026 | Fin de test FTP | 193 bpm | Vraie FCmax probablement 198-203 |
-| | Bosse 2-3 min à fond | | Prévu S1 dimanche (optionnel) |
+| | Bosse 2-3 min à fond | | ⏳ Reporté (élastique de ceinture HS le 14/06, nouvelle commandée) → à faire dès réception |
