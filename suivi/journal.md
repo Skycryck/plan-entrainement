@@ -19,7 +19,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 2 (15/06 → 21/06)
 
 - [x] **S2-A** (16/06) — 2×12 min SS, r5. Sans ERG (pas réussi à l'activer sur l'Edge) → puissance instantanée en dents de scie, MAIS **moyennes des blocs pile bonnes : 135,6 W puis 135,7 W** (cible 136-143), cadence 93/95, FC 141/147. Stimulus réussi. MAJ firmware + calibration faites après coup. Prochaine séance prévue sur MyWhoosh (ERG). ⚠️ FC à relativiser : fatigue boulot + 1re sortie avec le nouvel élastique → FC anormalement basse (peine à monter en Z2 à l'échauffement malgré la vitesse). Ne pas en déduire grand-chose ce jour-là.
-- [ ] **S2-B** (19/06) — 1h30 Z2 + 4×5 min Z3
+- [x] **S2-B** (19/06) — 56,8 km / 2h14, 315 m D+. **4×5 min Z3 exécutés au cordeau** : FCmoy des blocs 157 / 158 / 154 / 157 bpm (cible Z3 149-165), très réguliers. Z2 globale ~124-138. FCmoy 138, max 169. Jambes fraîches (jour de repos) = grosse différence avec mardi.
 - [ ] **S2-C** (21/06) — 3h (~70 km) Z2
   - Notes : 
 ### Semaine 3 (22/06 → 28/06)
