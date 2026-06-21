@@ -10,6 +10,7 @@ Sur les 2 premières heures des sorties longues, vitesse moyenne quand FC ≈ 13
 |---|---|---|---|
 | 07/06/2026 | 92 km | ~23,8 km/h (FC moy 131) | Référence pré-plan |
 | 13/06/2026 | 81,7 km | n/a (parcours vallonné) | 762 m D+ — non comparable à la réf plate. Vitesse moy globale 23,3 km/h, solide vu le dénivelé |
+| 21/06/2026 | 69 km | ~25 km/h (FC ~133, 1re moitié) | Marais ~plat (352 m D+), vent non noté. Légère amélioration vs réf, à confirmer |
 
 ## 2. Dérive cardiaque sur les longues
 
@@ -18,6 +19,7 @@ FC moyenne 1re heure vs 3e heure à allure constante. < 5 % = foncier solide, > 
 | Date | Sortie | FC h1 | FC h3 | Dérive | Notes |
 |---|---|---|---|---|---|
 | 13/06/2026 | 81,7 km | ~137 | ~146 | ~7 % | Surévaluée : 762 m D+ avec les grosses bosses concentrées en 3e heure → pas un Z2 propre. À refaire sur du plat |
+| 21/06/2026 | 69 km | ~135 | ~153 | ~13 % | Faussée : surges sur segments + 2e moitié roulée en Z3 (pas une allure Z2 constante). Pas un foncier propre |
 
 ## 3. Progression distance longue
 
