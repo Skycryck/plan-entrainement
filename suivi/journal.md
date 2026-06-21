@@ -84,15 +84,15 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 ### Semaine 12 (24/08 → 30/08)
 
-- [ ] **S12** — 2-3 footings Z2 de 30-50 min si possible (rien pendant la semaine de rando : elle compte comme LA charge de la semaine)
+- [ ] **S12** — Lun-sam 24-29/08 : 2-3 footings Z2 de 30-50 min optionnels (vacances). **Dim 30/08 : départ rando itinérante (jour 1).**
   - Notes : 
 ### Semaine 13 (31/08 → 06/09)
 
-- [ ] **S13** — 2-3 footings Z2 de 30-50 min si possible (rien pendant la semaine de rando : elle compte comme LA charge de la semaine)
+- [ ] **S13** — 🥾 **RANDO ITINÉRANTE 30/08 → 04/09 : 129 km, 3500 m D+ / 3500 m D− sur 6 jours** = LA charge de la semaine, rien d'autre. Fin de semaine (05-06/09) : repos, récup des jambes (beaucoup d'excentrique en descente).
   - Notes : 
 ### Semaine 14 (07/09 → 13/09)
 
-- [ ] **S14** — 2-3 footings Z2 de 30-50 min si possible (rien pendant la semaine de rando : elle compte comme LA charge de la semaine)
+- [ ] **S14** — Reprise douce : footings Z2 optionnels, on laisse les jambes finir de récupérer de la rando avant la reprise vélo (S15).
   - Notes : 
 
 ## Phase 2 — Build
@@ -163,3 +163,33 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 - [ ] **S24-B** (20/11) — 1h Z2 très souple
 - [ ] **S24-C** (22/11) — 🏆 SORTIE OBJECTIF 150 km+
   - Notes : 
+
+## Course à pied — footing Z2 optionnel (mercredi)
+
+Brique 100 % foncier, **1×/semaine à partir du 24/06** (le mercredi : entre le HT
+du mardi et la qualité du vendredi, loin des jours où il faut des jambes fraîches).
+**Que du facile** (Z2, allure conversation), **zéro intensité** — l'intensité, c'est
+sur le vélo. Progression douce (~+5 min toutes les 2-3 sem), plafond ~35 min pour
+l'instant. Passer à 2×/sem seulement si je le sens.
+**Variable d'ajustement** : jambes lourdes, ou la moindre douleur (tibia, tendon
+d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
+
+- [ ] **S3** (24/06) — 20 min (départ tranquille)
+- [ ] **S4** (01/07) — 20 min facile 🌿 récup
+- [ ] **S5** (08/07) — 25 min
+- [ ] **S6** (15/07) — 25 min
+- [ ] **S7** (22/07) — 30 min
+- [ ] **S8** (29/07) — 20 min facile 🌿 récup
+- [ ] **S9** (05/08) — 30 min
+- [ ] **S10** (12/08) — 30 min
+- [ ] **S11** (19/08) — 35 min
+- _S12-S14 — pause 🥾 (la rando est la charge)_
+- [ ] **S15** (16/09) — 20-25 min, reprise douce (jambes post-rando)
+- [ ] **S16** (23/09) — 30 min
+- [ ] **S17** (30/09) — 30 min
+- [ ] **S18** (07/10) — 35 min
+- [ ] **S19** (14/10) — 35 min
+- [ ] **S20** (21/10) — 20 min facile 🌿 récup
+- [ ] **S21** (28/10) — 30 min, léger (150 km le 01/11)
+- [ ] **S22** (04/11) — 30 min
+- _S23-S24 — pause (affûtage : priorité à la fraîcheur)_

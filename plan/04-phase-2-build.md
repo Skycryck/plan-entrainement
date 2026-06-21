@@ -12,7 +12,7 @@ But : élever le seuil. ⚠️ Coupure vélo du 24/08 au 13/09 → le Build se f
 
 ## Coupure vélo (S12-S14 · 24/08 → 13/09)
 
-- Semaine de rando itinérante = LA charge de la semaine, rien d'autre
+- Rando itinérante **30/08 → 04/09 : 129 km, 3500 m D+ / 3500 m D− sur 6 jours** (S12-S13) = LA charge, rien d'autre. Les 3500 m de descente = grosse charge excentrique → jambes à ménager à la reprise.
 - Autres semaines : 2-3 footings Z2 de 30-50 min, aisance respiratoire totale, optionnels
 - Le foncier (Z2) est entretenu par la rando/course ; seul le spécifique vélo recule un peu
 

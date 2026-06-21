@@ -469,6 +469,30 @@ TRIGGER:-PT12H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:plan-footing-hebdo@claude
+DTSTAMP:20260621T120000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20261104
+EXDATE;VALUE=DATE:20260826,20260902,20260909
+SUMMARY:🏃 Footing Z2 (optionnel)
+DESCRIPTION:Footing facile Z2, ~20-35 min progressif (durees par semaine dans
+  suivi/journal.md). Que du facile, zero intensite. Variable d'ajustement : ja
+ mbes lourdes ou douleur = on zappe. Pause pendant la rando et l'affutage.
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-rando-2026@claude
+DTSTAMP:20260621T120000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260830
+DTEND;VALUE=DATE:20260905
+SUMMARY:🥾 Rando itinerante (129 km, 3500 m D+) — LA charge
+DESCRIPTION:6 jours, 30/08 au 04/09. 129 km / 3500 m D+ / 3500 m D-. C'est l
+ a charge de la semaine : aucune seance velo ou course dediee a cote. Recup d
+ es jambes ensuite (beaucoup d'excentrique en descente).
+END:VEVENT
+BEGIN:VEVENT
 UID:plan-velo-s12-a@claude
 DTSTAMP:20260611T180000Z
 SEQUENCE:3
@@ -499,13 +523,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s13-a@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260621T120000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260902
-SUMMARY:🏃 S13 [Coupure] Course a pied Z2 (optionnel)
-DESCRIPTION:30-40 min en aisance respiratoire totale. Rien pendant la sem
- aine de rando itinerante (elle EST la charge de la semaine).
+SUMMARY:🥾 S13 Rando en cours (jour 3)
+DESCRIPTION:Rando itinerante 30/08-04/09 en cours. Aucune seance dediee : la
+  rando EST la charge de la semaine.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -514,12 +538,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s13-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260621T120000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
-SUMMARY:🏃 S13 [Coupure] Course a pied Z2 (optionnel)
-DESCRIPTION:40-50 min Z2. Optionnel : c'est aussi des vacances.
+SUMMARY:🥾 S13 Rando — dernier jour (jour 6)
+DESCRIPTION:Fin de la rando itinerante (30/08-04/09). Repos et recup des jamb
+ es ensuite (excentrique des descentes).
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
