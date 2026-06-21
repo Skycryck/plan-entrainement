@@ -20,7 +20,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 - [x] **S2-A** (16/06) — 2×12 min SS, r5. Sans ERG (pas réussi à l'activer sur l'Edge) → puissance instantanée en dents de scie, MAIS **moyennes des blocs pile bonnes : 135,6 W puis 135,7 W** (cible 136-143), cadence 93/95, FC 141/147. Stimulus réussi. MAJ firmware + calibration faites après coup. Prochaine séance prévue sur MyWhoosh (ERG). ⚠️ FC à relativiser : fatigue boulot + 1re sortie avec le nouvel élastique → FC anormalement basse (peine à monter en Z2 à l'échauffement malgré la vitesse). Ne pas en déduire grand-chose ce jour-là.
 - [x] **S2-B** (19/06) — 56,8 km / 2h14, 315 m D+. **4×5 min Z3 exécutés au cordeau** : FCmoy des blocs 157 / 158 / 154 / 157 bpm (cible Z3 149-165), très réguliers. Z2 globale ~124-138. FCmoy 138, max 169. Jambes fraîches (jour de repos) = grosse différence avec mardi.
-- [x] **S2-C** (21/06) — 69 km / 2h36 (3h visées, quelques arrêts), 352 m D+, FCmoy 144 / max 175. ✅ 1re moitié bien en Z2 (~130 bpm) ; ⚠️ 2e moitié dérive en Z3 (FC 150-160) — un peu de fatigue + segments chassés en milieu de sortie (PRs). Tenir la Z2 stricte sur toute la longue (objectif = foncier).
+- [x] **S2-C** (21/06) — 69 km / 2h36 (3h visées, quelques arrêts), 352 m D+, FCmoy 144 / max 175. ✅ 1re moitié bien en Z2 (~130 bpm) ; 2e moitié FC à 150-160 = **dérive de chaleur (canicule, temps lourd)** ressentie sur le vélo + **choix assumé de ne pas lever le pied** (se sentait bien). Pas un accident : sortie de fait plus "mixte" que Z2 pure. Leçon : possible, mais sur la longue le vrai gain foncier reste la Z2 tenue — par chaleur, ça veut dire accepter de ralentir.
   - Notes : 
 ### Semaine 3 (22/06 → 28/06)
 

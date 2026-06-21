@@ -19,7 +19,7 @@ FC moyenne 1re heure vs 3e heure à allure constante. < 5 % = foncier solide, > 
 | Date | Sortie | FC h1 | FC h3 | Dérive | Notes |
 |---|---|---|---|---|---|
 | 13/06/2026 | 81,7 km | ~137 | ~146 | ~7 % | Surévaluée : 762 m D+ avec les grosses bosses concentrées en 3e heure → pas un Z2 propre. À refaire sur du plat |
-| 21/06/2026 | 69 km | ~135 | ~153 | ~13 % | Faussée : surges sur segments + 2e moitié roulée en Z3 (pas une allure Z2 constante). Pas un foncier propre |
+| 21/06/2026 | 69 km | ~135 | ~153 | ~13 % | **Dérive de chaleur** (canicule, temps lourd) ressentie pendant la sortie — physiologique, pas un manque de foncier. À refaire par temps frais pour une mesure propre |
 
 ## 3. Progression distance longue
 
