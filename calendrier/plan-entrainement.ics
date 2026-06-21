@@ -469,6 +469,19 @@ TRIGGER:-PT12H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:plan-footing-hebdo@claude
+DTSTAMP:20260621T120000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20261104
+EXDATE;VALUE=DATE:20260826,20260902,20260909
+SUMMARY:🏃 Footing Z2 (optionnel)
+DESCRIPTION:Footing facile Z2, ~20-35 min progressif (durees par semaine dans
+  suivi/journal.md). Que du facile, zero intensite. Variable d'ajustement : ja
+ mbes lourdes ou douleur = on zappe. Pause pendant la rando et l'affutage.
+END:VEVENT
+BEGIN:VEVENT
 UID:plan-rando-2026@claude
 DTSTAMP:20260621T120000Z
 SEQUENCE:0

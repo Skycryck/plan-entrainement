@@ -163,3 +163,33 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 - [ ] **S24-B** (20/11) — 1h Z2 très souple
 - [ ] **S24-C** (22/11) — 🏆 SORTIE OBJECTIF 150 km+
   - Notes : 
+
+## Course à pied — footing Z2 optionnel (mercredi)
+
+Brique 100 % foncier, **1×/semaine à partir du 24/06** (le mercredi : entre le HT
+du mardi et la qualité du vendredi, loin des jours où il faut des jambes fraîches).
+**Que du facile** (Z2, allure conversation), **zéro intensité** — l'intensité, c'est
+sur le vélo. Progression douce (~+5 min toutes les 2-3 sem), plafond ~35 min pour
+l'instant. Passer à 2×/sem seulement si je le sens.
+**Variable d'ajustement** : jambes lourdes, ou la moindre douleur (tibia, tendon
+d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
+
+- [ ] **S3** (24/06) — 20 min (départ tranquille)
+- [ ] **S4** (01/07) — 20 min facile 🌿 récup
+- [ ] **S5** (08/07) — 25 min
+- [ ] **S6** (15/07) — 25 min
+- [ ] **S7** (22/07) — 30 min
+- [ ] **S8** (29/07) — 20 min facile 🌿 récup
+- [ ] **S9** (05/08) — 30 min
+- [ ] **S10** (12/08) — 30 min
+- [ ] **S11** (19/08) — 35 min
+- _S12-S14 — pause 🥾 (la rando est la charge)_
+- [ ] **S15** (16/09) — 20-25 min, reprise douce (jambes post-rando)
+- [ ] **S16** (23/09) — 30 min
+- [ ] **S17** (30/09) — 30 min
+- [ ] **S18** (07/10) — 35 min
+- [ ] **S19** (14/10) — 35 min
+- [ ] **S20** (21/10) — 20 min facile 🌿 récup
+- [ ] **S21** (28/10) — 30 min, léger (150 km le 01/11)
+- [ ] **S22** (04/11) — 30 min
+- _S23-S24 — pause (affûtage : priorité à la fraîcheur)_
