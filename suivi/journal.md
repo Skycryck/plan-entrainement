@@ -84,15 +84,15 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 ### Semaine 12 (24/08 → 30/08)
 
-- [ ] **S12** — 2-3 footings Z2 de 30-50 min si possible (rien pendant la semaine de rando : elle compte comme LA charge de la semaine)
+- [ ] **S12** — Lun-sam 24-29/08 : 2-3 footings Z2 de 30-50 min optionnels (vacances). **Dim 30/08 : départ rando itinérante (jour 1).**
   - Notes : 
 ### Semaine 13 (31/08 → 06/09)
 
-- [ ] **S13** — 2-3 footings Z2 de 30-50 min si possible (rien pendant la semaine de rando : elle compte comme LA charge de la semaine)
+- [ ] **S13** — 🥾 **RANDO ITINÉRANTE 30/08 → 04/09 : 129 km, 3500 m D+ / 3500 m D− sur 6 jours** = LA charge de la semaine, rien d'autre. Fin de semaine (05-06/09) : repos, récup des jambes (beaucoup d'excentrique en descente).
   - Notes : 
 ### Semaine 14 (07/09 → 13/09)
 
-- [ ] **S14** — 2-3 footings Z2 de 30-50 min si possible (rien pendant la semaine de rando : elle compte comme LA charge de la semaine)
+- [ ] **S14** — Reprise douce : footings Z2 optionnels, on laisse les jambes finir de récupérer de la rando avant la reprise vélo (S15).
   - Notes : 
 
 ## Phase 2 — Build
