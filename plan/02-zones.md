@@ -20,4 +20,9 @@ Si 2 séances sweet spot d'affilée semblent faciles (RPE ≤ 6/10) → cibles +
 
 1. Échauffement 25 min : 15 min progressif + 3×1 min haute cadence + 5 min fort + 10 min facile
 2. 20 min à fond RÉGULIER — consigne pour S8 et S16 : partir à ~165 W et tenir, pas de sprint final
-3. FTP = puissance moyenne × 0,95. Bouton Lap au début/fin. ERG désactivé.
+3. FTP = puissance moyenne × 0,95. Bouton Lap au début/fin.
+4. **Sur MyWhoosh, ERG DÉSACTIVÉ** (mode libre/slope) : un 20 min est un effort
+   maximal auto-géré, l'ERG fausserait tout (cible figée + spirale de la mort).
+   Garder le **même protocole 20 min** à chaque retest pour la comparabilité —
+   ne pas basculer sur un ramp test (résultats non comparables, risque de
+   surestimation vu le punch anaérobie).
