@@ -24,7 +24,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 3 (22/06 → 28/06)
 
-- [ ] **S3-A** (23/06) — 2×15 min SS, r5
+- [x] **S3-A** (23/06) — 2×15 min SS, r5 sur MyWhoosh. Bloc 1 **139,7 W** ✅ (cible 136-146) ; bloc 2 **130 W** avec FC plus haute (152 vs 147) = **coup de chaud** : cramé par la canicule (40°C+ depuis ~4 j à Niort), HT en intérieur sans évacuation de la chaleur. Cadence basse (~66). Pas un signal de forme → cibles inchangées. Finir la séance dans ces conditions = déjà solide.
 - [ ] **S3-B** (26/06) — ⏱️ CHRONO INITIAL boucle de référence 39,5 km
 - [ ] **S3-C** (28/06) — 3h15 (~75 km) Z2
   - Notes : 
