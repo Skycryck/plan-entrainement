@@ -25,13 +25,13 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 3 (22/06 → 28/06)
 
 - [x] **S3-A** (23/06) — 2×15 min SS, r5 sur MyWhoosh. Bloc 1 **139,7 W** ✅ (cible 136-146) ; bloc 2 **130 W** avec FC plus haute (152 vs 147) = **coup de chaud** : cramé par la canicule (40°C+ depuis ~4 j à Niort), HT en intérieur sans évacuation de la chaleur. Cadence basse (~66). Pas un signal de forme → cibles inchangées. Finir la séance dans ces conditions = déjà solide.
-- [ ] **S3-B** (26/06) — ⏱️ CHRONO INITIAL boucle de référence 39,5 km
+- [ ] **S3-B** (26/06) — ⏱️ CHRONO INITIAL **reporté** (canicule 33°C + grosse dette de sommeil, 4 nuits à 3-4 h) → recalé en S4. Aujourd'hui : repos (priorité), ou Z2 très souple 30-45 min si besoin de bouger.
 - [ ] **S3-C** (28/06) — 3h15 (~75 km) Z2
   - Notes : 
 ### Semaine 4 (29/06 → 05/07) 🌿 récup
 
 - [ ] **S4-A** (30/06) — RÉCUP 45 min Z1-Z2
-- [ ] **S4-B** (03/07) — 1h Z2 vélocité 100+ rpm
+- [ ] **S4-B** (03/07) — ⏱️ CHRONO INITIAL boucle de référence 39,5 km (reporté de S3) — SI reposé + frais (<~28-30°C) + vent < 20 km/h, sinon recaler. Jambes fraîches de la semaine récup = bon pour un repère. (Vélocité 100+ rpm zappée.)
 - [ ] **S4-C** (05/07) — 2h Z2
   - Notes : 
 ### Semaine 5 (06/07 → 12/07)

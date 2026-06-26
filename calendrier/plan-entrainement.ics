@@ -104,14 +104,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s3-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260626T120000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260626
 DTEND;VALUE=DATE:20260627
-SUMMARY:🚴 S3-B [Base] Sortie qualite
-DESCRIPTION:Boucle de reference 39,5 km (160 D+, 100% asphalte) A FOND. E
- chauffement 20 min Z2. Meme sens, depart lance, solo, sans arret. Vent >
-  20 km/h : decaler. Reporter dans suivi/tests.md.
+SUMMARY:🚴 S3-B [Base] Repos / Z2 souple (chrono reporte)
+DESCRIPTION:Chrono initial reporte en S4 (canicule + dette de sommeil). Au
+ jourd'hui : repos, ou Z2 tres souple 30-45 min si envie de bouger. Zero in
+ tensite.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -148,12 +148,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s4-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260626T120000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
-SUMMARY:🚴 S4-B [Base] Sortie qualite
-DESCRIPTION:1h Z2 vélocité 100+ rpm
+SUMMARY:⏱️ S4-B [Base] CHRONO INITIAL boucle de reference
+DESCRIPTION:Chrono initial reporte de S3. Boucle 39,5 km (160 D+, 100% asph
+ alte) A FOND. Echauffement 20 min Z2. Meme sens, depart lance, solo, sans a
+ rret. SI repose + frais (<~28-30C) + vent < 20 km/h, sinon recaler. Reporte
+ r dans suivi/tests.md.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

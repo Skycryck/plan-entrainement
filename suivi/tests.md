@@ -14,7 +14,7 @@ Boucle choisie : **39,5 km · 160 m D+ / 160 m D- · 100 % asphalte**
 Règles : même sens, départ lancé, solo, sans arrêt, vent < 20 km/h sinon décaler. Échauffement 20 min Z2 avant.
 | Date | Sem. | Temps | Vitesse moy. | FC moy. | Vent / conditions | Notes |
 |---|---|---|---|---|---|---|
-| 26/06/2026 (prévu) | S3 | | | | | ⏱️ Chrono initial |
+| ~03/07/2026 (prévu) | S4 | | | | | ⏱️ Chrono initial — reporté de S3 (canicule + manque de sommeil). À faire au frais, vent < 20 km/h |
 | | S8 | | | | | Optionnel, week-end de récup |
 | | S17-S18 | | | | | Optionnel, post-reprise |
 | | S23 | | | | | Test final (ven. 13/11) |
