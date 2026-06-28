@@ -153,10 +153,11 @@ SEQUENCE:4
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
 SUMMARY:⏱️ S4-B [Base] CHRONO INITIAL boucle de reference
-DESCRIPTION:Chrono initial reporte de S3. Boucle 39,5 km (160 D+, 100% asph
- alte) A FOND. Echauffement 20 min Z2. Meme sens, depart lance, solo, sans a
- rret. SI repose + frais (<~28-30C) + vent < 20 km/h, sinon recaler. Reporte
- r dans suivi/tests.md.
+DESCRIPTION:Chrono initial reporte de S3. Boucle 42,9 km (130 D+, plaine SE)
+  - tracé suivi/boucle-reference.gpx, a recharger a l'identique. A FOND. Echa
+ uffement 20 min Z2 hors boucle, chrono lance a un point fixe en sortie d'agg
+ lo. SI repose + frais (<~28-30C) + vent < 20 km/h, sinon recaler. Reporter d
+ ans suivi/tests.md.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
