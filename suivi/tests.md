@@ -11,6 +11,7 @@
 ## Chronos boucle de référence
 
 Boucle choisie : **39,5 km · 160 m D+ / 160 m D- · 100 % asphalte**
+⚠️ **EN COURS DE RÉVISION** : reco du 26/06 → des parties pas assez roulantes. À finaliser AVANT le chrono initial (sinon le repère ne vaudra rien pour comparer en S23).
 Règles : même sens, départ lancé, solo, sans arrêt, vent < 20 km/h sinon décaler. Échauffement 20 min Z2 avant.
 | Date | Sem. | Temps | Vitesse moy. | FC moy. | Vent / conditions | Notes |
 |---|---|---|---|---|---|---|
