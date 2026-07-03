@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0a0e13">
+<meta name="description" content="Dashboard du plan d'entraînement cyclisme de Jules — 24 semaines, juin → novembre 2026">
+<title>Plan vélo — Dashboard</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20100%20100'%3E%3Ctext%20y='.9em'%20font-size='90'%3E%F0%9F%9A%B4%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<div id="error" class="error hidden">
+  <h2>⚠️ Impossible de charger les données</h2>
+  <p>La page lit <code>suivi/*.md</code> via <code>fetch()</code>, ce qui ne marche pas en ouvrant le fichier directement (<code>file://</code>).</p>
+  <p>En local, lance un petit serveur à la racine du dépôt&nbsp;: <code>python -m http.server 8000</code> puis ouvre <code>http://localhost:8000</code>. Sur GitHub Pages, ça marche tout seul.</p>
+  <p class="error-detail" id="error-detail"></p>
+</div>
+
+<main id="app" class="hidden">
+
+  <!-- ===== HÉRO ===== -->
+  <header class="hero">
+    <div class="hero-left">
+      <p class="kicker" id="hero-kicker">Plan vélo · 8 juin → 22 nov. 2026</p>
+      <h1 id="hero-title">Semaine <span class="volt" id="hero-week">–</span><span class="hero-total">/24</span></h1>
+      <p class="phase-chip" id="hero-phase"></p>
+      <p class="coach" id="coach-msg"></p>
+      <div class="next-session" id="next-session"></div>
+    </div>
+
+    <div class="hero-ring">
+      <svg viewBox="0 0 200 200" role="img" aria-label="Progression du plan">
+        <circle class="ring-bg" cx="100" cy="100" r="84"/>
+        <circle class="ring-fill" id="ring-fill" cx="100" cy="100" r="84"/>
+      </svg>
+      <div class="ring-center">
+        <span class="ring-pct" id="ring-pct">0%</span>
+        <span class="ring-label">du plan bouclé</span>
+        <span class="ring-sub" id="ring-sub"></span>
+      </div>
+    </div>
+
+    <div class="hero-stats" id="hero-stats"></div>
+  </header>
+
+  <!-- ===== RÉGULARITÉ ===== -->
+  <section>
+    <h2><span class="volt">01</span> Régularité <span class="h2-note">— la clé, historiquement</span></h2>
+    <div class="card">
+      <div class="reg-top" id="reg-top"></div>
+      <div class="heatmap-scroll">
+        <div class="heatmap" id="heatmap"></div>
+      </div>
+      <div class="heatmap-legend" id="heatmap-legend"></div>
+    </div>
+  </section>
+
+  <!-- ===== PROGRESSION ===== -->
+  <section>
+    <h2><span class="volt">02</span> Progression</h2>
+    <div class="charts-grid">
+      <div class="card chart-card">
+        <h3>FTP <span class="h3-note">retests S8 · S16</span></h3>
+        <div class="chart-box"><canvas id="ftpChart"></canvas></div>
+      </div>
+      <div class="card chart-card">
+        <h3>Vitesse à ~135 bpm <span class="h3-note">cible 27–29 km/h</span></h3>
+        <div class="chart-box"><canvas id="speedChart"></canvas></div>
+      </div>
+      <div class="card chart-card">
+        <h3>Dérive cardiaque <span class="h3-note">&lt; 5 % = foncier solide</span></h3>
+        <div class="chart-box"><canvas id="driftChart"></canvas></div>
+      </div>
+      <div class="card chart-card">
+        <h3>Sorties longues <span class="h3-note">objectif vs réalisé</span></h3>
+        <div class="chart-box"><canvas id="longChart"></canvas></div>
+      </div>
+    </div>
+    <div class="card objective-card">
+      <h3>Objectif principal — vitesse moyenne sur 1-2 h</h3>
+      <div class="objective-bar" id="objective-bar"></div>
+    </div>
+  </section>
+
+  <!-- ===== JALONS & BADGES ===== -->
+  <section>
+    <h2><span class="volt">03</span> Jalons &amp; badges</h2>
+    <div class="jalons-grid">
+      <div class="card">
+        <h3>Prochains temps forts</h3>
+        <ul class="milestones" id="milestones"></ul>
+      </div>
+      <div class="card">
+        <h3>Trophées</h3>
+        <div class="badges" id="badges"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ZONES & DERNIÈRES SÉANCES ===== -->
+  <section>
+    <h2><span class="volt">04</span> Zones &amp; dernières séances</h2>
+    <div class="zones-feed-grid">
+      <div class="card">
+        <h3 id="zones-title">Zones d'entraînement</h3>
+        <div class="zones" id="zones"></div>
+      </div>
+      <div class="card">
+        <h3>Dernières séances</h3>
+        <div class="feed" id="feed"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Source de vérité : <code>suivi/journal.md</code> — ce dashboard n'est qu'une vue, générée dans ton navigateur à chaque visite. Coche tes séances, pushe, c'est à jour. 🚴</p>
+  </footer>
+
+</main>
+
+<noscript><p style="color:#e8eef4;font-family:sans-serif;padding:2rem">Ce dashboard a besoin de JavaScript pour lire les fichiers de suivi.</p></noscript>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.9/dist/chart.umd.min.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>

@@ -14,6 +14,7 @@
 | `suivi/tests.md` | Historique des tests FTP et chronos boucle de référence |
 | `suivi/indicateurs.md` | Tableaux de suivi des métriques clés |
 | `calendrier/plan-entrainement.ics` | Calendrier abonnable (UID stables → mises à jour sans doublons) |
+| `index.html` + `dashboard.{css,js}` | 📊 Dashboard (GitHub Pages) — vue générée depuis `suivi/*.md`, zéro build |
 
 ## Workflow
 
@@ -21,6 +22,21 @@
 2. Cocher dans `suivi/journal.md` + note rapide si besoin
 3. Après chaque test (S1 ✅, S8, S16, S22) : remplir `suivi/tests.md` et mettre à jour les zones dans `plan/02-zones.md` et `CLAUDE.md`
 4. Pour décaler des séances : modifier le `.ics` **en gardant les UID identiques**, commit, les calendriers abonnés se mettent à jour
+
+## Dashboard
+
+`index.html` (+ `dashboard.css`, `dashboard.js`) affiche la progression : anneau
+d'avancement, heatmap de régularité, graphiques (FTP, vitesse @ ~135 bpm, dérive
+cardiaque, sorties longues), jalons, badges, zones et dernières séances.
+
+- **Zéro build, zéro double saisie** : la page fetch `suivi/*.md` et
+  `plan/02-zones.md` au chargement et parse tout dans le navigateur.
+  Cocher le journal + push = dashboard à jour.
+- **Activation GitHub Pages** (une seule fois) : Settings → Pages →
+  Source « Deploy from a branch » → branche `main`, dossier `/ (root)` → Save.
+  La page sort sur `https://<user>.github.io/<repo>/`.
+- En local : `python -m http.server 8000` à la racine puis
+  `http://localhost:8000` (le `fetch()` ne marche pas en `file://`).
 
 ## Abonnement calendrier
 
