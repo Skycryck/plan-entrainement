@@ -30,7 +30,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 4 (29/06 → 05/07) 🌿 récup
 
-- [ ] **S4-A** (30/06) — RÉCUP 45 min Z1-Z2
+- [ ] **S4-A** (30/06) — RÉCUP 45 min Z1-Z2 — ⚠️ non faite (pas de rattrapage, règle du plan). Semaine de récup : sans conséquence.
 - [ ] **S4-B** (03/07) — ⏱️ CHRONO INITIAL boucle de référence 39,5 km (reporté de S3) — SI reposé + frais (<~28-30°C) + vent < 20 km/h, sinon recaler. Jambes fraîches de la semaine récup = bon pour un repère. (Vélocité 100+ rpm zappée.)
 - [ ] **S4-C** (05/07) — 2h Z2
   - Notes : 
@@ -175,7 +175,7 @@ l'instant. Passer à 2×/sem seulement si je le sens.
 d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 
 - [ ] **S3** (24/06) — 20 min (départ tranquille)
-- [ ] **S4** (01/07) — 20 min facile 🌿 récup
+- [x] **S4** (01/07) — 4 km / 25 min. ⚠️ FCmoy **159** (max 174), FC qui grimpe km après km (144→167) = plutôt **tempo qu'easy**. Ralentir nettement les footings (viser une allure « trop lente », quitte à marcher). Chaleur possible en plus (à confirmer).
 - [ ] **S5** (08/07) — 25 min
 - [ ] **S6** (15/07) — 25 min
 - [ ] **S7** (22/07) — 30 min
