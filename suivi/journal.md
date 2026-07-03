@@ -24,14 +24,14 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 3 (22/06 → 28/06)
 
-- [ ] **S3-A** (23/06) — 2×15 min SS, r5
-- [ ] **S3-B** (26/06) — ⏱️ CHRONO INITIAL boucle de référence 39,5 km
-- [ ] **S3-C** (28/06) — 3h15 (~75 km) Z2
+- [x] **S3-A** (23/06) — 2×15 min SS, r5 sur MyWhoosh. Bloc 1 **139,7 W** ✅ (cible 136-146) ; bloc 2 **130 W** avec FC plus haute (152 vs 147) = **coup de chaud** : cramé par la canicule (40°C+ depuis ~4 j à Niort), HT en intérieur sans évacuation de la chaleur. Cadence basse (~66). Pas un signal de forme → cibles inchangées. Finir la séance dans ces conditions = déjà solide.
+- [x] **S3-B** (26/06) — Chrono reporté (canicule + dette de sommeil). À la place : **reco nocturne de la boucle de référence**, 44 km / 1h46 en Z2 souple (FCmoy 129, de nuit pour fuir la chaleur 🫠). ⚠️ Verdict : la boucle ne convient pas — des parties pas assez roulantes → à revoir avant le chrono.
+- [x] **S3-C** (28/06) — 70 km / 2h51, 391 m D+, FCmoy 133 / max 173. **Z2 bien tenue cette fois** (dérive faible ~2-3 %), belle régularité. Un poil plus court que 3h15 mais distance proche. 👍
   - Notes : 
 ### Semaine 4 (29/06 → 05/07) 🌿 récup
 
-- [ ] **S4-A** (30/06) — RÉCUP 45 min Z1-Z2
-- [ ] **S4-B** (03/07) — 1h Z2 vélocité 100+ rpm
+- [ ] **S4-A** (30/06) — RÉCUP 45 min Z1-Z2 — ⚠️ non faite (pas de rattrapage, règle du plan). Semaine de récup : sans conséquence.
+- [ ] **S4-B** (03/07) — ⏱️ CHRONO INITIAL (boucle réf. 42,9 km) — **NON fait le 03/07** (30°C limite + dette de sommeil persistante, canicule). Point de départ repéré ✅. À caler dès un **matin frais + sommeil récupéré** (viser week-end ou S5). (Vélocité 100+ rpm zappée.)
 - [ ] **S4-C** (05/07) — 2h Z2
   - Notes : 
 ### Semaine 5 (06/07 → 12/07)
@@ -168,14 +168,15 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 Brique 100 % foncier, **1×/semaine à partir du 24/06** (le mercredi : entre le HT
 du mardi et la qualité du vendredi, loin des jours où il faut des jambes fraîches).
-**Que du facile** (Z2, allure conversation), **zéro intensité** — l'intensité, c'est
-sur le vélo. Progression douce (~+5 min toutes les 2-3 sem), plafond ~35 min pour
+**Que du facile** (allure conversation), **zéro intensité** — l'intensité, c'est
+sur le vélo. ⚠️ Se fier au **talk test** (parler librement), PAS aux zones FC vélo :
+en course la FC est naturellement +10-15 bpm à effort égal. Progression douce (~+5 min toutes les 2-3 sem), plafond ~35 min pour
 l'instant. Passer à 2×/sem seulement si je le sens.
 **Variable d'ajustement** : jambes lourdes, ou la moindre douleur (tibia, tendon
 d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 
 - [ ] **S3** (24/06) — 20 min (départ tranquille)
-- [ ] **S4** (01/07) — 20 min facile 🌿 récup
+- [x] **S4** (01/07) — 4 km / 25 min, en groupe. FCmoy 159 (max 174) MAIS **conversation totalement fluide du début à la fin** → effort easy validé. Le talk test prime sur la FC en course : FC course naturellement +10-15 bpm vs vélo, ne PAS appliquer les zones vélo. Footing jugé bon, piloter au ressenti.
 - [ ] **S5** (08/07) — 25 min
 - [ ] **S6** (15/07) — 25 min
 - [ ] **S7** (22/07) — 30 min

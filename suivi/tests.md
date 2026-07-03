@@ -10,11 +10,11 @@
 
 ## Chronos boucle de référence
 
-Boucle choisie : **39,5 km · 160 m D+ / 160 m D- · 100 % asphalte**
-Règles : même sens, départ lancé, solo, sans arrêt, vent < 20 km/h sinon décaler. Échauffement 20 min Z2 avant.
+Boucle choisie (révisée le 28/06) : **42,9 km · 130 m D+ / 132 m D− · plaine sud-est** (départ sud de Niort → Aiffres → Prahecq / plateau roulant → retour). Tracé figé : **`suivi/boucle-reference.gpx`** — recharger ce GPX à l'identique pour chaque chrono (initial S4 et final S23).
+Règles : même sens, départ lancé, solo, sans arrêt, vent < 20 km/h sinon décaler. Échauffement 20 min Z2 avant (hors boucle). Chrono lancé à un point fixe en sortie d'agglo pour neutraliser feux/ronds-points urbains.
 | Date | Sem. | Temps | Vitesse moy. | FC moy. | Vent / conditions | Notes |
 |---|---|---|---|---|---|---|
-| 26/06/2026 (prévu) | S3 | | | | | ⏱️ Chrono initial |
+| dès conditions OK | S4-S5 | | | | | ⏱️ Chrono initial — reporté 2× (canicule + dette de sommeil). À caler au 1er matin frais (<~28°C) + reposé, vent < 20 km/h. Point de départ repéré |
 | | S8 | | | | | Optionnel, week-end de récup |
 | | S17-S18 | | | | | Optionnel, post-reprise |
 | | S23 | | | | | Test final (ven. 13/11) |
