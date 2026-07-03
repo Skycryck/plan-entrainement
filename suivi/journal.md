@@ -168,14 +168,15 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 Brique 100 % foncier, **1×/semaine à partir du 24/06** (le mercredi : entre le HT
 du mardi et la qualité du vendredi, loin des jours où il faut des jambes fraîches).
-**Que du facile** (Z2, allure conversation), **zéro intensité** — l'intensité, c'est
-sur le vélo. Progression douce (~+5 min toutes les 2-3 sem), plafond ~35 min pour
+**Que du facile** (allure conversation), **zéro intensité** — l'intensité, c'est
+sur le vélo. ⚠️ Se fier au **talk test** (parler librement), PAS aux zones FC vélo :
+en course la FC est naturellement +10-15 bpm à effort égal. Progression douce (~+5 min toutes les 2-3 sem), plafond ~35 min pour
 l'instant. Passer à 2×/sem seulement si je le sens.
 **Variable d'ajustement** : jambes lourdes, ou la moindre douleur (tibia, tendon
 d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 
 - [ ] **S3** (24/06) — 20 min (départ tranquille)
-- [x] **S4** (01/07) — 4 km / 25 min. ⚠️ FCmoy **159** (max 174), FC qui grimpe km après km (144→167) = plutôt **tempo qu'easy**. Ralentir nettement les footings (viser une allure « trop lente », quitte à marcher). Chaleur possible en plus (à confirmer).
+- [x] **S4** (01/07) — 4 km / 25 min, en groupe. FCmoy 159 (max 174) MAIS **conversation totalement fluide du début à la fin** → effort easy validé. Le talk test prime sur la FC en course : FC course naturellement +10-15 bpm vs vélo, ne PAS appliquer les zones vélo. Footing jugé bon, piloter au ressenti.
 - [ ] **S5** (08/07) — 25 min
 - [ ] **S6** (15/07) — 25 min
 - [ ] **S7** (22/07) — 30 min
