@@ -148,12 +148,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s4-b@claude
-DTSTAMP:20260626T120000Z
-SEQUENCE:4
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260704
-SUMMARY:⏱️ S4-B [Base] CHRONO INITIAL boucle de reference
-DESCRIPTION:Chrono initial reporte de S3. Boucle 42,9 km (130 D+, plaine SE)
+DTSTAMP:20260703T120000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:⏱️ CHRONO INITIAL boucle de reference (des que frais + repose)
+DESCRIPTION:Chrono initial (repere). Boucle 42,9 km (130 D+, plaine SE)
   - tracé suivi/boucle-reference.gpx, a recharger a l'identique. A FOND. Echa
  uffement 20 min Z2 hors boucle, chrono lance a un point fixe en sortie d'agg
  lo. SI repose + frais (<~28-30C) + vent < 20 km/h, sinon recaler. Reporter d
