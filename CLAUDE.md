@@ -39,6 +39,15 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   retest FTP S16 (22/09). Le 150 km+ est en S21 (01/11), test final boucle S23 (13/11)
 - Semaines de récupération : 4, 8, 20 — ne jamais les supprimer pour "rattraper"
 - Séance ratée : on ne rattrape pas. 2+ semaines ratées : reculer d'une semaine dans le plan
+- Dashboard (`index.html` + `dashboard.js`, GitHub Pages) : parse `suivi/*.md` et
+  `plan/02-zones.md` côté navigateur → conserver le format des lignes de séance
+  `- [x] **S{n}-{A|B|C}** (date) — note` et la structure des tableaux existants.
+  Séance décalée → mettre à jour la date **entre parenthèses** (règle du dashboard :
+  non cochée + date passée = ratée ; le texte de la note n'est pas interprété)
+- `suivi/historique-hebdo.json` : km vélo hebdo par année (snapshot Strava) pour le
+  graphe « km cumulés par année ». Après chaque sortie enregistrée : ajouter les km
+  Strava à la semaine ISO de l'année en cours et avancer `snapshot` à la date de la
+  sortie (sinon les km HT, absents des notes du journal, sont perdus)
 
 ## Données Strava utiles
 
