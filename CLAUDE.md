@@ -42,6 +42,10 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 - Dashboard (`index.html` + `dashboard.js`, GitHub Pages) : parse `suivi/*.md` et
   `plan/02-zones.md` côté navigateur → conserver le format des lignes de séance
   `- [x] **S{n}-{A|B|C}** (date) — note` et la structure des tableaux existants
+- `suivi/historique-hebdo.json` : km vélo hebdo par année (snapshot Strava) pour le
+  graphe « km cumulés par année ». Après chaque sortie enregistrée : ajouter les km
+  Strava à la semaine ISO de l'année en cours et avancer `snapshot` à la date de la
+  sortie (sinon les km HT, absents des notes du journal, sont perdus)
 
 ## Données Strava utiles
 

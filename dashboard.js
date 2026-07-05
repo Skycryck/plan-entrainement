@@ -374,6 +374,102 @@ function renderRegularite(stats, journal, today) {
   window.scrollTo(0, 0);
 }
 
+function isoWeek(d) {
+  const date = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+  const dayNum = (date.getUTCDay() + 6) % 7;
+  date.setUTCDate(date.getUTCDate() - dayNum + 3);
+  const firstThursday = date.getTime();
+  date.setUTCMonth(0, 1);
+  if (date.getUTCDay() !== 4) date.setUTCMonth(0, 1 + ((4 - date.getUTCDay()) + 7) % 7);
+  return 1 + Math.round((firstThursday - date.getTime()) / 604800000);
+}
+
+const YEAR_COLORS = { 2022: "#7c86ff", 2023: "#f1607e", 2024: "#e8c94a", 2025: "#3fbfae" };
+
+function renderYearsChart(history, stats, today) {
+  if (!history) { $("years-card").classList.add("hidden"); return; }
+  const labels = Array.from({ length: 53 }, (_, i) => i + 1);
+  const snapshotDate = new Date(history.snapshot + "T00:00:00");
+  const curWeek = isoWeek(today);
+  const datasets = [];
+
+  for (const [year, weekly] of Object.entries(history.years)) {
+    const isCurrent = +year === today.getFullYear();
+    // année en cours : le snapshot Strava est prolongé en direct par le journal
+    const merged = { ...weekly };
+    if (isCurrent) {
+      for (const s of stats.done) {
+        if (s.date > snapshotDate && s.metrics.km) {
+          const w = isoWeek(s.date);
+          merged[w] = (merged[w] || 0) + s.metrics.km;
+        }
+      }
+    }
+    let cum = 0;
+    const data = labels.map((w) => {
+      cum += merged[w] || 0;
+      return (isCurrent && w > curWeek) ? null : Math.round(cum);
+    });
+    datasets.push({
+      label: year,
+      data,
+      borderColor: isCurrent ? VOLT : YEAR_COLORS[year] || FAINT,
+      backgroundColor: isCurrent ? VOLT : YEAR_COLORS[year] || FAINT,
+      borderWidth: isCurrent ? 3 : 1.5,
+      pointRadius: 0,
+      pointHoverRadius: 4,
+      tension: 0.2,
+      ...(isCurrent ? {} : { borderColor: (YEAR_COLORS[year] || FAINT) + "99" }),
+    });
+    // ligne de niveau : où en est l'année en cours vs les autres années
+    if (isCurrent) {
+      const level = data[Math.min(curWeek, 53) - 1];
+      datasets.push({
+        label: "",
+        data: labels.map(() => level),
+        borderColor: VOLT + "55",
+        borderDash: [6, 6],
+        borderWidth: 1.2,
+        pointRadius: 0,
+        pointHoverRadius: 0,
+      });
+    }
+  }
+
+  new Chart($("yearsChart"), {
+    type: "line",
+    data: { labels, datasets },
+    options: {
+      maintainAspectRatio: false,
+      interaction: { mode: "index", intersect: false },
+      scales: {
+        y: { min: 0, ticks: { callback: (v) => fmtNum(v) + " km" } },
+        x: {
+          grid: { display: false },
+          ticks: { maxTicksLimit: 14, maxRotation: 0, callback: (v, i) => "S" + labels[i] },
+        },
+      },
+      plugins: {
+        legend: {
+          display: true,
+          labels: {
+            usePointStyle: true, pointStyle: "circle", boxHeight: 6,
+            filter: (item) => item.text !== "",
+          },
+        },
+        tooltip: {
+          filter: (i) => i.dataset.label !== "",
+          itemSort: (a, b) => b.parsed.y - a.parsed.y,
+          callbacks: {
+            title: (items) => items.length ? `Semaine ${items[0].label}` : "",
+            label: (i) => ` ${i.dataset.label} : ${fmtNum(i.parsed.y)} km`,
+          },
+        },
+      },
+    },
+  });
+}
+
 function chartDefaults() {
   Chart.defaults.font.family = "Inter, sans-serif";
   Chart.defaults.font.size = 11;
@@ -652,11 +748,13 @@ function renderFeed(stats) {
 /* ---------- main ---------- */
 
 async function main() {
-  const [journalMd, testsMd, indicMd, zonesMd] = await Promise.all([
+  const [journalMd, testsMd, indicMd, zonesMd, history] = await Promise.all([
     fetchText("suivi/journal.md"),
     fetchText("suivi/tests.md"),
     fetchText("suivi/indicateurs.md"),
     fetchText("plan/02-zones.md"),
+    // historique optionnel : snapshot Strava des années passées
+    fetchText("suivi/historique-hebdo.json").then(JSON.parse).catch(() => null),
   ]);
 
   const today = new Date();
@@ -672,6 +770,7 @@ async function main() {
   renderHero(stats, journal, today, tests, indic);
   renderRegularite(stats, journal, today);
   renderCharts(stats, journal, tests, indic);
+  renderYearsChart(history, stats, today);
   renderMilestones(tests, today);
   renderBadges(stats, tests, indic);
   renderZones(zonesData);

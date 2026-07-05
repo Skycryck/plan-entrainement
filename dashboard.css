@@ -308,6 +308,8 @@ h1 {
   gap: 16px;
 }
 .chart-box { position: relative; height: 230px; }
+.chart-wide { margin-bottom: 16px; }
+.chart-box-tall { height: 300px; }
 
 .objective-card { margin-top: 16px; }
 .objective-bar { padding: 8px 4px 2px; }
@@ -492,4 +494,5 @@ footer {
   .hero-ring { width: 180px; height: 180px; }
   .ring-pct { font-size: 2.5rem; }
   .chart-box { height: 200px; }
+  .chart-box-tall { height: 240px; }
 }

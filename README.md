@@ -32,6 +32,10 @@ cardiaque, sorties longues), jalons, badges, zones et dernières séances.
 - **Zéro build, zéro double saisie** : la page fetch `suivi/*.md` et
   `plan/02-zones.md` au chargement et parse tout dans le navigateur.
   Cocher le journal + push = dashboard à jour.
+- Le graphe « km cumulés par année » (façon StatsHunters) lit
+  `suivi/historique-hebdo.json` — km vélo hebdo 2022-2026 issus de Strava.
+  La ligne de l'année en cours est prolongée en direct par le journal
+  au-delà de la date `snapshot` du fichier.
 - **Activation GitHub Pages** (une seule fois) : Settings → Pages →
   Source « Deploy from a branch » → branche `main`, dossier `/ (root)` → Save.
   La page sort sur `https://<user>.github.io/<repo>/`.
