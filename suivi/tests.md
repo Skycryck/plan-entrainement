@@ -14,7 +14,7 @@ Boucle choisie (révisée le 28/06) : **42,9 km · 130 m D+ / 132 m D− · plai
 Règles : même sens, départ lancé, solo, sans arrêt, vent < 20 km/h sinon décaler. Échauffement 20 min Z2 avant (hors boucle). Chrono lancé à un point fixe en sortie d'agglo pour neutraliser feux/ronds-points urbains.
 | Date | Sem. | Temps | Vitesse moy. | FC moy. | Vent / conditions | Notes |
 |---|---|---|---|---|---|---|
-| dès conditions OK | S4-S5 | | | | | ⏱️ Chrono initial — reporté 2× (canicule + dette de sommeil). À caler au 1er matin frais (<~28°C) + reposé, vent < 20 km/h. Point de départ repéré |
+| 11/07/2026 (cible) | S5 | | | | | ⏱️ Chrono initial — **samedi 11/07 à l'aube** (~20°C, la canicule tape le jour mais pas le matin). Sommeil OK, départ repéré. Recaler si trop cassé par la semaine de boulot |
 | | S8 | | | | | Optionnel, week-end de récup |
 | | S17-S18 | | | | | Optionnel, post-reprise |
 | | S23 | | | | | Test final (ven. 13/11) |
