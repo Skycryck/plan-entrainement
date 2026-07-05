@@ -307,7 +307,9 @@ h1 {
   grid-template-columns: 1fr 1fr;
   gap: 16px;
 }
-.chart-box { position: relative; height: 230px; }
+.charts-grid > .card, .jalons-grid > .card, .zones-feed-grid > .card { min-width: 0; }
+.chart-box { position: relative; height: 230px; min-width: 0; }
+.chart-box canvas { max-width: 100%; }
 .chart-wide { margin-bottom: 16px; }
 .chart-box-tall { height: 300px; }
 
