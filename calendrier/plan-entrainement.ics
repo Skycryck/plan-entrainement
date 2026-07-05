@@ -148,16 +148,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s4-b@claude
-DTSTAMP:20260703T120000Z
-SEQUENCE:5
-DTSTART;VALUE=DATE:20260704
-DTEND;VALUE=DATE:20260705
-SUMMARY:⏱️ CHRONO INITIAL boucle de reference (des que frais + repose)
-DESCRIPTION:Chrono initial (repere). Boucle 42,9 km (130 D+, plaine SE)
-  - tracé suivi/boucle-reference.gpx, a recharger a l'identique. A FOND. Echa
- uffement 20 min Z2 hors boucle, chrono lance a un point fixe en sortie d'agg
- lo. SI repose + frais (<~28-30C) + vent < 20 km/h, sinon recaler. Reporter d
- ans suivi/tests.md.
+DTSTAMP:20260705T180000Z
+SEQUENCE:6
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260712
+SUMMARY:⏱️ CHRONO INITIAL boucle de reference (samedi, a l'aube)
+DESCRIPTION:Chrono initial (repere). A L'AUBE (~20-22C, avant la chaleur). B
+ oucle 42,9 km (130 D+, plaine SE) - tracé suivi/boucle-reference.gpx, a rech
+ arger a l'identique. A FOND mais regulier. Echauffement 20 min Z2 hors boucl
+ e, chrono lance a un point fixe en sortie d'agglo. Si trop casse par la sema
+ ine, recaler. Reporter dans suivi/tests.md.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

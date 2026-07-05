@@ -31,15 +31,15 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 4 (29/06 → 05/07) 🌿 récup
 
 - [ ] **S4-A** (30/06) — RÉCUP 45 min Z1-Z2 — ⚠️ non faite (pas de rattrapage, règle du plan). Semaine de récup : sans conséquence.
-- [ ] **S4-B** (03/07) — ⏱️ CHRONO INITIAL (boucle réf. 42,9 km) — **NON fait le 03/07** (30°C limite + dette de sommeil persistante, canicule). Point de départ repéré ✅. À caler dès un **matin frais + sommeil récupéré** (viser week-end ou S5). (Vélocité 100+ rpm zappée.)
-- [ ] **S4-C** (05/07) — 2h Z2
+- [ ] **S4-B** (03/07) — ⏱️ CHRONO INITIAL (boucle réf. 42,9 km) → **cible : samedi 11/07 à l'aube** (canicule le jour, mais minimales ~18°C → matin frais). Sommeil récupéré ✅, point de départ repéré ✅. Le 03/07 au soir : 1h Z2 souple faite à la place (27 km). Si trop cassé par la semaine de boulot (extérieur, 35-38°C), recaler.
+- [x] **S4-C** (05/07) — 50,9 km / 2h02, 240 m D+, FCmoy 138 / max 166. Z2 tenue **malgré 39°C** 🥵 (arrêts pour se rafraîchir). Légère dérive en 2e moitié = chaleur, pas la forme. ⚠️ 2h à 39°C = limite côté sécurité (privilégier tôt le matin par ces températures).
   - Notes : 
 ### Semaine 5 (06/07 → 12/07)
 
 - [ ] **S5-A** (07/07) — 3×12 min SS, r5
-- [ ] **S5-B** (10/07) — 1h45 dont 2×12 min Z3
-- [ ] **S5-C** (12/07) — 3h30 (~85 km) Z2
-  - Notes : 
+- [ ] **S5-B** (10/07) — ⚠️ veille de chrono → **allégée** : ouvreurs 30-40 min Z2 + 2-3 accélérations courtes (PAS le 2×12 Z3, on garde les jambes). Le chrono du samedi = la séance dure du week-end.
+- [ ] **S5-C** (12/07) — longue **easy et raccourcie** (à l'aube, lendemain de chrono) — viser 2h-2h30 souple plutôt que 3h30 vu la chaleur
+  - Notes : chrono samedi 11/07 (à l'aube) — voir S4-B / tests.md
 ### Semaine 6 (13/07 → 19/07)
 
 - [ ] **S6-A** (14/07) — 3×15 min SS, r5
