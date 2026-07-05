@@ -130,11 +130,14 @@ function parseTests(md) {
     });
   }
   const chronos = [];
+  let chronoTarget = null;
   for (const r of tableRows(md, "## Chronos boucle")) {
-    if (!r[2] || r[0] === "Date") continue; // pas de temps → pas de chrono fait
-    chronos.push({ date: r[0], week: r[1], time: r[2], speed: r[3] });
+    if (r[0] === "Date") continue;
+    const hasDate = /\d{2}\/\d{2}\/\d{4}/.test(r[0] || "");
+    if (r[2]) chronos.push({ date: r[0], week: r[1], time: r[2], speed: r[3] });
+    else if (hasDate && !chronoTarget) chronoTarget = r[0].match(/(\d{2}\/\d{2})/)[1]; // date cible planifiée
   }
-  return { ftpTests, chronos };
+  return { ftpTests, chronos, chronoTarget };
 }
 
 function parseIndicateurs(md) {
@@ -665,7 +668,13 @@ function renderCharts(stats, journal, tests, indic) {
 
 function renderMilestones(tests, today) {
   const items = [
-    { icon: "⏱️", label: "Chrono initial — boucle de réf. (42,9 km)", sub: "dès un matin frais + sommeil récupéré", pending: tests.chronos.length === 0 },
+    {
+      icon: "⏱️", label: "Chrono initial — boucle de réf. (42,9 km)",
+      date: tests.chronoTarget,
+      sub: tests.chronoTarget ? "à l'aube, GPX figé — décalé ≠ raté" : "dès un matin frais + sommeil récupéré",
+      hide: tests.chronos.length > 0,
+      pending: !tests.chronoTarget,
+    },
     { icon: "📈", label: "Retest FTP (S8)", date: "28/07", sub: "partir à ~165 W, régulier" },
     { icon: "🥾", label: "Coupure — vacances & rando itinérante", date: "24/08", sub: "129 km · 3 500 m D+ à pied" },
     { icon: "🚴", label: "Reprise vélo (S15)", date: "15/09", sub: "en douceur, jambes post-rando" },
@@ -677,7 +686,7 @@ function renderMilestones(tests, today) {
   ];
   let firstDated = true;
   const html = items.map((it) => {
-    if (it.pending === false) return ""; // chrono déjà fait → masqué
+    if (it.hide) return ""; // chrono déjà fait → masqué
     let count = "";
     let cls = "";
     if (it.date) {
