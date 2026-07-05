@@ -31,8 +31,8 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 4 (29/06 → 05/07) 🌿 récup
 
 - [ ] **S4-A** (30/06) — RÉCUP 45 min Z1-Z2 — ⚠️ non faite (pas de rattrapage, règle du plan). Semaine de récup : sans conséquence.
-- [ ] **S4-B** (03/07) — ⏱️ CHRONO INITIAL (boucle réf. 42,9 km) — **NON fait le 03/07** (30°C limite + dette de sommeil persistante, canicule). Point de départ repéré ✅. À caler dès un **matin frais + sommeil récupéré** (viser week-end ou S5). (Vélocité 100+ rpm zappée.)
-- [ ] **S4-C** (05/07) — 2h Z2
+- [ ] **S4-B** (03/07) — ⏱️ CHRONO INITIAL (boucle réf. 42,9 km) toujours **EN ATTENTE** (canicule persistante, jusqu'à 39°C + sommeil). Point de départ repéré ✅. → Le 03/07 au soir : fait **1h Z2 souple à la place** (27 km, pour fuir la chaleur). À caler dès un matin frais + reposé.
+- [x] **S4-C** (05/07) — 50,9 km / 2h02, 240 m D+, FCmoy 138 / max 166. Z2 tenue **malgré 39°C** 🥵 (arrêts pour se rafraîchir). Légère dérive en 2e moitié = chaleur, pas la forme. ⚠️ 2h à 39°C = limite côté sécurité (privilégier tôt le matin par ces températures).
   - Notes : 
 ### Semaine 5 (06/07 → 12/07)
 
