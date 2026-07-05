@@ -36,9 +36,9 @@ cardiaque, sorties longues), jalons, badges, zones et dernières séances.
   `suivi/historique-hebdo.json` — km vélo hebdo 2022-2026 issus de Strava.
   La ligne de l'année en cours est prolongée en direct par le journal
   au-delà de la date `snapshot` du fichier.
-- **Activation GitHub Pages** (une seule fois) : Settings → Pages →
-  Source « Deploy from a branch » → branche `main`, dossier `/ (root)` → Save.
-  La page sort sur `https://<user>.github.io/<repo>/`.
+- **GitHub Pages est activé** (branche `main`, racine) :
+  chaque push sur `main` redéploie automatiquement (~1 min).
+  → **https://skycryck.github.io/plan-entrainement/**
 - En local : `python -m http.server 8000` à la racine puis
   `http://localhost:8000` (le `fetch()` ne marche pas en `file://`).
 
