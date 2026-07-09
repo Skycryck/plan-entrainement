@@ -81,7 +81,7 @@ function parseJournal(md) {
       weeks[+m[1]] = { phase, phaseName, range: m[2], recup: m[3].includes("🌿") };
       continue;
     }
-    m = line.match(/^- \[( |x)\] \*\*S(\d+)(?:-([ABC]))?\*\*\s*(?:\(([^)]*)\))?\s*—\s*(.*)$/);
+    m = line.match(/^- \[( |x)\] \*\*S(\d+)(?:-([A-Z]))?\*\*\s*(?:\(([^)]*)\))?\s*—\s*(.*)$/);
     if (!m) continue;
     const item = {
       done: m[1] === "x",
@@ -327,13 +327,18 @@ function renderRegularite(stats, journal, today) {
     `<div class="reg-objective">objectif ≥ 90 % — séance ratée = pas de rattrapage, on avance</div>` +
     pills.join("");
 
-  // heatmap : lignes A / B / C / footing, colonnes S1..S24
+  // heatmap : lignes A / B / C (+ bonus D, E… si présents) / footing, colonnes S1..S24
   const bySlot = {};
   for (const s of stats.rides) bySlot[`${s.week}-${s.slot}`] = s;
   const runByWeek = {};
   for (const r of journal.runs) runByWeek[r.week] = r;
 
-  let html = `<div class="hm-labels"><span></span><span>A · HT</span><span>B · qualité</span><span>C · longue</span><span>🏃 option</span></div>`;
+  const extraSlots = [...new Set(stats.rides.map((s) => s.slot).filter((sl) => sl > "C"))].sort();
+  const slots = ["A", "B", "C", ...extraSlots];
+  $("heatmap").style.setProperty("--hm-rows", slots.length + 1);
+
+  const baseLabels = ["A · HT", "B · qualité", "C · longue", ...extraSlots.map((sl) => `${sl} · bonus`), "🏃 option"];
+  let html = `<div class="hm-labels"><span></span>${baseLabels.map((l) => `<span>${l}</span>`).join("")}</div>`;
   let prevPhase = null;
   for (let w = 1; w <= TOTAL_WEEKS; w++) {
     const info = journal.weeks[w] || {};
@@ -341,9 +346,11 @@ function renderRegularite(stats, journal, today) {
     prevPhase = info.phase;
     const head = `${info.recup ? "🌿" : ""}S${w}`;
     let cells = "";
-    for (const slot of ["A", "B", "C"]) {
+    for (const slot of slots) {
       if (info.phase === 0) {
-        cells += `<div class="cell coupure" title="S${w} — coupure vélo (vacances + rando)"></div>`;
+        cells += slot <= "C"
+          ? `<div class="cell coupure" title="S${w} — coupure vélo (vacances + rando)"></div>`
+          : `<div class="cell none"></div>`;
         continue;
       }
       const s = bySlot[`${w}-${slot}`];
