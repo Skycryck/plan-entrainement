@@ -36,7 +36,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 5 (06/07 → 12/07)
 
-- [ ] **S5-A** (07/07) — 3×12 min SS, r5
+- [x] **S5-A** (07/07) — 3×12 min SS, r5 sur MyWhoosh. **2 premiers blocs pile dans la cible SS : 138,7 W puis 137,6 W** (cible 136-146), cad 91/95, FC 144/147, très réguliers ✅ — premier 3×12 (36 min de SS). 3ᵉ bloc à 126 W en moyenne mais c'est un **artefact ERG** (pics de puissance → l'ERG a sur-corrigé à la baisse, comportement étrange), PAS une baisse de forme (FC restée à 145). Bon stimulus, cibles inchangées.
 - [ ] **S5-B** (10/07) — ⚠️ veille de chrono → **allégée** : ouvreurs 30-40 min Z2 + 2-3 accélérations courtes (PAS le 2×12 Z3, on garde les jambes). Le chrono du samedi = la séance dure du week-end.
 - [ ] **S5-C** (12/07) — longue **easy et raccourcie** (à l'aube, lendemain de chrono) — viser 2h-2h30 souple plutôt que 3h30 vu la chaleur
   - Notes : chrono samedi 11/07 (à l'aube) — voir S4-B / tests.md
@@ -177,7 +177,7 @@ d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 
 - [ ] **S3** (24/06) — 20 min (départ tranquille)
 - [x] **S4** (01/07) — 4 km / 25 min, en groupe. FCmoy 159 (max 174) MAIS **conversation totalement fluide du début à la fin** → effort easy validé. Le talk test prime sur la FC en course : FC course naturellement +10-15 bpm vs vélo, ne PAS appliquer les zones vélo. Footing jugé bon, piloter au ressenti.
-- [ ] **S5** (08/07) — 25 min
+- [x] **S5** (08/07) — 4,1 km / 28 min, footing de nuit (chaleur). Cadence 81, allure souple. 👍
 - [ ] **S6** (15/07) — 25 min
 - [ ] **S7** (22/07) — 30 min
 - [ ] **S8** (29/07) — 20 min facile 🌿 récup
