@@ -257,7 +257,7 @@ h1 {
   gap: 4px;
   width: max-content;
 }
-.hm-col { display: grid; grid-template-rows: 18px repeat(4, 16px); gap: 4px; }
+.hm-col { display: grid; grid-template-rows: 18px repeat(var(--hm-rows, 4), 16px); gap: 4px; }
 .hm-col.phase-start { margin-left: 10px; }
 .hm-head {
   font-size: 0.62rem;
@@ -267,7 +267,7 @@ h1 {
   font-weight: 600;
 }
 .hm-col.current .hm-head { color: var(--volt); }
-.hm-labels { display: grid; grid-template-rows: 18px repeat(4, 16px); gap: 4px; margin-right: 6px; }
+.hm-labels { display: grid; grid-template-rows: 18px repeat(var(--hm-rows, 4), 16px); gap: 4px; margin-right: 6px; }
 .hm-labels span {
   font-size: 0.62rem;
   color: var(--faint);
