@@ -37,7 +37,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 5 (06/07 → 12/07)
 
 - [x] **S5-A** (07/07) — 3×12 min SS, r5 sur MyWhoosh. **2 premiers blocs pile dans la cible SS : 138,7 W puis 137,6 W** (cible 136-146), cad 91/95, FC 144/147, très réguliers ✅ — premier 3×12 (36 min de SS). 3ᵉ bloc à 126 W en moyenne mais c'est un **artefact ERG** (pics de puissance → l'ERG a sur-corrigé à la baisse, comportement étrange), PAS une baisse de forme (FC restée à 145). Bon stimulus, cibles inchangées.
-- [ ] **S5-B** (10/07) — ⚠️ veille de chrono → **allégée** : ouvreurs 30-40 min Z2 + 2-3 accélérations courtes (PAS le 2×12 Z3, on garde les jambes). Le chrono du samedi = la séance dure du week-end.
+- [x] **S5-B** (10/07) — Ouvreurs veille de chrono : 40,8 km / 1h34, 186 m D+, en **Z2 souple** (FCmoy 131, max 174 sur une accélération). **Pas de bloc Z3** (comme prévu ✅), quelques accélérations courtes (<2 min) en 2e moitié pour réveiller les jambes. Plus long qu'un ouvreur de 30-40 min car Jules était resté sur le 1h45 initial (version allégée pas vue) → juste écourté. Grosse chaleur mais **bien gérée** (hydratation + humidification toutes les 10-15 min), pas de coup de chaud → jambes et fraîcheur préservées pour le chrono du samedi (= la séance dure du week-end).
 - [ ] **S5-D** (sam. 11/07) — ⏱️ CHRONO INITIAL — boucle de réf. 42,9 km, à l'aube, échauffement 20 min Z2 avant (hors boucle). Résultat → tests.md
 - [ ] **S5-C** (12/07) — longue **easy et raccourcie** (à l'aube, lendemain de chrono) — viser 2h-2h30 souple plutôt que 3h30 vu la chaleur
   - Notes : semaine à 5 séances (chrono en bonus samedi)
