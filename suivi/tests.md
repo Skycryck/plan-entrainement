@@ -14,7 +14,7 @@ Boucle choisie (révisée le 28/06) : **42,9 km · 130 m D+ / 132 m D− · plai
 Règles : même sens, départ lancé, solo, sans arrêt, vent < 20 km/h sinon décaler. Échauffement 20 min Z2 avant (hors boucle). Chrono lancé à un point fixe en sortie d'agglo pour neutraliser feux/ronds-points urbains.
 | Date | Sem. | Temps | Vitesse moy. | FC moy. | Vent / conditions | Notes |
 |---|---|---|---|---|---|---|
-| 11/07/2026 (cible) | S5 | | | | | ⏱️ Chrono initial — **samedi 11/07 à l'aube** (~20°C, la canicule tape le jour mais pas le matin). Sommeil OK, départ repéré. Recaler si trop cassé par la semaine de boulot |
+| 11/07/2026 | S5 | **1h25:58** | **30,0 km/h** | 159 (max 183) | Vent 2-4 m/s (~7-14 km/h), léger de face au départ — sous la limite ✅ | ⏱️ **Chrono initial = référence de départ.** À l'aube (~20°C), échauffement 4 km Z2, solo, sans arrêt. Splits 5 km très réguliers (9:18-10:42), fin en négatif (FC jusqu'à 183). RPE élevé (« dur ») mais 1er vrai effort d'intensité vélo → marge de progression nette d'ici le test final |
 | | S8 | | | | | Optionnel, week-end de récup |
 | | S17-S18 | | | | | Optionnel, post-reprise |
 | | S23 | | | | | Test final (ven. 13/11) |
