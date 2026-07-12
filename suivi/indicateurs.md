@@ -13,6 +13,7 @@ Sur les 2 premières heures des sorties longues, vitesse moyenne quand FC ≈ 13
 | 21/06/2026 | 69 km | ~25 km/h (FC ~133, 1re moitié) | Marais ~plat (352 m D+), vent non noté. Légère amélioration vs réf, à confirmer |
 | 28/06/2026 | 70 km | ~24,6 km/h (FC ~133) | Parcours légèrement vallonné (391 m D+). Z2 bien tenue de bout en bout |
 | 05/07/2026 | 51 km | ~25 km/h (FC ~138) | **Canicule 39°C** — non comparable (chaleur) |
+| 12/07/2026 | 52 km | n/a (vallonné + 39°C) | 416 m D+ et **37-39°C** — non comparable. Vitesse moy globale 22,7 km/h. Lendemain de chrono, récup active Z2 (FCmoy 124) |
 
 ## 2. Dérive cardiaque sur les longues
 
@@ -24,6 +25,7 @@ FC moyenne 1re heure vs 3e heure à allure constante. < 5 % = foncier solide, > 
 | 21/06/2026 | 69 km | ~135 | ~153 | ~13 % | **Dérive de chaleur** (canicule, temps lourd) ressentie pendant la sortie — physiologique, pas un manque de foncier. À refaire par temps frais pour une mesure propre |
 | 28/06/2026 | 70 km | ~132 | ~135 | ~2-3 % | Z2 régulière bien tenue → **foncier solide**. Léger vallon (391 m) mais allure constante : mesure correcte, 1re vraie dérive propre du plan |
 | 05/07/2026 | 51 km | ~134 | ~144 | ~8 % | **Dérive de chaleur (39°C)** — physiologique, Z2 tenue malgré tout. Pas une mesure propre |
+| 12/07/2026 | 52 km | n/a | n/a | n/a | Vallonné (416 m D+) + 39°C : la FC suit le relief, allure non constante → dérive non mesurable. Récup active Z2 réussie (FCmoy 124), lendemain de chrono |
 
 ## 3. Progression distance longue
 
