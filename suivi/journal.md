@@ -44,7 +44,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 6 (13/07 → 19/07)
 
 - [x] **S6-A** (14/07) — 3×15 min SS, r5 sur MyWhoosh (le soir). **Premier 3×15** (45 min de SS). Cible relevée par Jules à **145 W** (vs 141) → 3 blocs **143 / 142 / ~142 W** (le lap 3 affiche 134 mais inclut ~1 min de retour au calme), FC très régulière 145/146/144, cad 87/88/83. Métronome, aucun fade. **RPE 7** = « confortablement dur », pile la sensation SS visée → on reste à ~145 W (pas de +5 %, la règle ne joue qu'à RPE ≤6). Recalibrage propre au retest FTP de S8.
-- [ ] **S6-B** (17/07) — 2h dont 2×15 min Z3
+- [x] **S6-B** (17/07) — 2h dont 2×15 min Z3 : 47,4 km / 1h50 (~2h avec arrêts), 199 m D+, FCmoy 133 / max 171. **2 blocs Z3 exécutés au cordeau : FCmoy 157 et 157 bpm** (cible 149-165), identiques et bien centrés. Fait à **midi par 30-35°C** (pas à 8h/22°C comme prévu — resté dans sa plage de confort), la FC a bien servi de garde-fou. Belle maîtrise d'allure.
 - [ ] **S6-C** (19/07) — 3h45 (~90 km) Z2
   - Notes : 
 ### Semaine 7 (20/07 → 26/07)
