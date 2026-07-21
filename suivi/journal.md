@@ -49,7 +49,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 7 (20/07 → 26/07)
 
-- [x] **S7-A** (21/07) — 2×20 min SS, r8 sur MyWhoosh. **Premier 2×20** (40 min de SS, blocs les plus longs jusqu'ici). **2 blocs identiques à ~144 W** (cible ~145), FC très stable 142/144, cad 91/89 — métronome, aucun fade. ⚠️ Le lap auto du bloc 2 affiche 132,8 W mais c'est **encore un artefact de découpage** (comme S5-A) : il replie ~3 min de retour au calme dans le bloc ; recalcul à la main sur le flux watts = **~144 W réels**. Bloc 1 (lap propre) = 144,1 W. RPE non relevé. Retest FTP en S8 pour recalibrer.
+- [x] **S7-A** (21/07) — 2×20 min SS, r8 sur MyWhoosh. **Premier 2×20** (40 min de SS, blocs les plus longs jusqu'ici). **2 blocs identiques à ~144 W** (cible ~145), FC très stable 142/144, cad 91/89 — métronome, aucun fade. ⚠️ Le lap auto du bloc 2 affiche 132,8 W mais c'est **encore un artefact de découpage** (comme S5-A) : il replie ~3 min de retour au calme dans le bloc ; recalcul à la main sur le flux watts = **~144 W réels**. Bloc 1 (lap propre) = 144,1 W. **RPE 6** (< S6-A à 7) sur des blocs plus longs (20 vs 15 min) = signal fort de **FTP sous-estimée**. Règle du +5 % pas encore déclenchée (demande 2 SS d'affilée à RPE ≤6, or S6-A était à 7) → on tient 145 W jusqu'au retest FTP de S8 (28/07).
 - [ ] **S7-B** (24/07) — 2h dont 30 min Z3 continu
 - [ ] **S7-C** (26/07) — 4h (~95-100 km) Z2
   - Notes : 
