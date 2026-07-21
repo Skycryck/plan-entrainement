@@ -45,11 +45,11 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 - [x] **S6-A** (14/07) — 3×15 min SS, r5 sur MyWhoosh (le soir). **Premier 3×15** (45 min de SS). Cible relevée par Jules à **145 W** (vs 141) → 3 blocs **143 / 142 / ~142 W** (le lap 3 affiche 134 mais inclut ~1 min de retour au calme), FC très régulière 145/146/144, cad 87/88/83. Métronome, aucun fade. **RPE 7** = « confortablement dur », pile la sensation SS visée → on reste à ~145 W (pas de +5 %, la règle ne joue qu'à RPE ≤6). Recalibrage propre au retest FTP de S8.
 - [x] **S6-B** (17/07) — 2h dont 2×15 min Z3 : 47,4 km / 1h50 (~2h avec arrêts), 199 m D+, FCmoy 133 / max 171. **2 blocs Z3 exécutés au cordeau : FCmoy 157 et 157 bpm** (cible 149-165), identiques et bien centrés. Fait à **midi, 31°C au compteur mais humide (ressenti plus) + vent de face sur toute la 1re moitié** (pas à 8h/22°C comme prévu — resté dans sa plage de confort). Tenir la zone pile malgré vent et air lourd = belle maîtrise d'allure, la FC bien utilisée comme garde-fou.
-- [ ] **S6-C** (19/07) — 3h45 (~90 km) Z2
+- [x] **S6-C** (19/07) — Longue Z2 prévue **non faite**, remplacée par une sortie découverte avec un pote près d'Aix (massif Sainte-Victoire) sur vélos empruntés (taille L) : 37,5 km / 1h37 mais **692 m D+** en vraie montagne. Malgré l'intention « tranquille », **sortie dure** : FCmoy 154, max 191, montées gravies à 160-180 bpm (Z4). Les bosses + vélos inadaptés ont fait grimper la FC. Bilan : **intensité/grimpe au lieu du foncier Z2** prévu. Pas de rattrapage (règle du plan) ; le volume foncier manque un peu cette semaine, sans gravité.
   - Notes : 
 ### Semaine 7 (20/07 → 26/07)
 
-- [ ] **S7-A** (21/07) — 2×20 min SS, r8
+- [x] **S7-A** (21/07) — 2×20 min SS, r8 sur MyWhoosh. **Premier 2×20** (40 min de SS, blocs les plus longs jusqu'ici). **2 blocs identiques à ~144 W** (cible ~145), FC très stable 142/144, cad 91/89 — métronome, aucun fade. ⚠️ Le lap auto du bloc 2 affiche 132,8 W mais c'est **encore un artefact de découpage** (comme S5-A) : il replie ~3 min de retour au calme dans le bloc ; recalcul à la main sur le flux watts = **~144 W réels**. Bloc 1 (lap propre) = 144,1 W. **RPE 6** (< S6-A à 7) sur des blocs plus longs (20 vs 15 min) = signal fort de **FTP sous-estimée**. Règle du +5 % pas encore déclenchée (demande 2 SS d'affilée à RPE ≤6, or S6-A était à 7) → on tient 145 W jusqu'au retest FTP de S8 (28/07).
 - [ ] **S7-B** (24/07) — 2h dont 30 min Z3 continu
 - [ ] **S7-C** (26/07) — 4h (~95-100 km) Z2
   - Notes : 
