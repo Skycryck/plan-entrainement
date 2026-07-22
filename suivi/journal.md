@@ -180,7 +180,7 @@ d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 - [x] **S4** (01/07) — 4 km / 25 min, en groupe. FCmoy 159 (max 174) MAIS **conversation totalement fluide du début à la fin** → effort easy validé. Le talk test prime sur la FC en course : FC course naturellement +10-15 bpm vs vélo, ne PAS appliquer les zones vélo. Footing jugé bon, piloter au ressenti.
 - [x] **S5** (08/07) — 4,1 km / 28 min, footing de nuit (chaleur). Cadence 81, allure souple. 👍
 - [ ] **S6** (15/07) — 25 min
-- [ ] **S7** (22/07) — 30 min
+- [x] **S7** (22/07) — 4,8 km / 31 min, footing du soir. FCmoy 148 / max 158 (course = +10-15 bpm vs vélo → effort easy), cadence 81. Légère dérive FC en fin (chaleur du soir), rien d'anormal. 👍
 - [ ] **S8** (29/07) — 20 min facile 🌿 récup
 - [ ] **S9** (05/08) — 30 min
 - [ ] **S10** (12/08) — 30 min
