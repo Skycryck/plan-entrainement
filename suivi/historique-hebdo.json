@@ -1,5 +1,5 @@
 {
- "snapshot": "2026-07-21",
+ "snapshot": "2026-07-24",
  "source": "Strava (Ride, VirtualRide, MountainBikeRide, GravelRide, EBikeRide)",
  "years": {
   "2022": {
@@ -112,7 +112,7 @@
    "27": 78.3,
    "28": 163.6,
    "29": 117.3,
-   "30": 29.6
+   "30": 84.4
   }
  }
 }
