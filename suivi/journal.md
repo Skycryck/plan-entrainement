@@ -50,8 +50,8 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 7 (20/07 → 26/07)
 
 - [x] **S7-A** (21/07) — 2×20 min SS, r8 sur MyWhoosh. **Premier 2×20** (40 min de SS, blocs les plus longs jusqu'ici). **2 blocs identiques à ~144 W** (cible ~145), FC très stable 142/144, cad 91/89 — métronome, aucun fade. ⚠️ Le lap auto du bloc 2 affiche 132,8 W mais c'est **encore un artefact de découpage** (comme S5-A) : il replie ~3 min de retour au calme dans le bloc ; recalcul à la main sur le flux watts = **~144 W réels**. Bloc 1 (lap propre) = 144,1 W. **RPE 6** (< S6-A à 7) sur des blocs plus longs (20 vs 15 min) = signal fort de **FTP sous-estimée**. Règle du +5 % pas encore déclenchée (demande 2 SS d'affilée à RPE ≤6, or S6-A était à 7) → on tient 145 W jusqu'au retest FTP de S8 (28/07).
-- [ ] **S7-B** (24/07) — 2h dont 30 min Z3 continu
-- [ ] **S7-C** (26/07) — 4h (~95-100 km) Z2
+- [x] **S7-B** (24/07) — 2h dont 30 min Z3 continu : 54,8 km / 2h03, 320 m D+, FCmoy 139 / max 171, ~29-34°C (soirée, devant le Tour 😄). Structure respectée : ~1h30 Z2 (125-139 bpm) puis **bloc Z3 continu tenu ~28 min à FCmoy ~160** (cible 149-165), sans dériver en Z4 (juste un pic à 171 en début). **Premier 30 min Z3 d'un seul tenant** (vs 2×15) — haut de zone, bien maîtrisé. Ressenti : **pas de grosse difficulté** (RAS), nouveau signal de marge → FTP sous-estimée. ⚠️ Garmin a perdu la trace plusieurs fois (~5 min de trous dans les données) → le bloc a sûrement fait les **30 min pleines**, mesuré ~28 à cause des coupures.
+- [x] **S7-C** (26/07) — 4h Z2 : **97,9 km / 3h41, 543 m D+** (la plus longue du plan !), FCmoy **137** / max 170, 22-30°C (matinée). **Z2 bien tenue sur 3h41** sans exploser — le foncier qui manquait ces dernières semaines. Dérive ~7 % (h1 ~133 → fin ~143) mais **mesure « mixte »** : chaleur montante + relief (543 m) + **vent sur les 20 derniers km** + durée record → dérive gonflée, pas un Z2 propre. RAS côté difficulté (juste le vent sur la fin). Détail → indicateurs.md.
   - Notes : 
 ### Semaine 8 (27/07 → 02/08) 🌿 récup
 
@@ -180,7 +180,7 @@ d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 - [x] **S4** (01/07) — 4 km / 25 min, en groupe. FCmoy 159 (max 174) MAIS **conversation totalement fluide du début à la fin** → effort easy validé. Le talk test prime sur la FC en course : FC course naturellement +10-15 bpm vs vélo, ne PAS appliquer les zones vélo. Footing jugé bon, piloter au ressenti.
 - [x] **S5** (08/07) — 4,1 km / 28 min, footing de nuit (chaleur). Cadence 81, allure souple. 👍
 - [ ] **S6** (15/07) — 25 min
-- [ ] **S7** (22/07) — 30 min
+- [x] **S7** (22/07) — 4,8 km / 31 min, footing du soir. FCmoy 148 / max 158 (course = +10-15 bpm vs vélo → effort easy), cadence 81. Légère dérive FC en fin (chaleur du soir), rien d'anormal. 👍
 - [ ] **S8** (29/07) — 20 min facile 🌿 récup
 - [ ] **S9** (05/08) — 30 min
 - [ ] **S10** (12/08) — 30 min
