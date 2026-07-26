@@ -14,6 +14,7 @@ Sur les 2 premières heures des sorties longues, vitesse moyenne quand FC ≈ 13
 | 28/06/2026 | 70 km | ~24,6 km/h (FC ~133) | Parcours légèrement vallonné (391 m D+). Z2 bien tenue de bout en bout |
 | 05/07/2026 | 51 km | ~25 km/h (FC ~138) | **Canicule 39°C** — non comparable (chaleur) |
 | 12/07/2026 | 52 km | n/a (vallonné + 39°C) | 416 m D+ et **37-39°C** — non comparable. Vitesse moy globale 22,7 km/h. Lendemain de chrono, récup active Z2 (FCmoy 124) |
+| 26/07/2026 | 98 km | ~26 km/h (FC ~135, 1re moitié) | Rolling (543 m D+) + **vent sur 20 derniers km** → pas strictement comparable. Légère hausse vs avant, à confirmer sur du plat sans vent. Vitesse moy globale 26,5 km/h. Plus longue du plan (3h41) |
 
 ## 2. Dérive cardiaque sur les longues
 
@@ -26,6 +27,7 @@ FC moyenne 1re heure vs 3e heure à allure constante. < 5 % = foncier solide, > 
 | 28/06/2026 | 70 km | ~132 | ~135 | ~2-3 % | Z2 régulière bien tenue → **foncier solide**. Léger vallon (391 m) mais allure constante : mesure correcte, 1re vraie dérive propre du plan |
 | 05/07/2026 | 51 km | ~134 | ~144 | ~8 % | **Dérive de chaleur (39°C)** — physiologique, Z2 tenue malgré tout. Pas une mesure propre |
 | 12/07/2026 | 52 km | n/a | n/a | n/a | Vallonné (416 m D+) + 39°C : la FC suit le relief, allure non constante → dérive non mesurable. Récup active Z2 réussie (FCmoy 124), lendemain de chrono |
+| 26/07/2026 | 98 km | ~133 | ~143 | ~7 % | **Mesure « mixte »** (plus longue du plan, 3h41) : chaleur montante (22→30°C) + 543 m D+ + vent sur 20 derniers km + durée record → dérive surévaluée, pas un Z2 propre. Z2 bien tenue globalement (FCmoy 137) |
 
 ## 3. Progression distance longue
 
