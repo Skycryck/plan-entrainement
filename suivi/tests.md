@@ -4,7 +4,7 @@
 | Date | Sem. | Puissance 20 min | FTP (×0,95) | W/kg | FC moy/max | Notes |
 |---|---|---|---|---|---|---|
 | 11/06/2026 | S1 | 163 W | **155 W** | 2,5 | 166 / 193 | Négative split marqué (130→196 W, sprint final 427 W). FTP réelle probable 165-175 W. Cadence 94 rpm. VO2max Garmin : 52. |
-| | S8 | | | | | Consigne : partir à ~165 W, tenir régulier |
+| 28/07/2026 | S8 | 207 W | **197 W** | 3,2 | ~167 / 186 | RPE 10, test bien mené : départ direct ~205 W tenu régulier, **PAS de négative split** (l'erreur de juin corrigée). ERG désactivé, le matin (8h53) pour la fraîcheur. **+42 W vs juin** mais juin était sandbagé → gros recalibrage plus que hausse pure ; progression réelle ~+25-30 W vs FTP estimée de juin (165-175). Ancienne "SS" à 144 W = ~73 % FTP = endurance, d'où les RPE 6. |
 | | S16 (22/09, post-coupure) | | | | | Recalibrer les zones après la coupure vélo |
 
 
