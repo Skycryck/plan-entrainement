@@ -18,11 +18,12 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 - Sorties extérieures ciblées en fréquence cardiaque
 - Garmin Edge 1040, ceinture Polar (capricieuse), MyWhoosh
 
-## Valeurs de référence (test du 11/06/2026 — voir suivi/tests.md)
+## Valeurs de référence (retest FTP du 28/07/2026 — voir suivi/tests.md)
 
-- **FTP : 155 W** (20 min @ 163 W × 0,95) — probablement sous-estimée :
-  test en négative split marqué (départ ~130 W, final ~196 W + sprint 427 W).
-  FTP réelle estimée 165-175 W. Règle : si le sweet spot paraît facile, +5 %.
+- **FTP : 197 W** (retest 28/07/2026 : 20 min @ 207 W × 0,95, RPE 10, test bien
+  mené — départ direct ~205 W, régulier, PAS de négative split ; FCmax 186). W/kg ~3,2.
+  Confirme que le test de juin (155 W) était largement sous-estimé (négative split).
+  Prochain retest : S16 (22/09, post-coupure).
 - FC max observée : 193 bpm (vraie FCmax probablement 198-203)
 - FC seuil lactique (Garmin) : 178 bpm
 - VO2max estimé (Garmin) : 52

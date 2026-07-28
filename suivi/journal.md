@@ -55,7 +55,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 8 (27/07 → 02/08) 🌿 récup
 
-- [ ] **S8-A** (28/07) — RÉCUP + RETEST FTP (partir ~165 W, régulier)
+- [x] **S8-A** (28/07) — RETEST FTP ✅ : 20 min @ **207 W** → **FTP 197 W** (×0,95), RPE 10, le matin (8h53) pour la fraîcheur. Test bien mené : départ direct ~205 W tenu régulier, **pas de négative split** cette fois (FCmax 186). **155 → 197 W** — mais juin était sandbagé (négative split), donc gros recalibrage (progression réelle ~+25-30 W vs FTP estimée juin). Zones mises à jour (plan/02-zones.md + CLAUDE.md). Détail → tests.md.
 - [ ] **S8-B** (31/07) — 1h Z2 souple
 - [ ] **S8-C** (02/08) — 2h30 Z2
   - Notes : 

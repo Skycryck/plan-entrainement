@@ -1,20 +1,21 @@
 # Zones d'entraînement
 
-**Référence actuelle : FTP 155 W** (test 11/06/2026) · FC seuil 178 bpm · FC max ≥ 193 bpm
-À recalculer après chaque retest (S8 le 04/08, S16 le 22/09 post-coupure).
+**Référence actuelle : FTP 197 W** (retest 28/07/2026) · FC seuil 178 bpm · FC max ≥ 193 bpm
+À recalculer après chaque retest (✅ S8 fait le 28/07 ; prochain S16 le 22/09 post-coupure).
 
 | Zone | % FTP | Watts (HT) | FC extérieur | Sensation |
 |---|---|---|---|---|
-| Z1 Récup | < 55 % | < 85 W | < 115 bpm | Très facile |
-| Z2 Endurance | 56-75 % | 87-116 W | 120-148 bpm | Conversation fluide |
-| Z3 Tempo | 76-90 % | 118-140 W | 149-165 bpm | Soutenu, phrases courtes |
-| Sweet Spot | 88-94 % | 136-146 W | 162-170 bpm | "Confortablement dur" |
-| Z4 Seuil | 95-105 % | 147-163 W | 168-178 bpm | Dur, quelques mots |
-| Z5 VO2max | 106-120 % | 164-186 W | > 180 bpm | Très dur, 3-8 min |
+| Z1 Récup | < 55 % | < 108 W | < 115 bpm | Très facile |
+| Z2 Endurance | 56-75 % | 110-148 W | 120-148 bpm | Conversation fluide |
+| Z3 Tempo | 76-90 % | 150-177 W | 149-165 bpm | Soutenu, phrases courtes |
+| Sweet Spot | 88-94 % | 173-185 W | 162-170 bpm | "Confortablement dur" |
+| Z4 Seuil | 95-105 % | 187-207 W | 168-178 bpm | Dur, quelques mots |
+| Z5 VO2max | 106-120 % | 209-236 W | > 180 bpm | Très dur, 3-8 min |
 
-**Règle d'ajustement :** FTP probablement sous-estimée (négative split au test).
-Si 2 séances sweet spot d'affilée semblent faciles (RPE ≤ 6/10) → cibles +5 %
-(SS : 145-152 W) sans attendre le retest.
+**Note :** FTP retestée le 28/07 à 197 W lors d'un vrai maximal (RPE 10, sans négative
+split) — les zones ci-dessus sont désormais calibrées sur ce test, fini la sous-estimation
+de juin (155 W). Les anciennes cibles SS (~144 W) n'étaient que ~73 % de la vraie FTP =
+de l'endurance, d'où les RPE faibles. Réévaluation au prochain retest (S16, 22/09).
 
 ## Protocole test FTP 20 min (HT)
 
