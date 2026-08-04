@@ -64,7 +64,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 ### Semaine 9 (03/08 → 09/08)
 
-- [ ] **S9-A** (04/08) — Seuil 2×15 min @95-100%
+- [x] **S9-A** (04/08) — Seuil 2×15 min @95-100% sur MyWhoosh (ERG, cible 191 W). **1er vrai seuil**, blocs à **187 W (FC 167) et 185 W (FC 173, max 179)** — puissance pile dans la cible 187-197, régulière. **La FC valide la nouvelle FTP** : 167-173 bpm = plein Z4 seuil (168-178), à comparer aux ~145 bpm des anciennes « SS » à 145 W. Dérive FC normale entre blocs (167→173 à puissance égale). Repos 5 min. Cad 89/95.
 - [ ] **S9-B** (07/08) — 1h45 dont 2×15 min @155-165 bpm
 - [ ] **S9-C** (09/08) — 3h30 (~90 km) Z2
   - Notes : 
