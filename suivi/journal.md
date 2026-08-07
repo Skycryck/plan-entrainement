@@ -64,8 +64,8 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 ### Semaine 9 (03/08 → 09/08)
 
-- [ ] **S9-A** (04/08) — Seuil 2×15 min @95-100%
-- [ ] **S9-B** (07/08) — 1h45 dont 2×15 min @155-165 bpm
+- [x] **S9-A** (04/08) — Seuil 2×15 min @95-100% sur MyWhoosh (ERG, cible 191 W). **1er vrai seuil**, blocs à **187 W (FC 167) et 185 W (FC 173, max 179)** — puissance pile dans la cible 187-197, régulière. **La FC valide la nouvelle FTP** : 167-173 bpm = plein Z4 seuil (168-178), à comparer aux ~145 bpm des anciennes « SS » à 145 W. Dérive FC normale entre blocs (167→173 à puissance égale). Repos 5 min. Cad 89/95. **RPE 8** = « dur mais tenable », pile la sensation seuil attendue (vs RPE 6 des anciennes SS trop faciles) → zones bien calées.
+- [x] **S9-B** (07/08) — 1h45 dont 2×15 min @155-165 bpm : 43,4 km / 1h47, **507 m D+** (très vallonné), FCmoy 140 / max 170. **2 blocs centrés en moyenne (~160 et ~159 bpm)** dans la cible 155-165 ✅ — mais FC en yo-yo dans chaque bloc (150→169 selon côtes/descentes). Difficulté à tenir constant (ressenti de Jules, surtout bloc 2) = **le relief, pas le pilotage** : fourchette de 10 bpm quasi intenable sur 507 m D+. Leçon : privilégier un parcours roulant pour les blocs à cible FC. Pause café en cours de route ☕.
 - [ ] **S9-C** (09/08) — 3h30 (~90 km) Z2
   - Notes : 
 ### Semaine 10 (10/08 → 16/08)
