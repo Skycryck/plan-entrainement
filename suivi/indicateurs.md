@@ -6,6 +6,14 @@
 
 Sur les 2 premières heures des sorties longues, vitesse moyenne quand FC ≈ 130-140 bpm.
 
+⚠️ **Une mesure notée « non comparable » ne compte pas** : ni pour les records, ni pour la
+barre d'objectif du dashboard (elle reste affichée, en gris, sur le graphe). Depuis le
+28/06, la canicule a invalidé **toutes** les mesures → 6 semaines sans relevé exploitable.
+
+📍 **Mesure protocolée à poser en septembre** (cible : **S16-C, dim. 27/09**, repli S17-C
+si vent) : parcours plat, **vent < 20 km/h**, températures redevenues normales, 1re heure
+tenue à FC 135 sans à-coups. Sans ça, l'objectif principal du plan reste non mesuré.
+
 | Date | Sortie | Vitesse @ ~135 bpm | Notes (vent, parcours) |
 |---|---|---|---|
 | 07/06/2026 | 92 km | ~23,8 km/h (FC moy 131) | Référence pré-plan |
@@ -38,16 +46,17 @@ FC moyenne 1re heure vs 3e heure à allure constante. < 5 % = foncier solide, > 
 | 92 km | 07/06/2026 (pré-plan) | |
 | 100 km | | |
 | 115 km | | |
-| 130 km (S15) | | |
-| 150 km (S19) | | |
+| 130 km (S19 · 18/10) | | |
+| 150 km (S21 · 01/11) | | |
 
 ## 4. Régularité
 
-Objectif : ≥ 90 % des séances (65/72). Compter depuis `journal.md`.
+Objectif : ≥ 90 % des séances (**57/63**). Compter depuis `journal.md`.
+63 séances vélo planifiées : 21 semaines × 3 (S12-S14 = coupure, sans séance vélo).
 
 | Fin de phase | Séances faites / prévues | % |
 |---|---|---|
-| Phase 1 (S8) | /24 | |
-| Phase 2 (S16) | /24 | |
-| Phase 3 (S21) | /15 | |
-| Phase 4 (S24) | /9 | |
+| Phase 1 (S1-S8) | **23/24** (+1 bonus : chrono S5-D) | **96 %** |
+| Phase 2 (S9-S11 + S15-S19) | /24 | |
+| Phase 3 (S20-S22) | /9 | |
+| Phase 4 (S23-S24) | /6 | |

@@ -306,12 +306,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s8-a@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260807T120000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260728
 DTEND;VALUE=DATE:20260729
-SUMMARY:🚴 S8-A [Base] Home trainer
-DESCRIPTION:RÉCUP + RETEST FTP (partir ~165 W, régulier)
+SUMMARY:🚴 S8-A [Base] Retest FTP 20 min
+DESCRIPTION:Fait : FTP 197 W (20 min @ 207 W, RPE 10). Pas de negative
+  split cette fois, FCmax 186.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -628,12 +629,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s16-a@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260807T120000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260922
 DTEND;VALUE=DATE:20260923
-SUMMARY:🚴 S16-A [Build] Home trainer
-DESCRIPTION:RETEST FTP (partir ~165 W, régulier)
+SUMMARY:🚴 S16-A [Build] RETEST FTP 20 min
+DESCRIPTION:RETEST FTP 20 min. Partir a ~205 W et tenir (repere : 207 W
+  le 28/07). Surtout PAS de depart prudent : c'est le negative split qui
+  avait sandbage le test de juin. ERG DESACTIVE. Reporter dans tests.md.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -656,12 +659,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s16-c@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260807T120000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
-SUMMARY:🚴 S16-C [Build] Sortie longue
-DESCRIPTION:3h30-4h (~95 km) Z2
+SUMMARY:🚴 S16-C [Build] Sortie longue + mesure vitesse@135
+DESCRIPTION:3h30-4h (~95 km) Z2. MESURE PROTOCOLEE vitesse @ 135 bpm :
+  parcours plat, vent < 20 km/h, 1re heure tenue a FC 135 sans a-coups.
+  Toutes les mesures depuis le 28/06 sont invalidees par la canicule.
+  Si vent : reporter sur S17-C. Reporter dans suivi/indicateurs.md.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -895,12 +901,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s22-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260807T120000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:🚴 S22-B [Spécifique] Sortie qualite
-DESCRIPTION:1h30 : 3×15 min allure cible, r5
+DESCRIPTION:1h30 : 3×15 min a l'allure cible du test final = 32 km/h, r5.
+  Valable sur du plat SANS VENT : sinon la vitesse ne veut rien dire, on
+  pilote a la FC 168-175 et on oublie le compteur.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

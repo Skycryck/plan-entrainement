@@ -140,13 +140,18 @@ function parseTests(md) {
   return { ftpTests, chronos, chronoTarget };
 }
 
+// Une mesure que indicateurs.md déclare non comparable (chaleur, vent) est affichée
+// mais ne compte ni pour les records, ni pour la barre d'objectif.
+const NOT_COMPARABLE = /(non|pas)\s+(strictement\s+)?comparable/i;
+
 function parseIndicateurs(md) {
   const speeds = [];
   for (const r of tableRows(md, "## 1. Vitesse")) {
     const date = (r[0] || "").match(/\d{2}\/\d{2}\/\d{4}/);
     const sp = (r[2] || "").match(/([\d,.]+)\s*km\/h/);
     if (!date || !sp) continue;
-    speeds.push({ date: date[0], value: parseFrFloat(sp[1]), notes: stripMd(r[3] || "") });
+    const notes = stripMd(r[3] || "");
+    speeds.push({ date: date[0], value: parseFrFloat(sp[1]), notes, clean: !NOT_COMPARABLE.test(notes) });
   }
   const drifts = [];
   for (const r of tableRows(md, "## 2. Dérive")) {
@@ -307,7 +312,7 @@ function renderHero(stats, journal, today, tests, indic) {
     { v: streakHtml, l: stats.streak > 0 ? "série en cours" : "série — à relancer !", sub: stats.streak > 0 ? `record : ${stats.bestStreak}` : "meilleure série de séances d'affilée" },
     { v: `${Math.round(stats.regularity * 100)} <span class="unit">%</span>`, l: "régularité", sub: `${stats.done.length}/${stats.past.length} séances passées` },
     { v: `${fmtNum(stats.totalKm, 0)} <span class="unit">km</span>`, l: "depuis le 8 juin", sub: `${fmtNum(stats.totalDplus)} m D+ · ${fmtNum(stats.totalHours, 0)} h` },
-    { v: ftp ? `${ftp.ftp} <span class="unit">W</span>` : "–", l: "FTP", sub: ftp ? `${fmtNum(ftp.ftp / WEIGHT_KG, 2)} W/kg · réelle probable 165-175` : "" },
+    { v: ftp ? `${ftp.ftp} <span class="unit">W</span>` : "–", l: "FTP", sub: ftp ? `${fmtNum(ftp.ftp / WEIGHT_KG, 2)} W/kg · retest du ${ftp.date.slice(0, 5)}` : "" },
   ];
   $("hero-stats").innerHTML = cards.map((c) =>
     `<div class="stat"><div class="stat-value">${c.v}</div><div class="stat-label">${c.l}</div><div class="stat-sub">${c.sub}</div></div>`
@@ -523,7 +528,6 @@ function renderCharts(stats, journal, tests, indic) {
     data: {
       labels: ftpLabels,
       datasets: [
-        ...bandDatasets(ftpLabels, 165, 175),
         {
           data: ftpData, borderColor: VOLT, backgroundColor: VOLT,
           pointRadius: 6, pointHoverRadius: 8, borderWidth: 2.5, spanGaps: true,
@@ -533,12 +537,12 @@ function renderCharts(stats, journal, tests, indic) {
     options: {
       maintainAspectRatio: false,
       scales: {
-        y: { min: 140, max: 190, ticks: { callback: (v) => v + " W" } },
+        // suggested* et pas min/max : l'axe s'élargit si la FTP dépasse la borne
+        y: { suggestedMin: 140, suggestedMax: 220, ticks: { callback: (v) => v + " W" } },
         x: { grid: { display: false } },
       },
       plugins: {
         tooltip: {
-          filter: (i) => i.datasetIndex === 2,
           callbacks: { label: (i) => ` ${i.parsed.y} W · ${fmtNum(i.parsed.y / WEIGHT_KG, 2)} W/kg` },
         },
       },
@@ -556,6 +560,9 @@ function renderCharts(stats, journal, tests, indic) {
         {
           data: indic.speeds.map((s) => s.value),
           borderColor: VOLT, backgroundColor: VOLT, tension: 0.35,
+          // point grisé = mesure non comparable (chaleur, vent) : affichée, mais hors décompte
+          pointBackgroundColor: indic.speeds.map((s) => (s.clean ? VOLT : FAINT)),
+          pointBorderColor: indic.speeds.map((s) => (s.clean ? VOLT : FAINT)),
           pointRadius: 5, pointHoverRadius: 7, borderWidth: 2.5,
         },
       ],
@@ -563,7 +570,7 @@ function renderCharts(stats, journal, tests, indic) {
     options: {
       maintainAspectRatio: false,
       scales: {
-        y: { min: 20, max: 30, ticks: { callback: (v) => v + " km/h" } },
+        y: { suggestedMin: 20, suggestedMax: 30, ticks: { callback: (v) => v + " km/h" } },
         x: { grid: { display: false } },
       },
       plugins: {
@@ -659,10 +666,14 @@ function renderCharts(stats, journal, tests, indic) {
   });
 
   // --- barre objectif vitesse ---
-  const last = indic.speeds.at(-1);
-  const first = indic.speeds[0];
+  // seules les mesures comparables pilotent la barre d'objectif
+  const cleanSpeeds = indic.speeds.filter((s) => s.clean);
+  const skipped = indic.speeds.length - cleanSpeeds.length;
+  const last = cleanSpeeds.at(-1);
+  const first = cleanSpeeds[0];
   const MIN = 22, MAX = 30;
-  const pos = last ? ((last.value - MIN) / (MAX - MIN)) * 100 : 0;
+  // borné : le curseur reste sur le rail même si la vitesse sort de l'échelle
+  const pos = last ? Math.min(100, Math.max(0, ((last.value - MIN) / (MAX - MIN)) * 100)) : 0;
   $("objective-bar").innerHTML = `
     <div class="obj-track">
       <div class="obj-marker" style="left:${pos.toFixed(1)}%">
@@ -670,7 +681,7 @@ function renderCharts(stats, journal, tests, indic) {
       </div>
     </div>
     <div class="obj-scale"><span>${MIN}</span><span>départ 24-25</span><span class="volt">cible 27-29</span><span>${MAX}</span></div>
-    <p class="obj-note">Vitesse à ~135 bpm (effort constant) — départ ${first ? fmtNum(first.value, 1) : "?"} km/h le ${first ? first.date.slice(0, 5) : ""}, dernier relevé ${last ? fmtNum(last.value, 1) : "?"} km/h. Le vrai juge de paix : la même FC, plus vite.</p>`;
+    <p class="obj-note">Vitesse à ~135 bpm (effort constant) — départ ${first ? fmtNum(first.value, 1) : "?"} km/h le ${first ? first.date.slice(0, 5) : ""}, dernier relevé comparable <strong>${last ? fmtNum(last.value, 1) : "?"} km/h le ${last ? last.date.slice(0, 5) : "–"}</strong>${skipped ? ` · ${skipped} mesures écartées (chaleur, vent)` : ""}. Le vrai juge de paix : la même FC, plus vite.</p>`;
 }
 
 function renderMilestones(tests, today) {
@@ -682,7 +693,7 @@ function renderMilestones(tests, today) {
       hide: tests.chronos.length > 0,
       pending: !tests.chronoTarget,
     },
-    { icon: "📈", label: "Retest FTP (S8)", date: "28/07", sub: "partir à ~165 W, régulier" },
+    { icon: "📈", label: "Retest FTP (S8)", date: "28/07", sub: "→ 197 W (20 min @ 207 W)" },
     { icon: "🥾", label: "Coupure — vacances & rando itinérante", date: "24/08", sub: "129 km · 3 500 m D+ à pied" },
     { icon: "🚴", label: "Reprise vélo (S15)", date: "15/09", sub: "en douceur, jambes post-rando" },
     { icon: "📈", label: "Retest FTP post-coupure (S16)", date: "22/09", sub: "recalibrage des zones" },
@@ -712,20 +723,21 @@ function renderMilestones(tests, today) {
 
 function renderBadges(stats, tests, indic) {
   const ftp = tests.ftpTests.filter((t) => t.ftp).at(-1);
-  const bestSpeed = indic.speeds.reduce((a, s) => Math.max(a, s.value), 0);
+  const bestSpeed = indic.speeds.reduce((a, s) => (s.clean ? Math.max(a, s.value) : a), 0);
   const bestDrift = indic.drifts.reduce((a, d) => Math.min(a, d.value), Infinity);
+  const chrono = tests.chronos[0];
   const badges = [
     { icon: "🛣️", title: `${fmtNum(stats.maxKm, 1)} km`, sub: "plus longue sortie", ok: stats.maxKm > 0 },
     { icon: "⛰️", title: `${fmtNum(stats.maxDplus)} m D+`, sub: "plus gros dénivelé", ok: stats.maxDplus > 0 },
-    { icon: "⚡", title: ftp ? `FTP ${ftp.ftp} W` : "FTP", sub: "test du 11/06", ok: !!ftp },
+    { icon: "⚡", title: ftp ? `FTP ${ftp.ftp} W` : "FTP", sub: ftp ? `test du ${ftp.date.slice(0, 5)}` : "à tester", ok: !!ftp },
     { icon: "🎯", title: "Dérive < 5 %", sub: bestDrift < 5 ? `${fmtNum(bestDrift, 1)} % le 28/06 — foncier solide` : "sur une longue propre", ok: bestDrift < 5 },
-    { icon: "💨", title: `${fmtNum(bestSpeed, 1)} km/h @ Z2`, sub: "record vitesse à ~135 bpm", ok: bestSpeed > 0 },
+    { icon: "💨", title: `${fmtNum(bestSpeed, 1)} km/h @ Z2`, sub: "record à ~135 bpm, mesure comparable", ok: bestSpeed > 0 },
     { icon: "🔥", title: `Série de ${stats.bestStreak}`, sub: "séances d'affilée sans trou", ok: stats.bestStreak >= 5 },
     { icon: "💯", title: "Premier 100 km", sub: "à débloquer", ok: stats.maxKm >= 100 },
     { icon: "🏔️", title: "130 km", sub: "prévu S19 · 18/10", ok: stats.maxKm >= 130 },
     { icon: "👑", title: "150 km", sub: "prévu S21 · 01/11", ok: stats.maxKm >= 150 },
-    { icon: "🚀", title: "FTP ≥ 165 W", sub: "retest S8 ou S16", ok: !!ftp && ftp.ftp >= 165 },
-    { icon: "⏱️", title: "Boucle chronométrée", sub: "chrono initial à poser", ok: tests.chronos.length > 0 },
+    { icon: "🚀", title: "FTP ≥ 210 W", sub: "cible fin de plan · 3,4 W/kg", ok: !!ftp && ftp.ftp >= 210 },
+    { icon: "⏱️", title: "Boucle chronométrée", sub: chrono ? `${stripMd(chrono.time)} · ${stripMd(chrono.speed)} le ${chrono.date.slice(0, 5)}` : "chrono initial à poser", ok: !!chrono },
     { icon: "🎖️", title: "27 km/h @ Z2", sub: "l'objectif final", ok: bestSpeed >= 27 },
   ];
   $("badges").innerHTML = badges.map((b) =>

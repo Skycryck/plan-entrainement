@@ -31,7 +31,7 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 ## Conventions du dépôt
 
 - Cocher les séances dans `suivi/journal.md` (- [ ] → - [x]) avec note éventuelle
-- Tout nouveau test (FTP : S8, S16 ; chronos : S3, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
+- Tout nouveau test (FTP : S8 ✅, S16 ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
 - Modifications du `.ics` : TOUJOURS conserver les UID existants
   (`plan-velo-s{semaine}-{a|b|c}@claude`) pour éviter les doublons côté calendriers
 - Semaine N : lundi = 2026-06-08 + 7×(N-1). A=mardi, B=vendredi, C=dimanche (déplaçables)

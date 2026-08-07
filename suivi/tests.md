@@ -17,10 +17,10 @@ Règles : même sens, départ lancé, solo, sans arrêt, vent < 20 km/h sinon d�
 | 11/07/2026 | S5 | **1h25:58** | **30,0 km/h** | 159 (max 183) | Vent 2-4 m/s (~7-14 km/h), léger de face au départ — sous la limite ✅ | ⏱️ **Chrono initial = référence de départ.** À l'aube (~20°C), échauffement 4 km Z2, solo, sans arrêt. Splits 5 km très réguliers (9:18-10:42), fin en négatif (FC jusqu'à 183). RPE élevé (« dur ») mais 1er vrai effort d'intensité vélo → marge de progression nette d'ici le test final |
 | | S8 | | | | | Optionnel, week-end de récup |
 | | S17-S18 | | | | | Optionnel, post-reprise |
-| | S23 | | | | | Test final (ven. 13/11) |
+| | S23 | | | | | Test final (ven. 13/11) — **objectif 32-33 km/h** (+2/+3 vs le 11/07). Le gain est surtout dans le pilotage : viser FCmoy 165-170 (le chrono initial n'était qu'à 159 = Z3 tempo), pas seulement plus de watts |
 
 ## Test FCmax
 | Date | Protocole | FCmax atteinte | Notes |
 |---|---|---|---|
 | 11/06/2026 | Fin de test FTP | 193 bpm | Vraie FCmax probablement 198-203 |
-| | Bosse 2-3 min à fond | | ⏳ Reporté (élastique de ceinture HS le 14/06, nouvelle commandée) → à faire dès réception |
+| | Bosse 2-3 min à fond | | ⏳ **Toujours à faire** — le motif du report est levé depuis le 16/06 (nouvel élastique reçu et utilisé dès S2-A), le test n'a jamais été reprogrammé. Enjeu : les zones FC extérieures reposent sur une FCmax « probablement 198-203 » jamais vérifiée, et le retest FTP du 28/07 a plafonné à 186. À caler sur une fin de séance B. |
