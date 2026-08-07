@@ -20,7 +20,10 @@ de l'endurance, d'où les RPE faibles. Réévaluation au prochain retest (S16, 2
 ## Protocole test FTP 20 min (HT)
 
 1. Échauffement 25 min : 15 min progressif + 3×1 min haute cadence + 5 min fort + 10 min facile
-2. 20 min à fond RÉGULIER — consigne pour S8 et S16 : partir à ~165 W et tenir, pas de sprint final
+2. 20 min à fond RÉGULIER — **consigne S16 : partir à ~205 W et tenir**, pas de sprint final.
+   (Repère : le 28/07 = départ direct ~205 W tenu jusqu'au bout → 207 W de moyenne. Viser un
+   poil en dessous se justifie : S16 tombe après 3 semaines de coupure vélo. Mais surtout
+   **pas de départ prudent** — c'est le négative split qui avait sandbagé le test de juin.)
 3. FTP = puissance moyenne × 0,95. Bouton Lap au début/fin.
 4. **Sur MyWhoosh, ERG DÉSACTIVÉ** (mode libre/slope) : un 20 min est un effort
    maximal auto-géré, l'ERG fausserait tout (cible figée + spirale de la mort).

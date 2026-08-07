@@ -106,9 +106,9 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 16 (21/09 → 27/09)
 
-- [ ] **S16-A** (22/09) — RETEST FTP (partir ~165 W, régulier)
+- [ ] **S16-A** (22/09) — RETEST FTP (partir ~205 W, régulier — surtout pas de départ prudent)
 - [ ] **S16-B** (25/09) — 1h45 dont 2×15 min Z3
-- [ ] **S16-C** (27/09) — 3h30-4h (~95 km) Z2
+- [ ] **S16-C** (27/09) — 3h30-4h (~95 km) Z2 — 📍 **mesure vitesse@135 protocolée** : plat, vent < 20 km/h, 1re heure à FC 135 (repli S17-C si vent)
   - Notes : 
 ### Semaine 17 (28/09 → 04/10)
 
@@ -146,7 +146,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 22 (02/11 → 08/11)
 
 - [ ] **S22-A** (03/11) — 5×5 min @105-108%
-- [ ] **S22-B** (06/11) — 1h30 : 3×15 min allure cible, r5
+- [ ] **S22-B** (06/11) — 1h30 : 3×15 min allure cible **32 km/h**, r5 (plat sans vent ; sinon FC 168-175)
 - [ ] **S22-C** (08/11) — 4h (~100 km) Z2
   - Notes : 
 
