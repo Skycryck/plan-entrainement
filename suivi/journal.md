@@ -70,7 +70,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 10 (10/08 → 16/08)
 
-- [ ] **S10-A** (11/08) — VO2 5×3 min @110-115%, r3
+- [x] **S10-A** (11/08) — VO2 5×3 min @110-115 %, r3 sur MyWhoosh (ERG). **1re séance VO2 du plan**, cible 217-227 W. **Les 5 blocs dans la cible : 221,4 / 220,7 / 221,0 / 219,9 / 223,3 W** (moy. **221 W = 112 % FTP**), FC 161/158/161/165/167 (max **180** = 93 % de la FCmax observée), cad 82/87/91/97/91. Pics à 5 s plafonnés à 237 W → départs non sprintés. **RPE 8** = pile la sensation VO2 attendue → zones bien calées, aucun ajustement (prochain recalibrage au retest S16). ⚠️ **Découpage Strava re-bugué** (3e fois après S5-A et S7-A, toujours le dernier lap) : le lap 10 annonce 141,9 W en repliant le bloc 5 **et** tout le retour au calme (395 s au lieu de 180) → bloc 5 recalculé à la main sur le flux watts = **223,3 W**, son meilleur. 🔧 **Découverte matériel** : l'ERG perd des watts en haute cadence — dans le bloc 4, **218 W à 103 rpm contre 227 W à 94 rpm** au sein du même effort, sans récupérer (confirme le ressenti de Jules). Effet faible sur la moyenne d'un bloc (~3 W) mais bien réel → **plafonner la cadence à ~90-92 rpm en ERG**, voir CLAUDE.md § Matériel.
 - [ ] **S10-B** (14/08) — 2h dont 2×20 min @155-165 bpm
 - [ ] **S10-C** (16/08) — 4h (~100 km) Z2
   - Notes : 
