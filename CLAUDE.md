@@ -17,6 +17,10 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 - Home trainer AVEC puissance → séances intérieures ciblées en watts
 - Sorties extérieures ciblées en fréquence cardiaque
 - Garmin Edge 1040, ceinture Polar (capricieuse), MyWhoosh
+- ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
+  (mesuré en S10-A : **218 W à 103 rpm vs 227 W à 94 rpm** dans le même bloc).
+  → En ERG, plafonner la cadence à **~90-92 rpm**. Pour les séances où la cadence doit
+  rester libre (VO2, test FTP), préférer le **mode libre/slope**
 
 ## Valeurs de référence (retest FTP du 28/07/2026 — voir suivi/tests.md)
 
@@ -57,3 +61,9 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 
 - Analyser les sorties via l'export ou l'API : vitesse à FC fixe (~135 bpm),
   dérive cardiaque sur les longues, distance max — voir suivi/indicateurs.md
+- ⚠️ **Laps Strava non fiables sur le DERNIER bloc d'une séance d'intervalles**
+  (constaté en S5-A, S7-A, S10-A) : le dernier lap replie systématiquement le bloc
+  **et** le retour au calme, ce qui écrase sa moyenne (S10-A : 141,9 W affichés pour
+  223,3 W réels). → Toujours recalculer la moyenne du dernier bloc à la main sur le
+  flux `watts` avant de conclure ; vérifier la cohérence `elapsed_time` vs
+  `end_index - start_index`
