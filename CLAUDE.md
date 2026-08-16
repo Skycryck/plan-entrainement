@@ -67,3 +67,8 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   223,3 W réels). → Toujours recalculer la moyenne du dernier bloc à la main sur le
   flux `watts` avant de conclure ; vérifier la cohérence `elapsed_time` vs
   `end_index - start_index`
+- ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
+  Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
+  face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).
+  → En extérieur, juger **uniquement sur la FC** ; ne jamais citer ces watts sur une
+  sortie ventée
