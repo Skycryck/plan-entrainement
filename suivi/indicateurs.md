@@ -29,6 +29,7 @@ dans des conditions propres.
 | 26/07/2026 | 98 km | ~26 km/h (FC ~135, 1re moitié) | Rolling (543 m D+) + **vent sur 20 derniers km** → pas strictement comparable. Légère hausse vs avant, à confirmer sur du plat sans vent. Vitesse moy globale 26,5 km/h. Plus longue du plan (3h41) |
 | 02/08/2026 | 65 km | ~28 km/h (FC ~128, 1re moitié) | Récup, **chaleur montante (26→37°C)** → non comparable. Vitesse moy globale 25,9 km/h |
 | 09/08/2026 | 92 km | **~28,4 km/h (FC 135,6, 1re moitié)** | ✅ **Meilleure mesure du plan.** Marais **plat** (415 m D+ sur 92 km), 23-27°C sur la 1re moitié, **vent de face** 3 m/s (rafales 9) → chiffre **sous-estimé**, pas flatté. Seul écart au protocole = les rafales, et le biais joue contre lui. Réf. pré-plan du 07/06 sur la **même distance** : 23,8 km/h @ 131 bpm → **+4,6 km/h** pour 5 bpm de plus. Vitesse moy globale 27,9 km/h |
+| 16/08/2026 | 105,6 km | ~23,8 km/h (FC ~132, 1re moitié) | non comparable : **vent de face sur 50 km** + fringale + 37-38°C sur la 1re heure (départ 16h). La 2e moitié, vent dans le dos, passe à **30,8 km/h @ 141 bpm** → les +7 km/h pour 9 bpm mesurent le vent, pas la forme. Vitesse moy globale 26,7 km/h |
 
 ## 2. Dérive cardiaque sur les longues
 
@@ -44,13 +45,14 @@ FC moyenne 1re heure vs 3e heure à allure constante. < 5 % = foncier solide, > 
 | 26/07/2026 | 98 km | ~133 | ~143 | ~7 % | **Mesure « mixte »** (plus longue du plan, 3h41) : chaleur montante (22→30°C) + 543 m D+ + vent sur 20 derniers km + durée record → dérive surévaluée, pas un Z2 propre. Z2 bien tenue globalement (FCmoy 137) |
 | 02/08/2026 | 65 km | ~122 | ~134 | ~10 % | **Dérive de chaleur** (récup 2h31, 26→37°C) + départ très frais (h1 à 108) → pas une mesure propre. Z2 bien tenue (FCmoy 129) |
 | 09/08/2026 | 92 km | ~134 | ~144 | ~8 % | **Dérive de chaleur** (23°C → **35°C** sur la dernière heure), ressentie fortement sur les 10 derniers km mais gérée. ⚠️ Cette fois les deux autres suspects sont écartés : parcours **plat** (415 m) et **vent plus fort en 1re moitié** (3 m/s de face vs 2 m/s ensuite) → ni le relief ni le vent ne peuvent l'expliquer, c'est la température seule. Z2 tenue de bout en bout (FCmoy 140). En moitiés : 135,6 → 144,6 bpm (~7 %) |
+| 16/08/2026 | 105,6 km | n/a | n/a | n/a | Allure et vent totalement non constants : **vent de face sur 50 km puis dans le dos** (23,8 → 30,8 km/h entre les 2 moitiés), plus une **fringale** vers le km 25-55 → dérive non mesurable. FCmoy 135 sur 3h58, max 170 |
 
 ## 3. Progression distance longue
 
 | Palier | Date validée | Ressenti fin de sortie |
 |---|---|---|
 | 92 km | 07/06/2026 (pré-plan) | Refait le 09/08 (3h42) : chaleur forte sur les 10 derniers km mais gérée, jambes OK |
-| 100 km | | |
+| 100 km | **16/08/2026** (105,6 km) | Sortie très éprouvante mais bouclée : vent de face sur 50 km, 2 déraillages, 38°C au départ et une **fringale** vers le km 25-55. Fin solide malgré tout — 50 derniers km à 30,8 km/h, FC stable à 140-145. Leçon : ravitailler dès le départ (60-90 g/h) |
 | 115 km | | |
 | 130 km (S19 · 18/10) | | |
 | 150 km (S21 · 01/11) | | |
