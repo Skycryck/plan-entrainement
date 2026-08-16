@@ -48,13 +48,24 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
 
 1. **Manger avant d'avoir faim**, dès la 1re demi-heure, puis toutes les 25-30 min.
    Quand la faim arrive, le retard est pris et il faut 30-45 min pour le combler.
-2. **Ne jamais mettre tous ses glucides dans le bidon.** Un bidon d'eau claire + un
-   bidon sucré : si la boisson passe mal, il reste l'hydratation et les solides.
-   (S10-C : l'iso portait un tiers des glucides et a été abandonnée au km 20.)
-3. **Boisson sucrée à 6-8 % max** — soit ~50 g de poudre pour **700-800 ml**, pas pour
-   500 ml (10 % = hypertonique = eau appelée dans l'intestin = crampes et pire).
-   **Par forte chaleur, diluer encore plus** et basculer les glucides vers le solide :
-   au-dessus de ~35°C le sang part vers la peau et l'intestin ne suit plus.
+2. **Ne jamais mettre tous ses glucides dans le bidon.** ✅ **Déjà acquis** : Jules part
+   systématiquement avec un bidon iso de 800 ml **et** un bidon d'eau claire. À garder —
+   c'est ce qui lui a permis de continuer à s'hydrater en S10-C une fois l'iso
+   abandonnée au km 20.
+3. **Boisson sucrée à 6-8 %** — ✅ **déjà acquis** : Jules met 50 g pour 800 ml = **6,25 %**,
+   soit plus dilué que la dose du fabricant (38 g/500 ml = 7,6 %). **La concentration
+   n'explique donc PAS l'incident de S10-C.** Le suspect restant est la **chaleur**, par
+   trois mécanismes qui s'additionnent :
+   - au-dessus de ~35°C le sang part vers la peau, l'intestin n'est plus irrigué et
+     n'absorbe plus ;
+   - le bidon lui-même chauffe, et un liquide sucré tiède quitte l'estomac beaucoup
+     plus lentement qu'un liquide frais ;
+   - piège mécanique : par 38°C on boit 1 à 1,5 L/h **par besoin thermique**. Si tout
+     le liquide est sucré, le débit de glucides suit la soif et dépasse ce que
+     l'intestin peut encaisser.
+
+   → **Par forte chaleur : plafonner le bidon sucré, mettre le volume supplémentaire en
+   eau claire**, et garder le sucré au frais (bidon isotherme, remplissage glacé, à l'ombre).
 4. **Rien de neuf le jour J.** Tout produit doit avoir été testé sur au moins deux
    longues avant le 150 km.
 
