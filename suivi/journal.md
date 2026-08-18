@@ -76,7 +76,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 11 (17/08 → 23/08)
 
-- [ ] **S11-A** (18/08) — Seuil 2×18 min @95-100%
+- [x] **S11-A** (18/08) — Seuil 2×18 min @95-100 % sur MyWhoosh (ERG, cible 187-197 W). **Les 2 blocs dans la cible : 188,7 W (FC 165,3 / max 172, cad 92) puis 189,5 W (FC 167,6 / max 176, cad ~68)** = 96 % de FTP chacun. **Premier 2×18** (36 min de seuil, vs 30 min en S9-A). ⚠️ **Découpage Strava re-bugué** (4e fois : S5-A, S7-A, S10-A, S11-A) : le lap 4 annonce 1080 s à 178 W mais couvre 1215 index → il replie le bloc 2 **et** le retour au calme. Recalcul sur le flux watts = **189,5 W sur 1080 s pile**. Contre-vérification : 1080 s à 189,5 W + 135 s à ~90 W redonnent bien les 178 W affichés. 📈 **Progrès net vs S9-A** (04/08), sur des blocs comparables en cadence : bloc 1 à **188,7 W pour 165,3 bpm** contre **187 W pour 167 bpm**, et sur 18 min au lieu de 15 → plus de puissance, plus longtemps, pour moins de FC. 🔧 **Test de cadence** : bloc 1 tenu à 92 rpm (pile au plafond ERG), bloc 2 démarré vers 85-90 puis descendu volontairement à **~65-70 rpm** → **puissance identique** (189,5 vs 188,7 W). Le plafond ERG ne concerne donc bien que le **haut** de la plage (>95 rpm) : inutile de descendre si bas, ~90 rpm suffit.
 - [ ] **S11-B** (21/08) — 2h allure libre soutenue Z3
 - [ ] **S11-C** (23/08) — 4h15 (~105 km) Z2 (dernière avant coupure)
   - Notes : 
