@@ -48,7 +48,7 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
 
 | Sortie | Date | Durée | Cible g/h | À tester |
 |---|---|---|---|---|
-| S11-C | 23/08 | 4h15 | **45-50** | Menu arrêté : 2×43 g d'iso + 2 bananes + barre Clif + gel + compote = **201 g, soit 47 g/h**. Bidon iso + bidon d'eau au départ, 2e dose de poudre à sec pour le ravito. Test : **même iso qu'en S10-C** (5,4 %) pour isoler la chaleur ; fruits secs retirés (piste fructose) |
+| S11-C | 23/08 | 4h15 | **45-50** | Menu arrêté : 2×43 g d'iso + 2 bananes + barre Clif + gel + compote = **201 g, soit 47 g/h**. Bidon iso + bidon d'eau au départ, 2e dose de poudre à sec pour le ravito. Test révisé : **même iso qu'en S10-C, mais SANS café au départ** → si le ventre va bien, le café était le déclencheur ; s'il tire quand même, c'est bien le produit et on en change pendant la coupure. Fruits secs retirés |
 | S15-C | 20/09 | 3h | 50 | — |
 | S16-C | 27/09 | 3h30-4h | 60 | — |
 | S17-C | 04/10 | 4h15 | 70 | — |
@@ -85,10 +85,30 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    …ensuite le **fructose des fruits secs**. Les 125 g de trail mix de S10-C (cranberries)
    en apportaient probablement 30-40 g. L'absorption du fructose sature vers **30 g/h** sans
    glucose associé ; l'excédent reste dans l'intestin et y appelle l'eau — mêmes symptômes
-   qu'une boisson trop concentrée, mais l'origine est solide. À surveiller : le menu de
-   S11-C contient à nouveau des cranberries.
+   qu'une boisson trop concentrée, mais l'origine est solide.
+
+   🔄 **Révision du 22/08 — la vraie conclusion.** Jules signale que son iso lui fait
+   « plus ou moins mal au ventre **à chaque fois** », et qu'il avait bu un **café** avant
+   S10-C. Cela sépare enfin les deux effets : le café explique l'**urgence** du 16/08
+   (la caféine stimule la motricité colique), et l'iso explique un **inconfort chronique
+   de bas bruit**. Ce n'est donc ni la chaleur, ni la concentration, ni le fructose :
+   **c'est le produit.**
+
+   → **Décision : changer de boisson avant le 150 km.** Une gêne tolérable sur 4h devient
+   invalidante sur 6h+. La coupure (24/08 → 13/09) est le moment pour en acheter 2-3 autres,
+   et S15-C → S19-C sont les 5 longues pour en valider une. Règle 4 (« rien de neuf le jour J »)
+   impose qu'elle soit testée sur **au moins deux longues** avant le 01/11.
+
+   **Quoi regarder sur l'étiquette de l'actuelle** (pour savoir quoi fuir) : les
+   **polyols** (tout ce qui finit en -ol : sorbitol, maltitol, xylitol — laxatifs à dose
+   modérée), le **magnésium**, les **édulcorants de synthèse** (sucralose, acésulfame K) et
+   l'**acidité** (acide citrique). À 5,4 % de glucides, la cause n'est pas le sucre.
 4. **Rien de neuf le jour J.** Tout produit doit avoir été testé sur au moins deux
    longues avant le 150 km.
+5. **Pas de café avant une longue** — au moins tant que la question n'est pas tranchée.
+   La caféine stimule la motricité colique ; c'est elle qui a déclenché l'urgence de S10-C.
+   Si Jules y tient, le prendre **2-3 h avant** le départ plutôt que juste avant, et jamais
+   un jour de test nutrition.
 
 ### Repères de portions
 
