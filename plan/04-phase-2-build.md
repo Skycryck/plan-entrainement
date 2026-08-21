@@ -115,11 +115,35 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    la tonicité, la caféine et l'acidité.** Le coupable est un ingrédient **présent dans l'iso
    et absent du Coca**.
 
-   **Suspects, par ordre de probabilité** : (1) le **magnésium** (sel osmotiquement actif,
-   laxatif à dose modérée, très courant en boisson sport, absent du Coca) ; (2) les
-   **polyols** — tout ce qui finit en -ol : sorbitol, maltitol, xylitol, érythritol ;
-   (3) les **édulcorants de synthèse** (sucralose, acésulfame K) ajoutés par-dessus les
-   sucres ; (4) les **acides aminés** (BCAA, glutamine) que certaines formules incorporent.
+   🎯 **Étiquette lue le 22/08 — le coupable est la charge minérale.** Composition réelle
+   du bidon (50 g de poudre dans 800 ml) :
+
+   | | Bidon | Par litre | Repère boisson sport |
+   |---|---|---|---|
+   | Glucides | 43 g | 54 g/L (5,4 %) | 60-80 g/L ✅ |
+   | Sodium | ~510 mg | ~640 mg/L | 400-700 mg/L ✅ |
+   | **Potassium** | **395 mg** | **494 mg/L** | 100-200 mg/L 🔴 |
+   | **Magnésium** | **74,5 mg** | **93 mg/L** | 0-50 mg/L 🔴 |
+
+   Le sodium est bon. Mais le potassium est à **2,5-5× la normale** et le magnésium au
+   double, alors que la plupart des formules n'en mettent pas.
+
+   **Mécanisme, et résolution du paradoxe du Coca** : la tonicité ne dépend pas que du
+   sucre, mais de **tout ce qui est dissous**. Le Coca = 53 g de sucre et quasi aucun
+   minéral ; le glucose est absorbé vite et l'eau suit. L'iso = moitié moins de sucre mais
+   une lourde charge de sels, qui s'absorbent lentement, stagnent et **retiennent l'eau par
+   osmose**. Le potassium est de plus un irritant digestif reconnu (les compléments sont
+   plafonnés à 99 mg/comprimé dans beaucoup de pays — il en avale 395 mg d'un coup), et le
+   magnésium est un laxatif osmotique.
+
+   ⚠️ C'est une **boisson de réhydratation complète** (sélénium, vitamines B et C), pas une
+   boisson d'effort. Restent inconnus les édulcorants et polyols éventuels : le tableau lu
+   est la déclaration nutritionnelle, pas la liste d'ingrédients. Sans importance — la charge
+   minérale suffit à expliquer les symptômes.
+
+   📋 **Critères d'achat du remplaçant** : glucides 60-90 g/L (maltodextrine + fructose ou
+   saccharose) · sodium 400-800 mg/L ✅ · **potassium < 200 mg/L** · **magnésium idéalement 0** ·
+   ni vitamines ni oligo-éléments (inutiles à l'effort, et autant de solutés en plus).
 
    ✅ **Ce que ça dit du remplaçant** : son intestin tolère parfaitement un mélange
    glucose-fructose simple, même très concentré. Donc viser une poudre **à liste courte**,
