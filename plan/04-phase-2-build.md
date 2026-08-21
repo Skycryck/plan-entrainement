@@ -8,7 +8,19 @@ But : élever le seuil. ⚠️ Coupure vélo du 24/08 au 13/09 → le Build se f
 |---|---|---|---|
 | 9 (03-09/08) | Seuil 2×15 min @95-100 % | 1h45 dont 2×15 min @155-165 bpm | 3h30 (~90 km) |
 | 10 (10-16/08) | VO2 5×3 min @110-115 %, r3 | 2h dont 2×20 min @155-165 bpm | 4h (~100 km) |
-| 11 (17-23/08) | Seuil 2×18 min @95-100 % | 2h allure libre soutenue (Z3) | 4h15 (~105 km) — dernière avant coupure |
+| 11 (17-23/08) | Seuil 2×18 min @95-100 % | 2h dont **2×25 min Z3** ⚠️ *(corrigé, voir note)* | 4h15 (~105 km) — dernière avant coupure |
+
+⚠️ **S11-B — erreur de calibrage, corrigée le 21/08.** La consigne initiale était
+« 2h allure libre soutenue (Z3) », c'est-à-dire 2h de Z3 **continu**. C'est incohérent avec
+tout le reste du plan : le maximum de Z3 continu jamais programmé ailleurs est de **30 min**
+(S7-B, S19-B) et le maximum accumulé de **40-45 min** (S10-B, S22-B) — avant comme après la
+coupure. Demander 2h d'un coup était un saut ×3 intenable. Jules l'a signalé de lui-même et a
+auto-régulé pendant la séance, à raison.
+
+**Règle de progression du Z3** : d'une séance B à la suivante, ne pas augmenter le Z3
+**accumulé** de plus de ~10 min, ni le Z3 **continu** de plus de ~5-10 min. Un bloc continu
+coûte nettement plus cher qu'un fractionné de même durée totale — 2×20 min n'équivaut pas à
+40 min d'affilée.
 
 ## Coupure vélo (S12-S14 · 24/08 → 13/09)
 
