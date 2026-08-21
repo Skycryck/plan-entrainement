@@ -48,7 +48,7 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
 
 | Sortie | Date | Durée | Cible g/h | À tester |
 |---|---|---|---|---|
-| S11-C | 23/08 | 4h15 | **45-50** | Nouvelle stratégie boisson (voir ci-dessous) |
+| S11-C | 23/08 | 4h15 | **45-50** | Menu arrêté : 2×43 g d'iso + 2 bananes + barre Clif + gel + compote = **201 g, soit 47 g/h**. Bidon iso + bidon d'eau au départ, 2e dose de poudre à sec pour le ravito. Test : **même iso qu'en S10-C** (5,4 %) pour isoler la chaleur ; fruits secs retirés (piste fructose) |
 | S15-C | 20/09 | 3h | 50 | — |
 | S16-C | 27/09 | 3h30-4h | 60 | — |
 | S17-C | 04/10 | 4h15 | 70 | — |
