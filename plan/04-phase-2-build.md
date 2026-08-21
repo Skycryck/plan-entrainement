@@ -64,10 +64,13 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    systématiquement avec un bidon iso de 800 ml **et** un bidon d'eau claire. À garder —
    c'est ce qui lui a permis de continuer à s'hydrater en S10-C une fois l'iso
    abandonnée au km 20.
-3. **Boisson sucrée à 6-8 %** — ✅ **déjà acquis** : Jules met 50 g pour 800 ml = **6,25 %**,
-   soit plus dilué que la dose du fabricant (38 g/500 ml = 7,6 %). **La concentration
-   n'explique donc PAS l'incident de S10-C.** Le suspect restant est la **chaleur**, par
-   trois mécanismes qui s'additionnent :
+3. **Boisson sucrée à 6-8 %** — ✅ **déjà acquis, et même en dessous**. Sa poudre titre
+   **86 g de glucides pour 100 g** : 50 g dans 800 ml = **43 g de glucides = 5,4 %**, contre
+   **6,5 %** pour la dose du fabricant (38 g de poudre / 500 ml). ⚠️ *Toujours raisonner en
+   grammes de glucides, pas de poudre — c'est la tonicité qui compte.* **La concentration
+   n'explique donc PAS l'incident de S10-C** : à 5,4 % et ~20-25 g ingérés au km 20, la
+   boisson ne peut pas être en cause par sa tonicité. Suspects restants — d'abord la
+   **chaleur**, par trois mécanismes qui s'additionnent :
    - au-dessus de ~35°C le sang part vers la peau, l'intestin n'est plus irrigué et
      n'absorbe plus ;
    - le bidon lui-même chauffe, et un liquide sucré tiède quitte l'estomac beaucoup
@@ -78,6 +81,12 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
 
    → **Par forte chaleur : plafonner le bidon sucré, mettre le volume supplémentaire en
    eau claire**, et garder le sucré au frais (bidon isotherme, remplissage glacé, à l'ombre).
+
+   …ensuite le **fructose des fruits secs**. Les 125 g de trail mix de S10-C (cranberries)
+   en apportaient probablement 30-40 g. L'absorption du fructose sature vers **30 g/h** sans
+   glucose associé ; l'excédent reste dans l'intestin et y appelle l'eau — mêmes symptômes
+   qu'une boisson trop concentrée, mais l'origine est solide. À surveiller : le menu de
+   S11-C contient à nouveau des cranberries.
 4. **Rien de neuf le jour J.** Tout produit doit avoir été testé sur au moins deux
    longues avant le 150 km.
 
