@@ -128,18 +128,31 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    Le sodium est bon. Mais le potassium est à **2,5-5× la normale** et le magnésium au
    double, alors que la plupart des formules n'en mettent pas.
 
-   **Mécanisme, et résolution du paradoxe du Coca** : la tonicité ne dépend pas que du
-   sucre, mais de **tout ce qui est dissous**. Le Coca = 53 g de sucre et quasi aucun
-   minéral ; le glucose est absorbé vite et l'eau suit. L'iso = moitié moins de sucre mais
-   une lourde charge de sels, qui s'absorbent lentement, stagnent et **retiennent l'eau par
-   osmose**. Le potassium est de plus un irritant digestif reconnu (les compléments sont
-   plafonnés à 99 mg/comprimé dans beaucoup de pays — il en avale 395 mg d'un coup), et le
-   magnésium est un laxatif osmotique.
+   **Produit identifié : Decathlon ISO+ « Long Duration +3H », goût citron, avec BCAA**
+   (les 2,6 g de protéines/100 g). C'est bien une boisson d'effort longue durée, pas un
+   produit mal employé : la charge minérale est un choix de formulation assumé. Elle ne
+   convient simplement pas à Jules.
 
-   ⚠️ C'est une **boisson de réhydratation complète** (sélénium, vitamines B et C), pas une
-   boisson d'effort. Restent inconnus les édulcorants et polyols éventuels : le tableau lu
-   est la déclaration nutritionnelle, pas la liste d'ingrédients. Sans importance — la charge
-   minérale suffit à expliquer les symptômes.
+   ⚠️ **Le dosage du fabricant est encore plus chargé** (52 doses de 500 ml pour 2 kg, soit
+   38 g/500 ml) : 66 g/L de glucides, 786 mg/L de sodium, **600 mg/L de potassium**,
+   **113 mg/L de magnésium**. Jules est déjà ~18 % sous cette concentration minérale et a
+   quand même mal. **Le levier de la dilution est épuisé** : descendre le potassium sous
+   200 mg/L imposerait ~20 g de poudre dans 800 ml, soit 17 g de glucides par bidon —
+   plus une boisson d'effort. → Il faut changer de produit, pas ajuster celui-ci.
+
+   **Mécanisme, et résolution du paradoxe du Coca.** Attention, ce n'est *pas* un problème
+   d'osmolalité globale : avec beaucoup de maltodextrine (42 des 86 g de glucides, donc
+   osmotiquement légère), le mélange reste hypotonique dans l'ensemble. Ce sont deux
+   ingrédients précis qui agissent : le **potassium**, irritant direct de la muqueuse
+   digestive (les compléments sont plafonnés à 99 mg/comprimé dans beaucoup de pays — il en
+   avale 395 mg d'un coup), et le **magnésium**, mal absorbé et donc laxatif osmotique dans
+   la lumière intestinale. Le Coca n'en contient ni l'un ni l'autre : son sucre est absorbé
+   vite, l'eau suit, rien ne stagne. D'où 53 g de sucre qui passent quand 27 g ne passent pas.
+
+   Les BCAA (1,3 g par dose) restent un suspect mineur : peu probables à cette dose, mais
+   c'est un soluté de plus. Édulcorants et polyols éventuels demeurent inconnus — le tableau
+   lu est la déclaration nutritionnelle, pas la liste d'ingrédients. Sans importance pour la
+   décision.
 
    📋 **Critères d'achat du remplaçant** : glucides 60-90 g/L (maltodextrine + fructose ou
    saccharose) · sodium 400-800 mg/L ✅ · **potassium < 200 mg/L** · **magnésium idéalement 0** ·
