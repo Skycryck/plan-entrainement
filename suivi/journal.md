@@ -184,7 +184,7 @@ d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 - [ ] **S8** (29/07) — 20 min facile 🌿 récup
 - [ ] **S9** (05/08) — 30 min
 - [ ] **S10** (12/08) — 30 min
-- [ ] **S11** (19/08) — 35 min
+- [x] **S11** (19/08) — **6,83 km / 40:15 en mouvement** (47:06 avec un arrêt de ~7 min au km 3), footing du soir. FCmoy **155** / max 170, cadence 82 (≈164 pas/min), allure ~5:53/km, D+ 23 m. **Plus long footing du plan** : +2 km et +9 min vs le précédent (4,8 km / 31 min le 22/07). ⚠️ **Dépasse le plafond des ~35 min** de cette section, et arrive après **4 semaines sans courir** (S8, S9, S10 non faites) → saut de charge de +42 % en distance sur un sport à impacts. Rien d'alarmant en soi, mais à surveiller côté tibias/Achille avant la rando itinérante (3500 m D− d'excentrique). FC entre celles de S4 (159, validée « facile » au talk test) et S7 (148) → probablement easy, à confirmer au ressenti.
 - _S12-S14 — pause 🥾 (la rando est la charge)_
 - [ ] **S15** (16/09) — 20-25 min, reprise douce (jambes post-rando)
 - [ ] **S16** (23/09) — 30 min
