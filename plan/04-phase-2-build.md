@@ -99,10 +99,33 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    et S15-C → S19-C sont les 5 longues pour en valider une. Règle 4 (« rien de neuf le jour J »)
    impose qu'elle soit testée sur **au moins deux longues** avant le 01/11.
 
-   **Quoi regarder sur l'étiquette de l'actuelle** (pour savoir quoi fuir) : les
-   **polyols** (tout ce qui finit en -ol : sorbitol, maltitol, xylitol — laxatifs à dose
-   modérée), le **magnésium**, les **édulcorants de synthèse** (sucralose, acésulfame K) et
-   l'**acidité** (acide citrique). À 5,4 % de glucides, la cause n'est pas le sucre.
+   🧪 **Le test du Coca (22/08) — l'observation qui tranche.** Jules constate que 500 ml
+   de son iso lui font mal au ventre à coup sûr, alors qu'il a déjà bu **500 ml de Coca
+   d'un trait sans aucune gêne**. Or :
+
+   | | Iso (500 ml) | Coca (500 ml) |
+   |---|---|---|
+   | Glucides | ~27 g | **~53 g** |
+   | Concentration | 5,4 % (isotonique) | **10,6 % (hypertonique)** |
+   | Caféine | 0 | ~65 mg |
+   | Acidité | modérée | pH ~2,5 |
+
+   Le Coca cumule deux fois plus de sucre, deux fois la concentration, de la caféine, des
+   bulles et une forte acidité — et il passe. **Sont donc éliminés : la quantité de glucides,
+   la tonicité, la caféine et l'acidité.** Le coupable est un ingrédient **présent dans l'iso
+   et absent du Coca**.
+
+   **Suspects, par ordre de probabilité** : (1) le **magnésium** (sel osmotiquement actif,
+   laxatif à dose modérée, très courant en boisson sport, absent du Coca) ; (2) les
+   **polyols** — tout ce qui finit en -ol : sorbitol, maltitol, xylitol, érythritol ;
+   (3) les **édulcorants de synthèse** (sucralose, acésulfame K) ajoutés par-dessus les
+   sucres ; (4) les **acides aminés** (BCAA, glutamine) que certaines formules incorporent.
+
+   ✅ **Ce que ça dit du remplaçant** : son intestin tolère parfaitement un mélange
+   glucose-fructose simple, même très concentré. Donc viser une poudre **à liste courte**,
+   ou faire soi-même : ~60 g de sucre (ou maltodextrine + fructose) + **1 g de sel** dans
+   750 ml. Aucun additif, ~8 %, et le sodium — le seul électrolyte qui compte vraiment sur
+   4h — sans le magnésium.
 4. **Rien de neuf le jour J.** Tout produit doit avoir été testé sur au moins deux
    longues avant le 150 km.
 5. **Pas de café avant une longue** — au moins tant que la question n'est pas tranchée.
