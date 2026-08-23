@@ -56,7 +56,7 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
 | S19-C | 18/10 | 5h / 130 km | **90** | ⭐ Répétition générale complète |
 | S21-C | 01/11 | 150 km | **90** | ❌ **Rien de nouveau ce jour-là** |
 
-### Les 4 règles
+### Les 5 règles
 
 1. **Manger avant d'avoir faim**, dès la 1re demi-heure, puis toutes les 25-30 min.
    Quand la faim arrive, le retard est pris et il faut 30-45 min pour le combler.
@@ -64,124 +64,50 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    systématiquement avec un bidon iso de 800 ml **et** un bidon d'eau claire. À garder —
    c'est ce qui lui a permis de continuer à s'hydrater en S10-C une fois l'iso
    abandonnée au km 20.
-3. **Boisson sucrée à 6-8 %** — ✅ **déjà acquis, et même en dessous**. Sa poudre titre
-   **86 g de glucides pour 100 g** : 50 g dans 800 ml = **43 g de glucides = 5,4 %**, contre
-   **6,5 %** pour la dose du fabricant (38 g de poudre / 500 ml). ⚠️ *Toujours raisonner en
-   grammes de glucides, pas de poudre — c'est la tonicité qui compte.* **La concentration
-   n'explique donc PAS l'incident de S10-C** : à 5,4 % et ~20-25 g ingérés au km 20, la
-   boisson ne peut pas être en cause par sa tonicité. Suspects restants — d'abord la
-   **chaleur**, par trois mécanismes qui s'additionnent :
-   - au-dessus de ~35°C le sang part vers la peau, l'intestin n'est plus irrigué et
-     n'absorbe plus ;
-   - le bidon lui-même chauffe, et un liquide sucré tiède quitte l'estomac beaucoup
-     plus lentement qu'un liquide frais ;
-   - piège mécanique : par 38°C on boit 1 à 1,5 L/h **par besoin thermique**. Si tout
-     le liquide est sucré, le débit de glucides suit la soif et dépasse ce que
-     l'intestin peut encaisser.
+3. **La boisson : où on en est (état au 23/08).** ✅ **Rien à corriger côté dosage.**
+   Sa poudre (Decathlon ISO+ « Long Duration », avec BCAA) titre **86 g de glucides pour
+   100 g** : ses 50 g dans 800 ml font **43 g de glucides = 5,4 %**, soit *sous* la bande
+   isotonique 6-8 % et plus dilué que la notice (6,5 %). ⚠️ *Toujours raisonner en grammes
+   de glucides, jamais de poudre — c'est la tonicité qui compte.*
 
-   → **Par forte chaleur : plafonner le bidon sucré, mettre le volume supplémentaire en
-   eau claire**, et garder le sucré au frais (bidon isotherme, remplissage glacé, à l'ombre).
+   **Enquête sur l'incident de S10-C, résumé.** Éliminés successivement : la concentration
+   (5,4 %, et ~20-25 g seulement ingérés au km 20) ; la quantité de glucides, la tonicité,
+   la caféine et l'acidité — via l'observation décisive de Jules, qui boit **500 ml de Coca
+   d'un trait sans gêne** (53 g de sucre à 10,6 %, caféiné, pH ~2,5) là où 500 ml d'iso
+   (27 g à 5,4 %) le gênent. Restait une **piste « charge minérale »** : à son dosage l'iso
+   apporte **494 mg/L de potassium** (2,5-5× la normale) et **93 mg/L de magnésium**, deux
+   irritants digestifs connus, absents du Coca.
 
-   …ensuite le **fructose des fruits secs**. Les 125 g de trail mix de S10-C (cranberries)
-   en apportaient probablement 30-40 g. L'absorption du fructose sature vers **30 g/h** sans
-   glucose associé ; l'excédent reste dans l'intestin et y appelle l'eau — mêmes symptômes
-   qu'une boisson trop concentrée, mais l'origine est solide.
+   ❌ **Cette piste est démentie par S11-C (23/08)** : même produit, même dosage, **aucun
+   problème**. Le mécanisme reste plausible mais n'est pas la cause — la boisson était
+   identique les deux fois. Ce qui a changé : le **café pris 4h30 avant** au lieu de juste
+   avant (→ règle 5, validée), et le **retrait des fruits secs**. Ce sont eux les suspects.
+   Le fructose des fruits secs reste non testé : les 125 g de trail mix de S10-C en
+   apportaient sans doute 30-40 g, or l'absorption sature vers 30 g/h sans glucose associé.
+   **Leçon de méthode : ne pas conclure sur une sortie où plusieurs variables bougent.**
 
-   🔄 **Révision du 22/08 — la vraie conclusion.** Jules signale que son iso lui fait
-   « plus ou moins mal au ventre **à chaque fois** », et qu'il avait bu un **café** avant
-   S10-C. Cela sépare enfin les deux effets : le café explique l'**urgence** du 16/08
-   (la caféine stimule la motricité colique), et l'iso explique un **inconfort chronique
-   de bas bruit**. Ce n'est donc ni la chaleur, ni la concentration, ni le fructose :
-   **c'est le produit.**
+   🔄 **Le vrai sujet est désormais le GOÛT.** Jules trouve cette iso « un peu dégoûtante »
+   et a jugé la compote de S11-C « immonde » (à moitié mangée). Sur 4h c'est anecdotique ;
+   sur les **6h+ du 150 km c'est disqualifiant** — une boisson qu'on n'a plus envie de
+   boire, on ne la boit plus, et on finit sous-alimenté **et** déshydraté.
 
-   → **Décision : changer de boisson avant le 150 km.** Une gêne tolérable sur 4h devient
-   invalidante sur 6h+. La coupure (24/08 → 13/09) est le moment pour en acheter 2-3 autres,
-   et S15-C → S19-C sont les 5 longues pour en valider une. Règle 4 (« rien de neuf le jour J »)
-   impose qu'elle soit testée sur **au moins deux longues** avant le 01/11.
+   📋 **Critères du remplaçant, par ordre** : (1) **un goût qu'il aime vraiment**, testé à
+   froid avant d'acheter 2 kg ; (2) glucides 60-90 g/L ; (3) sodium 400-800 mg/L ;
+   (4) accessoirement potassium < 200 mg/L et magnésium bas. La version maison
+   (~60 g de sucre + **1 g de sel** dans 750 ml) coche tout et se parfume à volonté.
+   Alterner bidon sucré / bidon d'eau limite aussi la lassitude gustative — déjà acquis.
 
-   🧪 **Le test du Coca (22/08) — l'observation qui tranche.** Jules constate que 500 ml
-   de son iso lui font mal au ventre à coup sûr, alors qu'il a déjà bu **500 ml de Coca
-   d'un trait sans aucune gêne**. Or :
+   🌡️ **Rappel chaleur (valable quel que soit le produit).** Au-dessus de ~35°C : le sang
+   part vers la peau et l'intestin n'absorbe plus ; le bidon chauffe, et un liquide sucré
+   tiède quitte l'estomac bien plus lentement ; enfin on boit 1-1,5 L/h **par besoin
+   thermique**, donc si tout le liquide est sucré le débit de glucides suit la soif.
+   → **Par forte chaleur : plafonner le bidon sucré, mettre le reste en eau claire**, et
+   garder le sucré au frais (bidon isotherme, remplissage glacé, à l'ombre).
 
-   | | Iso (500 ml) | Coca (500 ml) |
-   |---|---|---|
-   | Glucides | ~27 g | **~53 g** |
-   | Concentration | 5,4 % (isotonique) | **10,6 % (hypertonique)** |
-   | Caféine | 0 | ~65 mg |
-   | Acidité | modérée | pH ~2,5 |
+   🍌 **Ne rien emporter qu'on n'aime pas.** L'appétit chute à l'effort : tout ce qui est
+   « limite » à froid devient impossible à avaler au km 120. Chaque aliment du sac doit
+   être un aliment qu'il mangerait avec plaisir.
 
-   Le Coca cumule deux fois plus de sucre, deux fois la concentration, de la caféine, des
-   bulles et une forte acidité — et il passe. **Sont donc éliminés : la quantité de glucides,
-   la tonicité, la caféine et l'acidité.** Le coupable est un ingrédient **présent dans l'iso
-   et absent du Coca**.
-
-   🎯 **Étiquette lue le 22/08 — piste de la charge minérale (⚠️ NON confirmée, voir S11-C).** Composition réelle
-   du bidon (50 g de poudre dans 800 ml) :
-
-   | | Bidon | Par litre | Repère boisson sport |
-   |---|---|---|---|
-   | Glucides | 43 g | 54 g/L (5,4 %) | 60-80 g/L ✅ |
-   | Sodium | ~510 mg | ~640 mg/L | 400-700 mg/L ✅ |
-   | **Potassium** | **395 mg** | **494 mg/L** | 100-200 mg/L 🔴 |
-   | **Magnésium** | **74,5 mg** | **93 mg/L** | 0-50 mg/L 🔴 |
-
-   Le sodium est bon. Mais le potassium est à **2,5-5× la normale** et le magnésium au
-   double, alors que la plupart des formules n'en mettent pas.
-
-   **Produit identifié : Decathlon ISO+ « Long Duration +3H », goût citron, avec BCAA**
-   (les 2,6 g de protéines/100 g). C'est bien une boisson d'effort longue durée, pas un
-   produit mal employé : la charge minérale est un choix de formulation assumé. Elle ne
-   convient simplement pas à Jules.
-
-   ⚠️ **Le dosage du fabricant est encore plus chargé** (52 doses de 500 ml pour 2 kg, soit
-   38 g/500 ml) : 66 g/L de glucides, 786 mg/L de sodium, **600 mg/L de potassium**,
-   **113 mg/L de magnésium**. Jules est déjà ~18 % sous cette concentration minérale et a
-   quand même mal. **Le levier de la dilution est épuisé** : descendre le potassium sous
-   200 mg/L imposerait ~20 g de poudre dans 800 ml, soit 17 g de glucides par bidon —
-   plus une boisson d'effort. → Il faut changer de produit, pas ajuster celui-ci.
-
-   **Mécanisme, et résolution du paradoxe du Coca.** Attention, ce n'est *pas* un problème
-   d'osmolalité globale : avec beaucoup de maltodextrine (42 des 86 g de glucides, donc
-   osmotiquement légère), le mélange reste hypotonique dans l'ensemble. Ce sont deux
-   ingrédients précis qui agissent : le **potassium**, irritant direct de la muqueuse
-   digestive (les compléments sont plafonnés à 99 mg/comprimé dans beaucoup de pays — il en
-   avale 395 mg d'un coup), et le **magnésium**, mal absorbé et donc laxatif osmotique dans
-   la lumière intestinale. Le Coca n'en contient ni l'un ni l'autre : son sucre est absorbé
-   vite, l'eau suit, rien ne stagne. D'où 53 g de sucre qui passent quand 27 g ne passent pas.
-
-   Les BCAA (1,3 g par dose) restent un suspect mineur : peu probables à cette dose, mais
-   c'est un soluté de plus. Édulcorants et polyols éventuels demeurent inconnus — le tableau
-   lu est la déclaration nutritionnelle, pas la liste d'ingrédients. Sans importance pour la
-   décision.
-
-   ❌ **Démenti par S11-C (23/08).** Même produit, même dosage, aucun problème de ventre.
-   L'analyse minérale ci-dessus reste un mécanisme plausible, mais **elle n'est pas la cause** :
-   l'iso était identique les deux fois. Ce qui a changé le 23/08, c'est le **café pris 4h30
-   avant** (au lieu de juste avant) et le **retrait des fruits secs**. Ce sont donc eux les
-   suspects, pas la boisson. Leçon de méthode : ne pas conclure sur une seule sortie où
-   plusieurs variables bougent.
-
-   🔄 **Le vrai sujet devient le GOÛT.** Jules trouve cette iso « un peu dégoûtante » et a
-   jugé la compote « immonde » (à moitié mangée). Sur 4h c'est anecdotique ; sur les **6h+
-   du 150 km, c'est disqualifiant** — une boisson qu'on n'a plus envie de boire, on ne la
-   boit plus, et on se retrouve sous-alimenté ET déshydraté.
-
-   📋 **Critères pour le remplaçant, par ordre** : (1) **un goût qu'il aime vraiment**, testé
-   à froid avant d'acheter en 2 kg ; (2) glucides 60-90 g/L ; (3) sodium 400-800 mg/L ;
-   (4) accessoirement potassium < 200 mg/L et magnésium bas, tant qu'à faire. La version
-   maison (~60 g de sucre + 1 g de sel dans 750 ml) coche tout et se parfume à volonté
-   (citron pressé, sirop). Alterner bidon sucré / bidon d'eau limite en plus la lassitude
-   gustative — il le fait déjà.
-
-   🍌 **Règle qui découle de la compote : ne rien emporter qu'on n'aime pas.** L'appétit
-   chute à l'effort et tout ce qui est « limite » devient impossible à avaler. Chaque
-   aliment du sac doit être un aliment qu'il mangerait avec plaisir au km 120.
-
-   ✅ **Ce que ça dit du remplaçant** : son intestin tolère parfaitement un mélange
-   glucose-fructose simple, même très concentré. Donc viser une poudre **à liste courte**,
-   ou faire soi-même : ~60 g de sucre (ou maltodextrine + fructose) + **1 g de sel** dans
-   750 ml. Aucun additif, ~8 %, et le sodium — le seul électrolyte qui compte vraiment sur
-   4h — sans le magnésium.
 4. **Rien de neuf le jour J.** Tout produit doit avoir été testé sur au moins deux
    longues avant le 150 km.
 5. **Café : oui, mais 3-4 h avant le départ.** ✅ **Validé en S11-C** — café à 10h pour un
