@@ -115,7 +115,7 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    la tonicité, la caféine et l'acidité.** Le coupable est un ingrédient **présent dans l'iso
    et absent du Coca**.
 
-   🎯 **Étiquette lue le 22/08 — le coupable est la charge minérale.** Composition réelle
+   🎯 **Étiquette lue le 22/08 — piste de la charge minérale (⚠️ NON confirmée, voir S11-C).** Composition réelle
    du bidon (50 g de poudre dans 800 ml) :
 
    | | Bidon | Par litre | Repère boisson sport |
@@ -154,9 +154,28 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    lu est la déclaration nutritionnelle, pas la liste d'ingrédients. Sans importance pour la
    décision.
 
-   📋 **Critères d'achat du remplaçant** : glucides 60-90 g/L (maltodextrine + fructose ou
-   saccharose) · sodium 400-800 mg/L ✅ · **potassium < 200 mg/L** · **magnésium idéalement 0** ·
-   ni vitamines ni oligo-éléments (inutiles à l'effort, et autant de solutés en plus).
+   ❌ **Démenti par S11-C (23/08).** Même produit, même dosage, aucun problème de ventre.
+   L'analyse minérale ci-dessus reste un mécanisme plausible, mais **elle n'est pas la cause** :
+   l'iso était identique les deux fois. Ce qui a changé le 23/08, c'est le **café pris 4h30
+   avant** (au lieu de juste avant) et le **retrait des fruits secs**. Ce sont donc eux les
+   suspects, pas la boisson. Leçon de méthode : ne pas conclure sur une seule sortie où
+   plusieurs variables bougent.
+
+   🔄 **Le vrai sujet devient le GOÛT.** Jules trouve cette iso « un peu dégoûtante » et a
+   jugé la compote « immonde » (à moitié mangée). Sur 4h c'est anecdotique ; sur les **6h+
+   du 150 km, c'est disqualifiant** — une boisson qu'on n'a plus envie de boire, on ne la
+   boit plus, et on se retrouve sous-alimenté ET déshydraté.
+
+   📋 **Critères pour le remplaçant, par ordre** : (1) **un goût qu'il aime vraiment**, testé
+   à froid avant d'acheter en 2 kg ; (2) glucides 60-90 g/L ; (3) sodium 400-800 mg/L ;
+   (4) accessoirement potassium < 200 mg/L et magnésium bas, tant qu'à faire. La version
+   maison (~60 g de sucre + 1 g de sel dans 750 ml) coche tout et se parfume à volonté
+   (citron pressé, sirop). Alterner bidon sucré / bidon d'eau limite en plus la lassitude
+   gustative — il le fait déjà.
+
+   🍌 **Règle qui découle de la compote : ne rien emporter qu'on n'aime pas.** L'appétit
+   chute à l'effort et tout ce qui est « limite » devient impossible à avaler. Chaque
+   aliment du sac doit être un aliment qu'il mangerait avec plaisir au km 120.
 
    ✅ **Ce que ça dit du remplaçant** : son intestin tolère parfaitement un mélange
    glucose-fructose simple, même très concentré. Donc viser une poudre **à liste courte**,
@@ -165,10 +184,10 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    4h — sans le magnésium.
 4. **Rien de neuf le jour J.** Tout produit doit avoir été testé sur au moins deux
    longues avant le 150 km.
-5. **Pas de café avant une longue** — au moins tant que la question n'est pas tranchée.
-   La caféine stimule la motricité colique ; c'est elle qui a déclenché l'urgence de S10-C.
-   Si Jules y tient, le prendre **2-3 h avant** le départ plutôt que juste avant, et jamais
-   un jour de test nutrition.
+5. **Café : oui, mais 3-4 h avant le départ.** ✅ **Validé en S11-C** — café à 10h pour un
+   départ à 14h30, aucun problème, alors qu'un café juste avant avait déclenché l'urgence de
+   S10-C. La caféine stimule la motricité colique ; il suffit de lui laisser le temps de
+   passer. Pas besoin de s'en priver.
 
 ### Repères de portions
 
