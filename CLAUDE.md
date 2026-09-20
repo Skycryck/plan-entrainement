@@ -62,7 +62,7 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 - Analyser les sorties via l'export ou l'API : vitesse à FC fixe (~135 bpm),
   dérive cardiaque sur les longues, distance max — voir suivi/indicateurs.md
 - ⚠️ **Laps Strava non fiables sur le DERNIER bloc d'une séance d'intervalles**
-  (constaté en S5-A, S7-A, S10-A) : le dernier lap replie systématiquement le bloc
+  (constaté en S5-A, S7-A, S10-A, S11-A, S15-A) : le dernier lap replie systématiquement le bloc
   **et** le retour au calme, ce qui écrase sa moyenne (S10-A : 141,9 W affichés pour
   223,3 W réels). → Toujours recalculer la moyenne du dernier bloc à la main sur le
   flux `watts` avant de conclure ; vérifier la cohérence `elapsed_time` vs
