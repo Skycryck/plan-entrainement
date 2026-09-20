@@ -106,7 +106,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 16 (21/09 → 27/09)
 
-- [ ] **S16-A** (22/09) — RETEST FTP (partir ~205 W, régulier — surtout pas de départ prudent)
+- [ ] **S16-A** (**lun. 21/09**) — RETEST FTP, avancé d'un jour (indisponible le mardi). Partir ~205-207 W, régulier — surtout pas de départ prudent. ⚠️ S15-A ayant montré **aucun désentraînement** (171 W à FC 159-162, pile sur la relation puissance/FC d'avant la coupure), la consigne « viser un poil en dessous vu la coupure » **ne s'applique plus** : viser le niveau de juillet.
 - [ ] **S16-B** (25/09) — 1h45 dont 2×15 min Z3
 - [ ] **S16-C** (27/09) — 3h30-4h (~95 km) Z2 — 📍 **mesure vitesse@135 protocolée** : plat, vent < 20 km/h, 1re heure à FC 135 (repli S17-C si vent)
   - Notes : 
