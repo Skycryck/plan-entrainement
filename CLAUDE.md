@@ -13,9 +13,18 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 
 ## Matériel
 
-- Vélo route Van Rysel NCR CF (Rival AXS) — PAS de capteur de puissance
+- Vélo route Van Rysel NCR CF (Rival AXS)
+- 🆕 **Pédales Favero Assioma Duo (double capteur) commandées, livraison attendue ~25/09.**
+  Dès réception, les sorties extérieures pourront être ciblées en watts.
+  ⚠️ **AVANT toute transposition de cibles : calibration croisée obligatoire.** La FTP de
+  215 W a été mesurée **par le home trainer** ; les pédales mesurent en amont de la
+  transmission et liront différemment (écart typique 1-3 %). Protocole : appairer les pédales
+  à l'Edge et le laisser enregistrer **en parallèle** d'une séance MyWhoosh, puis comparer un
+  bloc stable de 10 min. S17-A (seuil 2×18 min) est la séance idéale pour ça. Tant que l'écart
+  n'est pas connu, **ne pas appliquer 215 W aux sorties extérieures**
 - Home trainer AVEC puissance → séances intérieures ciblées en watts
-- Sorties extérieures ciblées en fréquence cardiaque
+- Sorties extérieures ciblées en fréquence cardiaque (à faire évoluer : **watts en cible,
+  FC en garde-fou** sur les séances B à blocs ; les longues Z2 restent bien en FC)
 - Garmin Edge 1040, ceinture Polar (capricieuse), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
   (mesuré en S10-A : **218 W à 103 rpm vs 227 W à 94 rpm** dans le même bloc).
