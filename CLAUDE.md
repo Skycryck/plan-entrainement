@@ -22,12 +22,13 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   → En ERG, plafonner la cadence à **~90-92 rpm**. Pour les séances où la cadence doit
   rester libre (VO2, test FTP), préférer le **mode libre/slope**
 
-## Valeurs de référence (retest FTP du 28/07/2026 — voir suivi/tests.md)
+## Valeurs de référence (retest FTP du 20/09/2026 — voir suivi/tests.md)
 
-- **FTP : 197 W** (retest 28/07/2026 : 20 min @ 207 W × 0,95, RPE 10, test bien
-  mené — départ direct ~205 W, régulier, PAS de négative split ; FCmax 186). W/kg ~3,2.
-  Confirme que le test de juin (155 W) était largement sous-estimé (négative split).
-  Prochain retest : S16 (22/09, post-coupure).
+- **FTP : 215 W** (retest 20/09/2026 : 20 min @ 226 W × 0,95 ; FCmax 191, FC moy de
+  l'effort ~177). W/kg ~3,5. **+18 W / +9,1 % sur les 197 W de juillet**, malgré
+  3 semaines sans vélo. ⚠️ Vraisemblablement **conservateur** : test lancé à 23h51,
+  ~10 h après une sortie de 1h29. Historique : 155 W (juin, sandbagé) → 197 W (28/07)
+  → 215 W (20/09). Pas d'autre test FTP programmé ; test final = chrono boucle S23 (13/11).
 - FC max observée : 193 bpm (vraie FCmax probablement 198-203)
 - FC seuil lactique (Garmin) : 178 bpm
 - VO2max estimé (Garmin) : 52
@@ -35,13 +36,13 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 ## Conventions du dépôt
 
 - Cocher les séances dans `suivi/journal.md` (- [ ] → - [x]) avec note éventuelle
-- Tout nouveau test (FTP : S8 ✅, S16 ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
+- Tout nouveau test (FTP : S8 ✅, S16 ✅ ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
 - Modifications du `.ics` : TOUJOURS conserver les UID existants
   (`plan-velo-s{semaine}-{a|b|c}@claude`) pour éviter les doublons côté calendriers
 - Semaine N : lundi = 2026-06-08 + 7×(N-1). A=mardi, B=vendredi, C=dimanche (déplaçables)
 - ⚠️ COUPURE VÉLO du 24/08 au 13/09 (vacances dès le 25/08 + rando itinérante, S12-S14) :
   footings Z2 optionnels, la semaine de rando = la charge. Reprise progressive S15,
-  retest FTP S16 (22/09). Le 150 km+ est en S21 (01/11), test final boucle S23 (13/11)
+  retest FTP S16 ✅ fait le 20/09. Le 150 km+ est en S21 (01/11), test final boucle S23 (13/11)
 - Semaines de récupération : 4, 8, 20 — ne jamais les supprimer pour "rattraper"
 - Séance ratée : on ne rattrape pas. 2+ semaines ratées : reculer d'une semaine dans le plan
 - Dashboard (`index.html` + `dashboard.js`, GitHub Pages) : parse `suivi/*.md` et
