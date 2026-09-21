@@ -72,9 +72,14 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   activités avec la localisation du **monde virtuel** (Mompóx en Colombie, Dubai…) et en déduit
   un fuseau horaire qui n'est pas celui de Jules. Le `start_local` peut être décalé de plusieurs
   heures, au point de **changer de jour** : le retest FTP du **lun. 21/09 à 9h30** est apparu en
-  « dim. 20/09 à 23h51 ». → Ne jamais déduire d'une activité MyWhoosh l'heure réelle, la
-  fraîcheur (« il l'a fait à minuit ») ni même la date quand elle est proche de minuit ;
-  **demander à Jules**. Les sorties extérieures (GPS réel) ne sont pas concernées
+  « dim. 20/09 à 23h51 ». Le **fichier FIT est sain** : les minutes sont intactes (décalage
+  d'un nombre entier d'heures = pure translation de fuseau), et le même fichier importé dans
+  Garmin Connect affiche l'heure correcte. Puissance, FC, durée et cadence sont donc fiables —
+  seule l'étiquette temporelle est fausse. → Ne jamais déduire d'une activité MyWhoosh l'heure
+  réelle, la fraîcheur (« il l'a fait à minuit ») ni même la date quand elle est proche de
+  minuit ; **demander à Jules**. Les sorties extérieures (GPS réel) ne sont pas concernées.
+  Correctif possible côté Jules : couper la synchro MyWhoosh→Strava et laisser Garmin→Strava
+  faire le relais (il importe déjà le FIT dans Garmin à la main)
 - ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
   Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
   face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).
