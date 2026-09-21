@@ -22,12 +22,13 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   → En ERG, plafonner la cadence à **~90-92 rpm**. Pour les séances où la cadence doit
   rester libre (VO2, test FTP), préférer le **mode libre/slope**
 
-## Valeurs de référence (retest FTP du 28/07/2026 — voir suivi/tests.md)
+## Valeurs de référence (retest FTP du 21/09/2026 — voir suivi/tests.md)
 
-- **FTP : 197 W** (retest 28/07/2026 : 20 min @ 207 W × 0,95, RPE 10, test bien
-  mené — départ direct ~205 W, régulier, PAS de négative split ; FCmax 186). W/kg ~3,2.
-  Confirme que le test de juin (155 W) était largement sous-estimé (négative split).
-  Prochain retest : S16 (22/09, post-coupure).
+- **FTP : 215 W** (retest 21/09/2026 : 20 min @ 226 W × 0,95 ; FCmax 191, FC moy de
+  l'effort ~177). W/kg ~3,5. **+18 W / +9,1 % sur les 197 W de juillet**, malgré
+  3 semaines sans vélo. Test fait le lundi matin sur jambes fraîches (veille écourtée
+  exprès). Historique : 155 W (juin, sandbagé) → 197 W (28/07) → 215 W (21/09).
+  Pas d'autre test FTP programmé ; test final = chrono boucle S23 (13/11).
 - FC max observée : 193 bpm (vraie FCmax probablement 198-203)
 - FC seuil lactique (Garmin) : 178 bpm
 - VO2max estimé (Garmin) : 52
@@ -35,13 +36,13 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 ## Conventions du dépôt
 
 - Cocher les séances dans `suivi/journal.md` (- [ ] → - [x]) avec note éventuelle
-- Tout nouveau test (FTP : S8 ✅, S16 ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
+- Tout nouveau test (FTP : S8 ✅, S16 ✅ ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
 - Modifications du `.ics` : TOUJOURS conserver les UID existants
   (`plan-velo-s{semaine}-{a|b|c}@claude`) pour éviter les doublons côté calendriers
 - Semaine N : lundi = 2026-06-08 + 7×(N-1). A=mardi, B=vendredi, C=dimanche (déplaçables)
 - ⚠️ COUPURE VÉLO du 24/08 au 13/09 (vacances dès le 25/08 + rando itinérante, S12-S14) :
   footings Z2 optionnels, la semaine de rando = la charge. Reprise progressive S15,
-  retest FTP S16 (22/09). Le 150 km+ est en S21 (01/11), test final boucle S23 (13/11)
+  retest FTP S16 ✅ fait le 21/09. Le 150 km+ est en S21 (01/11), test final boucle S23 (13/11)
 - Semaines de récupération : 4, 8, 20 — ne jamais les supprimer pour "rattraper"
 - Séance ratée : on ne rattrape pas. 2+ semaines ratées : reculer d'une semaine dans le plan
 - Dashboard (`index.html` + `dashboard.js`, GitHub Pages) : parse `suivi/*.md` et
@@ -62,11 +63,27 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 - Analyser les sorties via l'export ou l'API : vitesse à FC fixe (~135 bpm),
   dérive cardiaque sur les longues, distance max — voir suivi/indicateurs.md
 - ⚠️ **Laps Strava non fiables sur le DERNIER bloc d'une séance d'intervalles**
-  (constaté en S5-A, S7-A, S10-A) : le dernier lap replie systématiquement le bloc
+  (constaté en S5-A, S7-A, S10-A, S11-A, S15-A) : le dernier lap replie systématiquement le bloc
   **et** le retour au calme, ce qui écrase sa moyenne (S10-A : 141,9 W affichés pour
   223,3 W réels). → Toujours recalculer la moyenne du dernier bloc à la main sur le
   flux `watts` avant de conclure ; vérifier la cohérence `elapsed_time` vs
   `end_index - start_index`
+- ✅ **RÉSOLU (22/09) — horodatage faux sur les séances home trainer.** Cause : le **fuseau
+  horaire du compte Strava de Jules** était mal réglé (sur ~UTC−8), alors que sa localisation
+  indiquait bien une ville française. Strava applique le fuseau **du compte** aux activités
+  **sans GPS réel** (MyWhoosh, VirtualRide) et le fuseau **déduit du GPS** aux sorties
+  extérieures — d'où des sorties dehors toujours justes et des séances HT décalées de 10 h,
+  au point de **changer de jour** (le retest FTP du lun. 21/09 à 9h51 apparaissait en
+  « dim. 20/09 à 23h51 »). Jules a corrigé le réglage ; les nouvelles séances sont bonnes.
+  ⚠️ **Piège à éviter** : le lieu affiché sur une VirtualRide (« Mompóx, Colombie », « Dubai »)
+  est **le monde virtuel, pas la source du fuseau**. Ne pas refaire ce raisonnement — c'est la
+  fausse piste qui a fait perdre du temps ici.
+  ⚠️ **Séquelle** : les heures des séances HT **antérieures au 22/09** peuvent être fausses
+  (décalées d'un nombre entier d'heures, minutes intactes). Cela n'affecte ni la puissance, ni
+  la FC, ni la durée. En cas de doute sur l'heure ou la fraîcheur d'une vieille séance HT,
+  **demander à Jules** plutôt que de déduire. Deux notes du journal affirment une heure
+  (S6-A « le soir », S8-A « le matin (8h53) ») : non vérifiées, sans incidence sur les
+  conclusions
 - ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
   Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
   face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).

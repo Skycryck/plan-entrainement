@@ -85,28 +85,28 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 ### Semaine 12 (24/08 → 30/08)
 
-- [ ] **S12** — Lun-sam 24-29/08 : 2-3 footings Z2 de 30-50 min optionnels (vacances). **Dim 30/08 : départ rando itinérante (jour 1).**
+- [x] **S12** — 🇨🇦 **Vacances en Alberta (Canada)**, pas de footings mais une semaine très active. 🚵 **Sortie vélo le 27/08 : gravel de location Canmore ↔ Banff, 74,2 km / 3h18 en mouvement (4h53 avec arrêts), 493 m D+, FCmoy 144 / max 181, 22,5 km/h** — Komoot perdu plusieurs fois sur les cartes nord-américaines, d'où les arrêts. FCmoy 144 = haut de Z2, avec des portions à 165-175 bpm sur la Legacy Trail : sortie mixte plutôt que Z2 pure. Le reste : 2 marches (6,5 + 8,3 km) le 26/08, natation, 3 sorties kayak/packraft, petite rando de 3,7 km le 29/08. 🥾 **Dim 30/08 : Sawback Trail jour 1 — 25,7 km, 1170 m D+, 6h30 de marche** (Lake Louise → Red Deer Lake ; ours croisé avant même d'être sur le trail 🐻).
   - Notes : 
 ### Semaine 13 (31/08 → 06/09)
 
-- [ ] **S13** — 🥾 **RANDO ITINÉRANTE 30/08 → 04/09 : 129 km, 3500 m D+ / 3500 m D− sur 6 jours** = LA charge de la semaine, rien d'autre. Fin de semaine (05-06/09) : repos, récup des jambes (beaucoup d'excentrique en descente).
+- [x] **S13** — 🥾 **SAWBACK TRAIL (Banff N.P.) bouclé, jours 2 à 6.** Bilan des 6 jours : **139,6 km, 4574 m D+, 33h20 de marche** (J1 25,7 km/1170 m · J2 23,1/889 · J3 26,3/887 · J4 19,6/692 · J5 27,7/721 · J6 17,1/215), ~10 900 kcal. ⚠️ **Nettement plus dur que prévu** : le plan tablait sur 129 km et 3500 m D+, soit **+8 % de distance et +31 % de dénivelé** — et autant en descente, donc une charge excentrique supérieure d'un tiers à ce qui était anticipé. Trail très humide, ponts emportés par des glissements de terrain sur la fin, loup et ourse croisés. Fin de semaine : 2 petites randos à Revelstoke le 06/09 (0,6 et 2,5 km), sinon repos.
   - Notes : 
 ### Semaine 14 (07/09 → 13/09)
 
-- [ ] **S14** — Reprise douce : footings Z2 optionnels, on laisse les jambes finir de récupérer de la rando avant la reprise vélo (S15).
+- [x] **S14** — Reprise... pas si douce 😅. 🏃 **08/09 : 10,3 km en 1h00:01** (Elbow River, Calgary), 92 m D+, FCmoy **160** / max **189**, allure 5:49/km, cadence 82 → **record de distance ET de durée en course** (précédent : 6,83 km / 40 min le 19/08, soit +51 %). Splits réguliers 5:20-5:58 sauf le dernier km (6:47, ça montait) ; les pics à 188-189 sont sur les 2 derniers km. Plus une marche de 10,3 km le même jour. 🥾 **09/09 : Mont Grotto — 15,5 km mais 1592 m D+**, 5h16 en mouvement (7h avec arrêts) : **plus gros dénivelé d'une seule journée de tout le séjour**, avec des pentes à 60 % en descente. ⚠️ Semaine « récup » sur le papier, en réalité un 10 km en course 4 jours après la fin du trek, puis 1592 m D+ le lendemain. Aucune douleur signalée, mais l'excentrique s'est accumulé.
   - Notes : 
 
 ## Phase 2 — Build
 
 ### Semaine 15 (14/09 → 20/09)
 
-- [ ] **S15-A** (15/09) — REPRISE : 45 min Z2 + 3×5 min @85-90%
-- [ ] **S15-B** (18/09) — 1h30 Z2 souple
-- [ ] **S15-C** (20/09) — 3h (~75 km) Z2
+- [x] **S15-A** (15/09) — REPRISE sur MyWhoosh après 3 semaines sans vélo. **45 min Z2 à 125 W / FC 132** (pile Z2), puis **3×5 min à 171,7 / 170,8 / 171,8 W** — cible 85-90 % FTP = 167-177 W, **les 3 blocs dedans avec 1 W d'écart entre eux**. FC 159 / 161 / 162, r3. ⚠️ **Lap bug Strava, 5e fois** (S5-A, S7-A, S10-A, S11-A, S15-A) : le lap 6 annonce 300 s à 155,3 W mais couvre 369 index → bloc 3 recalculé sur le flux watts = **171,8 W** (contre-vérifié : 296 s à 171,8 W + 73 s à ~82 W = les 155 W affichés). ✅ **Aucun signe de désentraînement** : 171 W à FC 159-162 s'aligne exactement sur la relation puissance/FC d'avant la coupure (187 W → 167 bpm en S9-A). ⚠️ Cadence tenue à **~100 rpm**, au-dessus du plafond ERG de 90-92 rpm : cible atteinte quand même, mais dans la moitié basse de la fourchette — possible petite perte.
+- [x] **S15-B** (18/09) — 41,0 km / 1h33 en mouvement (1h54 avec arrêts), 177 m D+, FCmoy **138** / max 170, 26,5 km/h. Durée pile dans la consigne (1h30) et **Z2 tenue de bout en bout** (tous les tronçons entre 123 et 147 bpm). Un poil plus ferme que le « souple » de la consigne (S8-B était à 124) mais sans conséquence sur une semaine de reprise. 11 records de segments au passage — les jambes reviennent vite.
+- [x] **S15-C** (20/09) — **Volontairement écourtée** (3h prévues) pour préserver le retest FTP avancé au lendemain : **40,9 km / 1h29 en mouvement** (1h52 avec arrêts), 207 m D+, FCmoy **138** / max 182, 27,5 km/h. Z2 tenue (tronçons entre 125 et 147 bpm) avec quelques accélérations courtes en 2e moitié — format « ouvreurs », comme en S5-B la veille du chrono. Un peu plus long que les 1h-1h15 conseillés, sans conséquence vu le résultat du test.
   - Notes : 
 ### Semaine 16 (21/09 → 27/09)
 
-- [ ] **S16-A** (22/09) — RETEST FTP (partir ~205 W, régulier — surtout pas de départ prudent)
+- [x] **S16-A** (lun. 21/09) — 🎯 **RETEST FTP : 20 min @ 226 W → FTP 215 W** (×0,95), W/kg **3,5**. **+18 W / +9,1 % sur les 197 W de juillet, et ce malgré 3 semaines sans vélo.** FCmax **191** (vs 186 en juillet) = effort réellement maximal, à 99 % de la FCmax observée ; FC moyenne de l'effort ~177, ce qui **confirme la FC seuil de 178**. ✅ **Fait le lundi matin ~9h30 sur jambes fraîches**, ~19 h après S15-C (écourtée exprès la veille) et après une nuit de sommeil — exactement le plan retenu. ⚠️ Strava affichait « dim. 20/09 23h51 » : **horodatage faux**, dû au fuseau horaire du **compte Strava** mal réglé (~UTC−8), depuis corrigé — voir CLAUDE.md. ⚠️ **Lap non pressé** → bloc recalculé à la main sur le flux watts (226,0 W sur 1200 s exactement) ; le « 214w » de la description Strava était la FTP, pas la moyenne. ERG bien désactivé. **Allure par quart : 234 / 228 / 214 / 229 W** — 250 W sur la 1re minute (trop haut), creux au 3e quart, relance à 252 W sur la dernière. Pas régulier au cordeau, mais **pas de négative split** → test valide. Cadence basse (~70-75 rpm). Zones recalibrées → `plan/02-zones.md`, `CLAUDE.md`, détail dans `tests.md`.
 - [ ] **S16-B** (25/09) — 1h45 dont 2×15 min Z3
 - [ ] **S16-C** (27/09) — 3h30-4h (~95 km) Z2 — 📍 **mesure vitesse@135 protocolée** : plat, vent < 20 km/h, 1re heure à FC 135 (repli S17-C si vent)
   - Notes : 
@@ -185,7 +185,8 @@ d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 - [ ] **S9** (05/08) — 30 min
 - [ ] **S10** (12/08) — 30 min
 - [x] **S11** (19/08) — **6,83 km / 40:15 en mouvement** (47:06 avec un arrêt de ~7 min au km 3), footing du soir. FCmoy **155** / max 170, cadence 82 (≈164 pas/min), allure ~5:53/km, D+ 23 m. **Plus long footing du plan** : +2 km et +9 min vs le précédent (4,8 km / 31 min le 22/07). ⚠️ **Dépasse le plafond des ~35 min** de cette section, et arrive après **4 semaines sans courir** (S8, S9, S10 non faites) → saut de charge de +42 % en distance sur un sport à impacts. Rien d'alarmant en soi, mais à surveiller côté tibias/Achille avant la rando itinérante (3500 m D− d'excentrique). FC entre celles de S4 (159, validée « facile » au talk test) et S7 (148) → probablement easy, à confirmer au ressenti.
-- _S12-S14 — pause 🥾 (la rando est la charge)_
+- _S12-S13 — pause 🥾 (le Sawback Trail est la charge)_
+- [x] **S14** (08/09) — 🏃 **10,3 km en 1h00:01**, FCmoy 160 / max 189, allure 5:49/km, cadence 82. **Record de distance et de durée** (+51 % sur les 6,83 km du 19/08). Fait 4 jours après la fin du trek. ⚠️ Progression rapide : 4,8 km fin juillet → 6,8 km mi-août → 10,3 km début septembre. Cohérent avec son projet de monter à 2-3 footings/semaine, mais surveiller tibias et Achille — c'est le 3e saut consécutif de +40 % et plus.
 - [ ] **S15** (16/09) — 20-25 min, reprise douce (jambes post-rando)
 - [ ] **S16** (23/09) — 30 min
 - [ ] **S17** (30/09) — 30 min
