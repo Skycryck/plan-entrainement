@@ -78,8 +78,13 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   seule l'étiquette temporelle est fausse. → Ne jamais déduire d'une activité MyWhoosh l'heure
   réelle, la fraîcheur (« il l'a fait à minuit ») ni même la date quand elle est proche de
   minuit ; **demander à Jules**. Les sorties extérieures (GPS réel) ne sont pas concernées.
-  Correctif possible côté Jules : couper la synchro MyWhoosh→Strava et laisser Garmin→Strava
-  faire le relais (il importe déjà le FIT dans Garmin à la main)
+  ❌ **Pas de contournement simple, ne pas en proposer** : Strava n'autorise pas la modification
+  de la date/heure de départ d'une activité, et la date étant *calculée* depuis le fichier, la
+  supprimer et la réimporter redonne toujours le même résultat. Garmin→Strava ne relaie pas non
+  plus les fichiers importés à la main (seulement ce qui vient d'un appareil Garmin). Seul un
+  décalage des horodatages *à l'intérieur* du FIT corrigerait l'affichage — manipulation à
+  refaire à chaque séance, pour un gain purement cosmétique : **on ne corrige pas, on note la
+  vraie date dans le journal**, qui fait foi pour le dépôt et le dashboard
 - ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
   Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
   face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).
