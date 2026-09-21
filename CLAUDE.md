@@ -78,13 +78,21 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   seule l'étiquette temporelle est fausse. → Ne jamais déduire d'une activité MyWhoosh l'heure
   réelle, la fraîcheur (« il l'a fait à minuit ») ni même la date quand elle est proche de
   minuit ; **demander à Jules**. Les sorties extérieures (GPS réel) ne sont pas concernées.
-  ❌ **Pas de contournement simple, ne pas en proposer** : Strava n'autorise pas la modification
-  de la date/heure de départ d'une activité, et la date étant *calculée* depuis le fichier, la
-  supprimer et la réimporter redonne toujours le même résultat. Garmin→Strava ne relaie pas non
-  plus les fichiers importés à la main (seulement ce qui vient d'un appareil Garmin). Seul un
-  décalage des horodatages *à l'intérieur* du FIT corrigerait l'affichage — manipulation à
-  refaire à chaque séance, pour un gain purement cosmétique : **on ne corrige pas, on note la
-  vraie date dans le journal**, qui fait foi pour le dépôt et le dashboard
+  ⚠️ **Ce n'est PAS que cosmétique pour Jules** : une séance qui bascule de l'autre côté de
+  minuit change de semaine, ce qui fausse ses totaux hebdo et sa charge d'entraînement sur
+  Strava. Ne pas balayer le sujet.
+  Ce qui **ne marche pas** : modifier la date dans Strava (impossible, l'app ne le permet pas) ·
+  supprimer et réimporter (la date est *calculée* depuis le fichier, même calcul, même
+  résultat) · Garmin→Strava (ne relaie que ce qui vient d'un appareil Garmin, pas les fichiers
+  importés à la main).
+  ✅ **Correctif durable proposé** : enregistrer la séance **sur l'Edge 1040 en parallèle**
+  (MyWhoosh pilote le trainer en Bluetooth, l'Edge enregistre en ANT+ en mode intérieur), puis
+  Edge → Garmin Connect → Strava, qui fonctionne nativement. Couper la synchro MyWhoosh→Strava
+  pour éviter les doublons.
+  Correctif ponctuel si besoin : décaler les horodatages *dans* le FIT (fitfiletools et
+  équivalents). Décalage = **heure réelle − heure affichée**, et il **change selon le monde
+  virtuel** (~+10 h pour Mompóx, ~−2 h pour Dubai) → recalculer à chaque fois.
+  Dans tous les cas, **le journal fait foi** pour le dépôt et le dashboard
 - ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
   Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
   face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).
