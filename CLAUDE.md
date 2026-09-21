@@ -68,31 +68,22 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   223,3 W réels). → Toujours recalculer la moyenne du dernier bloc à la main sur le
   flux `watts` avant de conclure ; vérifier la cohérence `elapsed_time` vs
   `end_index - start_index`
-- ⚠️ **Horodatage Strava FAUX sur les activités MyWhoosh (VirtualRide).** Strava tague ces
-  activités avec la localisation du **monde virtuel** (Mompóx en Colombie, Dubai…) et en déduit
-  un fuseau horaire qui n'est pas celui de Jules. Le `start_local` peut être décalé de plusieurs
-  heures, au point de **changer de jour** : le retest FTP du **lun. 21/09 à 9h30** est apparu en
-  « dim. 20/09 à 23h51 ». Le **fichier FIT est sain** : les minutes sont intactes (décalage
-  d'un nombre entier d'heures = pure translation de fuseau), et le même fichier importé dans
-  Garmin Connect affiche l'heure correcte. Puissance, FC, durée et cadence sont donc fiables —
-  seule l'étiquette temporelle est fausse. → Ne jamais déduire d'une activité MyWhoosh l'heure
-  réelle, la fraîcheur (« il l'a fait à minuit ») ni même la date quand elle est proche de
-  minuit ; **demander à Jules**. Les sorties extérieures (GPS réel) ne sont pas concernées.
-  ⚠️ **Ce n'est PAS que cosmétique pour Jules** : une séance qui bascule de l'autre côté de
-  minuit change de semaine, ce qui fausse ses totaux hebdo et sa charge d'entraînement sur
-  Strava. Ne pas balayer le sujet.
-  Ce qui **ne marche pas** : modifier la date dans Strava (impossible, l'app ne le permet pas) ·
-  supprimer et réimporter (la date est *calculée* depuis le fichier, même calcul, même
-  résultat) · Garmin→Strava (ne relaie que ce qui vient d'un appareil Garmin, pas les fichiers
-  importés à la main).
-  ✅ **Correctif durable proposé** : enregistrer la séance **sur l'Edge 1040 en parallèle**
-  (MyWhoosh pilote le trainer en Bluetooth, l'Edge enregistre en ANT+ en mode intérieur), puis
-  Edge → Garmin Connect → Strava, qui fonctionne nativement. Couper la synchro MyWhoosh→Strava
-  pour éviter les doublons.
-  Correctif ponctuel si besoin : décaler les horodatages *dans* le FIT (fitfiletools et
-  équivalents). Décalage = **heure réelle − heure affichée**, et il **change selon le monde
-  virtuel** (~+10 h pour Mompóx, ~−2 h pour Dubai) → recalculer à chaque fois.
-  Dans tous les cas, **le journal fait foi** pour le dépôt et le dashboard
+- ✅ **RÉSOLU (22/09) — horodatage faux sur les séances home trainer.** Cause : le **fuseau
+  horaire du compte Strava de Jules** était mal réglé (sur ~UTC−8), alors que sa localisation
+  indiquait bien une ville française. Strava applique le fuseau **du compte** aux activités
+  **sans GPS réel** (MyWhoosh, VirtualRide) et le fuseau **déduit du GPS** aux sorties
+  extérieures — d'où des sorties dehors toujours justes et des séances HT décalées de 10 h,
+  au point de **changer de jour** (le retest FTP du lun. 21/09 à 9h51 apparaissait en
+  « dim. 20/09 à 23h51 »). Jules a corrigé le réglage ; les nouvelles séances sont bonnes.
+  ⚠️ **Piège à éviter** : le lieu affiché sur une VirtualRide (« Mompóx, Colombie », « Dubai »)
+  est **le monde virtuel, pas la source du fuseau**. Ne pas refaire ce raisonnement — c'est la
+  fausse piste qui a fait perdre du temps ici.
+  ⚠️ **Séquelle** : les heures des séances HT **antérieures au 22/09** peuvent être fausses
+  (décalées d'un nombre entier d'heures, minutes intactes). Cela n'affecte ni la puissance, ni
+  la FC, ni la durée. En cas de doute sur l'heure ou la fraîcheur d'une vieille séance HT,
+  **demander à Jules** plutôt que de déduire. Deux notes du journal affirment une heure
+  (S6-A « le soir », S8-A « le matin (8h53) ») : non vérifiées, sans incidence sur les
+  conclusions
 - ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
   Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
   face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).
