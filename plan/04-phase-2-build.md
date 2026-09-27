@@ -33,7 +33,7 @@ coûte nettement plus cher qu'un fractionné de même durée totale — 2×20 mi
 | Sem. | A — Home trainer | B — Vendredi | C — Longue Z2 |
 |---|---|---|---|
 | 15 (14-20/09) | REPRISE : 45 min Z2 + 3×5 min @85-90 % | 1h30 Z2 souple | 3h (~75 km) |
-| 16 (21-27/09) | **RETEST FTP** (recalibrer les watts !) | 1h45 dont 2×15 min Z3 | 3h30-4h (~95 km) |
+| 16 (21-27/09) | ✅ **RETEST FTP** (lun. 21/09) → **215 W** | 1h45 dont 2×15 min Z3 | 3h30-4h (~95 km) |
 | 17 (28/09-04/10) | Seuil 2×18 min @95-100 % | 2h dont 2×20 min @155-165 bpm | 4h15 (~105 km) |
 | 18 (05-11/10) | VO2 5×4 min @108-112 %, r4 | 1h30 dont 3×10 min @160-170 bpm | 4h30 (~115 km) |
 | 19 (12-18/10) | Seuil 2×20 min @95-100 % | 2h Z2 + 30 min final Z3 | ⭐ 5h (~130 km) |
@@ -46,13 +46,18 @@ Règle de reprise (S15) : si une cible paraît dure, réduire de 5-10 % sans cul
 comme les jambes : S10-C (16/08) a montré qu'on part de **~30 g/h** réels, avec une
 fringale au km 25. On monte donc par paliers sur les longues qui restent.
 
+⏳ **État au 27/09 : toujours l'ISO Decathlon**, dont le goût ne passera pas 6h (voir règle 3).
+Paliers recalés : S15-C et S16-C, raccourcies, n'ont rien testé → on repart des 47 g/h de
+S11-C. **Choisir le remplaçant avant S17-C (04/10)** pour le tester sur 2 longues (S17-C,
+S18-C) avant la répétition générale de S19-C — règle 4.
+
 | Sortie | Date | Durée | Cible g/h | À tester |
 |---|---|---|---|---|
-| S11-C | 23/08 | 4h15 | **45-50** | Menu arrêté : 2×43 g d'iso + 2 bananes + barre Clif + gel + compote = **201 g, soit 47 g/h**. Bidon iso + bidon d'eau au départ, 2e dose de poudre à sec pour le ravito. Test révisé : **même iso qu'en S10-C, mais SANS café au départ** → si le ventre va bien, le café était le déclencheur ; s'il tire quand même, c'est bien le produit et on en change pendant la coupure. Fruits secs retirés |
-| S15-C | 20/09 | 3h | 50 | — |
-| S16-C | 27/09 | 3h30-4h | 60 | — |
-| S17-C | 04/10 | 4h15 | 70 | — |
-| S18-C | 11/10 | 4h30 | 75-80 | Format exact du 150 km |
+| S11-C | 23/08 | 4h15 | **45-50** | ✅ Fait : 2×43 g d'iso + 2 bananes + barre Clif + gel + compote ≈ **47 g/h**, café 4h30 avant, sans fruits secs → **aucun souci digestif** |
+| S15-C | 20/09 | 3h | 50 | Raccourcie à 1h29 (retest FTP le lendemain) : pas de test |
+| S16-C | 27/09 | 3h30-4h | 60 | Raccourcie à 2h15 : pas de test |
+| S17-C | 04/10 | 4h15 | **60** | **Remplaçant de l'iso — test n°1** |
+| S18-C | 11/10 | 4h30 | **75** | **Remplaçant — test n°2** + format exact du 150 km |
 | S19-C | 18/10 | 5h / 130 km | **90** | ⭐ Répétition générale complète |
 | S21-C | 01/11 | 150 km | **90** | ❌ **Rien de nouveau ce jour-là** |
 
@@ -70,20 +75,10 @@ fringale au km 25. On monte donc par paliers sur les longues qui restent.
    isotonique 6-8 % et plus dilué que la notice (6,5 %). ⚠️ *Toujours raisonner en grammes
    de glucides, jamais de poudre — c'est la tonicité qui compte.*
 
-   **Enquête sur l'incident de S10-C, résumé.** Éliminés successivement : la concentration
-   (5,4 %, et ~20-25 g seulement ingérés au km 20) ; la quantité de glucides, la tonicité,
-   la caféine et l'acidité — via l'observation décisive de Jules, qui boit **500 ml de Coca
-   d'un trait sans gêne** (53 g de sucre à 10,6 %, caféiné, pH ~2,5) là où 500 ml d'iso
-   (27 g à 5,4 %) le gênent. Restait une **piste « charge minérale »** : à son dosage l'iso
-   apporte **494 mg/L de potassium** (2,5-5× la normale) et **93 mg/L de magnésium**, deux
-   irritants digestifs connus, absents du Coca.
-
-   ❌ **Cette piste est démentie par S11-C (23/08)** : même produit, même dosage, **aucun
-   problème**. Le mécanisme reste plausible mais n'est pas la cause — la boisson était
-   identique les deux fois. Ce qui a changé : le **café pris 4h30 avant** au lieu de juste
-   avant (→ règle 5, validée), et le **retrait des fruits secs**. Ce sont eux les suspects.
-   Le fructose des fruits secs reste non testé : les 125 g de trail mix de S10-C en
-   apportaient sans doute 30-40 g, or l'absorption sature vers 30 g/h sans glucose associé.
+   **Incident de S10-C (urgence au km 20) : l'iso est disculpée.** Même produit, même dosage
+   en S11-C : **aucun problème**. Ce qui avait changé : le **café pris 4h30 avant** au lieu de
+   juste avant (→ règle 5, validée) et le **retrait des fruits secs** (fructose : l'absorption
+   sature vers 30 g/h sans glucose associé — jamais retesté). Ce sont eux les suspects.
    **Leçon de méthode : ne pas conclure sur une sortie où plusieurs variables bougent.**
 
    🔄 **Le vrai sujet est désormais le GOÛT.** Jules trouve cette iso « un peu dégoûtante »

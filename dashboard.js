@@ -8,7 +8,7 @@
 const YEAR = 2026;
 const PLAN_START = new Date(YEAR, 5, 8); // lundi de S1
 const TOTAL_WEEKS = 24;
-const WEIGHT_KG = 62;
+const WEIGHT_KG = 61; // pesée du 27/09/2026
 const VOLT = "#c3f53c";
 const VOLT_DIM = "#86b32f";
 const MUTED = "#8494a6";
@@ -191,10 +191,14 @@ function statusOf(item, today) {
 }
 
 function rideMetrics(text) {
-  const km = text.match(/(\d+(?:[.,]\d+)?)\s*km\b/i);
+  // Le réalisé s'écrit "61,4 km / 2h15" (ou "81,7 km (3h30") : cette paire prime sur le
+  // premier nombre venu, qui peut être la consigne ("3h prévues") ou un titre ("100 KM").
+  const pair = text.match(/(\d+(?:[.,]\d+)?)\s*km\s*(?:\/|\()\s*(\d+)h(\d{2})?/i);
+  const km = pair || text.match(/(\d+(?:[.,]\d+)?)\s*km\b/i);
   const dplus = text.match(/(\d[\d\s]*)\s*m D\+/);
   const fc = text.match(/FC\s*moy\s*\**(\d+)/i);
-  const dur = text.match(/(\d+)h(\d{1,2})?/);
+  // sans distance (HT), un "8h53" est une heure de la journée, pas une durée
+  const dur = pair ? pair.slice(1) : km ? text.match(/(\d+)h(\d{1,2})?/) : null;
   return {
     km: km ? parseFrFloat(km[1]) : null,
     dplus: dplus ? parseInt(dplus[1].replace(/\s/g, ""), 10) : null,
@@ -258,13 +262,13 @@ function currentWeekNum(today) {
 }
 
 function coachMessage(ctx) {
-  const d = ctx.lastDrift;
+  const d = ctx.lastDrift?.value;
   if (ctx.weekInfo?.phase === 0)
     return "Coupure assumée : la rando, c'est de la charge aussi. Le vélo t'attend, et il te retrouvera plus fort.";
   if (ctx.weekInfo?.recup)
     return "Semaine de récup : c'est au repos que le corps encaisse les watts. Lever le pied fait partie du plan.";
   if (d != null && d < 5)
-    return `Dérive cardiaque ~${fmtNum(d, 1)} % sur ta dernière longue : le foncier s'installe, sortie après sortie.`;
+    return `Dérive cardiaque ~${fmtNum(d, 1)} % sur ta dernière longue mesurable (${ctx.lastDrift.date.slice(0, 5)}) : le foncier s'installe, sortie après sortie.`;
   if (ctx.regularity >= 0.9)
     return "La régularité est là — exactement le muscle que tu voulais construire. Continue de cocher.";
   return "Chaque séance cochée est une brique. Le plan fait le reste.";
@@ -284,7 +288,7 @@ function renderHero(stats, journal, today, tests, indic) {
   $("coach-msg").textContent = coachMessage({
     weekInfo,
     regularity: stats.regularity,
-    lastDrift: lastCleanDrift ? lastCleanDrift.value : null,
+    lastDrift: lastCleanDrift || null,
   });
 
   const next = stats.nextSession;
@@ -335,8 +339,8 @@ function renderRegularite(stats, journal, today) {
   // heatmap : lignes A / B / C (+ bonus D, E… si présents) / footing, colonnes S1..S24
   const bySlot = {};
   for (const s of stats.rides) bySlot[`${s.week}-${s.slot}`] = s;
-  const runByWeek = {};
-  for (const r of journal.runs) runByWeek[r.week] = r;
+  const runsByWeek = {}; // 2-3 footings possibles par semaine depuis S17
+  for (const r of journal.runs) (runsByWeek[r.week] ??= []).push(r);
 
   const extraSlots = [...new Set(stats.rides.map((s) => s.slot).filter((sl) => sl > "C"))].sort();
   const slots = ["A", "B", "C", ...extraSlots];
@@ -363,10 +367,13 @@ function renderRegularite(stats, journal, today) {
       const tip = `S${w}-${slot}${s.date ? " · " + fmtDate(s.date) : ""} — ${stripMd(s.text).slice(0, 110)}`;
       cells += `<div class="cell ${s.status}" title="${escapeHtml(tip)}"></div>`;
     }
-    const r = runByWeek[w];
-    if (r) {
-      const cls = r.status === "done" ? "run-done" : r.status === "skipped" ? "run-skipped" : "upcoming";
-      cells += `<div class="cell ${cls}" title="${escapeHtml(`Footing S${w}${r.date ? " · " + fmtDate(r.date) : ""} — ${stripMd(r.text).slice(0, 90)}`)}"></div>`;
+    const rs = runsByWeek[w];
+    if (rs) {
+      const nDone = rs.filter((r) => r.status === "done").length;
+      const cls = nDone ? "run-done" : rs.every((r) => r.status === "skipped") ? "run-skipped" : "upcoming";
+      const detail = rs.map((r) => `${r.date ? fmtDate(r.date) + " " : ""}${stripMd(r.text).slice(0, 60)}`).join(" · ");
+      const count = rs.length > 1 ? ` (${nDone}/${rs.length})` : "";
+      cells += `<div class="cell ${cls}" title="${escapeHtml(`Footing S${w}${count} — ${detail}`)}"></div>`;
     } else {
       cells += `<div class="cell none"></div>`;
     }
@@ -516,7 +523,7 @@ function renderCharts(stats, journal, tests, indic) {
   const ftpSlots = [
     { label: "S1 · 11/06", key: "S1" },
     { label: "S8 · 28/07", key: "S8" },
-    { label: "S16 · 22/09", key: "S16" },
+    { label: "S16 · 21/09", key: "S16" },
   ];
   const ftpData = ftpSlots.map((slot) => {
     const t = tests.ftpTests.find((x) => x.ftp && (x.week || "").startsWith(slot.key));
@@ -694,9 +701,10 @@ function renderMilestones(tests, today) {
       pending: !tests.chronoTarget,
     },
     { icon: "📈", label: "Retest FTP (S8)", date: "28/07", sub: "→ 197 W (20 min @ 207 W)" },
-    { icon: "🥾", label: "Coupure — vacances & rando itinérante", date: "24/08", sub: "129 km · 3 500 m D+ à pied" },
+    { icon: "🥾", label: "Coupure — vacances & rando itinérante", date: "24/08", sub: "139,6 km · 4 574 m D+ à pied" },
     { icon: "🚴", label: "Reprise vélo (S15)", date: "15/09", sub: "en douceur, jambes post-rando" },
-    { icon: "📈", label: "Retest FTP post-coupure (S16)", date: "22/09", sub: "recalibrage des zones" },
+    { icon: "📈", label: "Retest FTP post-coupure (S16)", date: "21/09", sub: "→ 215 W (20 min @ 226 W)" },
+    { icon: "❤️", label: "Test FC max — ramp sur HT (S20-B)", date: "23/10", sub: "jambes fraîches, semaine de récup" },
     { icon: "⭐", label: "Première 130 km (S19)", date: "18/10", sub: "la plus longue du plan… avant la suivante" },
     { icon: "⭐", label: "Objectif 150 km+ (S21)", date: "01/11", sub: "60-90 g de glucides / h" },
     { icon: "⏱️", label: "Test final — boucle de réf. (S23)", date: "13/11", sub: "le verdict du chrono" },
@@ -758,7 +766,7 @@ function renderZones(zonesData) {
       <span class="zone-feel">${escapeHtml(z.feel)}</span>
     </div>`
   ).join("") +
-  `<p class="zones-ftp-note">HT en watts · extérieur en FC. Règle : 2 séances sweet spot faciles d'affilée (RPE ≤ 6) → cibles +5 %.</p>`;
+  `<p class="zones-ftp-note">HT en watts · extérieur en FC. Règle : S17-A et S19-A (seuil) tenues à RPE ≤ 7 → cibles +3 %.</p>`;
 }
 
 function renderFeed(stats) {

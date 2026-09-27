@@ -20,7 +20,7 @@
 
 1. Faire la séance (détail dans le calendrier ou `plan/`)
 2. Cocher dans `suivi/journal.md` + note rapide si besoin
-3. Après chaque test — FTP : S1 ✅, S8 ✅, S16 · chronos : S5 ✅, S23 — remplir `suivi/tests.md` et mettre à jour les zones dans `plan/02-zones.md` et `CLAUDE.md`
+3. Après chaque test — FTP : S1 ✅, S8 ✅, S16 ✅ · FCmax : S20 · chronos : S5 ✅, S23 — remplir `suivi/tests.md` et mettre à jour les zones dans `plan/02-zones.md` et `CLAUDE.md`
 4. Pour décaler des séances : modifier le `.ics` **en gardant les UID identiques**, commit, les calendriers abonnés se mettent à jour
 
 ## Dashboard

@@ -5,18 +5,19 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 
 ## Athlète
 
-- Cycliste intermédiaire, ~62 kg, basé près de Niort (terrain plat, vent fréquent)
+- Cycliste intermédiaire, **61 kg** (27/09/2026), basé près de Niort (terrain plat, vent fréquent)
 - Gros fond aérobie (134 km déjà réalisés, trek GR54), mais aucun entraînement
   structuré avant ce plan ; régularité hivernale = faiblesse historique
 - 3 séances/semaine : mardi home trainer (HT), vendredi qualité, dimanche longue
-- Autres sports : rando, un peu de course à pied Z2
+- Autres sports : rando, course à pied Z2 — **2 footings/sem depuis S17** (lundi + mercredi,
+  3e optionnel les semaines légères), détail dans `suivi/journal.md`
 
 ## Matériel
 
 - Vélo route Van Rysel NCR CF (Rival AXS) — PAS de capteur de puissance
 - Home trainer AVEC puissance → séances intérieures ciblées en watts
 - Sorties extérieures ciblées en fréquence cardiaque
-- Garmin Edge 1040, ceinture Polar (capricieuse), MyWhoosh
+- Garmin Edge 1040 + montre Garmin Fenix 8, ceinture Polar (capricieuse), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
   (mesuré en S10-A : **218 W à 103 rpm vs 227 W à 94 rpm** dans le même bloc).
   → En ERG, plafonner la cadence à **~90-92 rpm**. Pour les séances où la cadence doit
@@ -25,31 +26,39 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 ## Valeurs de référence (retest FTP du 21/09/2026 — voir suivi/tests.md)
 
 - **FTP : 215 W** (retest 21/09/2026 : 20 min @ 226 W × 0,95 ; FCmax 191, FC moy de
-  l'effort ~177). W/kg ~3,5. **+18 W / +9,1 % sur les 197 W de juillet**, malgré
+  l'effort ~177). **3,5 W/kg** (61 kg). **+18 W / +9,1 % sur les 197 W de juillet**, malgré
   3 semaines sans vélo. Test fait le lundi matin sur jambes fraîches (veille écourtée
   exprès). Historique : 155 W (juin, sandbagé) → 197 W (28/07) → 215 W (21/09).
-  Pas d'autre test FTP programmé ; test final = chrono boucle S23 (13/11).
-- FC max observée : 193 bpm (vraie FCmax probablement 198-203)
-- FC seuil lactique (Garmin) : 178 bpm
+  Pas d'autre test FTP programmé : les cibles watts évoluent par la **règle d'ajustement**
+  de `plan/02-zones.md` (+3 % si S17-A et S19-A sont faciles). Test final = chrono boucle S23 (13/11).
+- FC max observée : **193 bpm** (11/06) ; 191 en fin de retest maximal (21/09), 191 en montée
+  (S6-C), 189 en course. FCmax réelle estimée ~193-196. Test ramp sur HT programmé en **S20-B (23/10)**
+- FC seuil lactique (Garmin) : 178 bpm — ⚠️ très probablement détectée par la **Fenix en course
+  à pied** (la détection auto du seuil est une fonction course chez Garmin, valeur partagée entre
+  appareils). En vélo elle est sans doute plus basse, **~172-176** (voir `plan/02-zones.md`) :
+  à vérifier sur la fin des blocs seuil de S17-A et S19-A
 - VO2max estimé (Garmin) : 52
 
 ## Conventions du dépôt
 
 - Cocher les séances dans `suivi/journal.md` (- [ ] → - [x]) avec note éventuelle
-- Tout nouveau test (FTP : S8 ✅, S16 ✅ ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
+- Tout nouveau test (FTP : S8 ✅, S16 ✅ ; FCmax : S20-B ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
 - Modifications du `.ics` : TOUJOURS conserver les UID existants
   (`plan-velo-s{semaine}-{a|b|c}@claude`) pour éviter les doublons côté calendriers
 - Semaine N : lundi = 2026-06-08 + 7×(N-1). A=mardi, B=vendredi, C=dimanche (déplaçables)
-- ⚠️ COUPURE VÉLO du 24/08 au 13/09 (vacances dès le 25/08 + rando itinérante, S12-S14) :
-  footings Z2 optionnels, la semaine de rando = la charge. Reprise progressive S15,
-  retest FTP S16 ✅ fait le 21/09. Le 150 km+ est en S21 (01/11), test final boucle S23 (13/11)
+- Coupure vélo S12-S14 (24/08 → 13/09, Canada + Sawback Trail) : faite, reprise S15, retest
+  FTP S16 ✅. Restent : 150 km+ en S21 (01/11), test final boucle S23 (13/11), 150 km+ en S24 (22/11)
 - Semaines de récupération : 4, 8, 20 — ne jamais les supprimer pour "rattraper"
 - Séance ratée : on ne rattrape pas. 2+ semaines ratées : reculer d'une semaine dans le plan
 - Dashboard (`index.html` + `dashboard.js`, GitHub Pages) : parse `suivi/*.md` et
   `plan/02-zones.md` côté navigateur → conserver le format des lignes de séance
   `- [x] **S{n}-{A|B|C}** (date) — note` et la structure des tableaux existants.
   Séance décalée → mettre à jour la date **entre parenthèses** (règle du dashboard :
-  non cochée + date passée = ratée ; le texte de la note n'est pas interprété).
+  non cochée + date passée = ratée ; le statut ne dépend pas du texte de la note).
+  Le dashboard extrait en revanche **km, durée, D+ et FCmoy de la note** : écrire le
+  réalisé sous la forme **`61,4 km / 2h15`** (distance puis durée en mouvement), puis
+  `346 m D+` et `FCmoy 143`. Une heure de la journée s'écrit `8:53`, jamais `8h53`
+  (sinon elle risque d'être lue comme une durée)
   Séance en plus une semaine donnée (chrono, sortie bonus…) → l'ajouter au journal
   avec la lettre suivante (`**S{n}-D**`, puis E…) : le dashboard lui crée une ligne
   « bonus » dans la heatmap et la compte dans la régularité
@@ -68,22 +77,13 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   223,3 W réels). → Toujours recalculer la moyenne du dernier bloc à la main sur le
   flux `watts` avant de conclure ; vérifier la cohérence `elapsed_time` vs
   `end_index - start_index`
-- ✅ **RÉSOLU (22/09) — horodatage faux sur les séances home trainer.** Cause : le **fuseau
-  horaire du compte Strava de Jules** était mal réglé (sur ~UTC−8), alors que sa localisation
-  indiquait bien une ville française. Strava applique le fuseau **du compte** aux activités
-  **sans GPS réel** (MyWhoosh, VirtualRide) et le fuseau **déduit du GPS** aux sorties
-  extérieures — d'où des sorties dehors toujours justes et des séances HT décalées de 10 h,
-  au point de **changer de jour** (le retest FTP du lun. 21/09 à 9h51 apparaissait en
-  « dim. 20/09 à 23h51 »). Jules a corrigé le réglage ; les nouvelles séances sont bonnes.
-  ⚠️ **Piège à éviter** : le lieu affiché sur une VirtualRide (« Mompóx, Colombie », « Dubai »)
-  est **le monde virtuel, pas la source du fuseau**. Ne pas refaire ce raisonnement — c'est la
-  fausse piste qui a fait perdre du temps ici.
-  ⚠️ **Séquelle** : les heures des séances HT **antérieures au 22/09** peuvent être fausses
-  (décalées d'un nombre entier d'heures, minutes intactes). Cela n'affecte ni la puissance, ni
-  la FC, ni la durée. En cas de doute sur l'heure ou la fraîcheur d'une vieille séance HT,
-  **demander à Jules** plutôt que de déduire. Deux notes du journal affirment une heure
-  (S6-A « le soir », S8-A « le matin (8h53) ») : non vérifiées, sans incidence sur les
-  conclusions
+- ✅ **Heure des séances HT (résolu le 22/09).** Strava applique le fuseau **du compte** aux
+  activités sans GPS (MyWhoosh) et celui du GPS aux sorties dehors. Le fuseau du compte était
+  faux → séances HT décalées au point de changer de jour (retest du lun. 21/09 affiché
+  « dim. 20/09 23h51 »). Jules l'a corrigé ; vérifié le 27/09 : les heures HT affichées sont
+  de nouveau justes (S6-A 20:33, S8-A 8:53, S16-A 8:51). ⚠️ Le lieu d'une VirtualRide
+  (« Mompóx », « Dubai ») est le monde virtuel, **pas** la source du fuseau. Si une heure
+  paraît incohérente, demander à Jules plutôt que de déduire
 - ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
   Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
   face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).

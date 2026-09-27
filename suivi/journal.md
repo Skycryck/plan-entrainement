@@ -14,7 +14,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 - [x] **S1-A** (jeu. 11/06) — Test FTP 20 min → **155 W** (20 min @ 163 W, négative split, FCmax 193)
 - [x] **S1-C** (sam. 13/06) — Sortie longue 81,7 km (3h30, **762 m D+**) — FCmoy 144, max 176. Parcours vallonné, Z2 difficile à tenir sur les bosses (ta remarque 😅). FCmoy 144 = plafond Z2, acceptable vu le dénivelé. Dérive ~7 % mais surévaluée (bosses concentrées en fin).
-- [x] **S1-B** (dim. 14/06) — 28,5 km / 1h10 Z2 (FCmoy **129**, max 168 sur 1 sprint) — parfait Z2. ⏳ Test FCmax NON fait : élastique de ceinture HS, nouvelle commandée → à caler sur une bosse dès réception.
+- [x] **S1-B** (dim. 14/06) — 28,5 km / 1h10 Z2 (FCmoy **129**, max 168 sur 1 sprint) — parfait Z2. Test FCmax non fait (élastique de ceinture HS) → programmé en S20-B, voir tests.md.
   - Notes : 
 ### Semaine 2 (15/06 → 21/06)
 
@@ -25,13 +25,13 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 3 (22/06 → 28/06)
 
 - [x] **S3-A** (23/06) — 2×15 min SS, r5 sur MyWhoosh. Bloc 1 **139,7 W** ✅ (cible 136-146) ; bloc 2 **130 W** avec FC plus haute (152 vs 147) = **coup de chaud** : cramé par la canicule (40°C+ depuis ~4 j à Niort), HT en intérieur sans évacuation de la chaleur. Cadence basse (~66). Pas un signal de forme → cibles inchangées. Finir la séance dans ces conditions = déjà solide.
-- [x] **S3-B** (26/06) — Chrono reporté (canicule + dette de sommeil). À la place : **reco nocturne de la boucle de référence**, 44 km / 1h46 en Z2 souple (FCmoy 129, de nuit pour fuir la chaleur 🫠). ⚠️ Verdict : la boucle ne convient pas — des parties pas assez roulantes → à revoir avant le chrono.
+- [x] **S3-B** (26/06) — Chrono reporté (canicule + dette de sommeil). À la place : **reco nocturne de la boucle de référence**, 44 km / 1h46 en Z2 souple (FCmoy 129, de nuit pour fuir la chaleur 🫠). ⚠️ Verdict : la boucle ne convient pas — des parties pas assez roulantes → boucle révisée le 28/06 (voir tests.md).
 - [x] **S3-C** (28/06) — 70 km / 2h51, 391 m D+, FCmoy 133 / max 173. **Z2 bien tenue cette fois** (dérive faible ~2-3 %), belle régularité. Un poil plus court que 3h15 mais distance proche. 👍
   - Notes : 
 ### Semaine 4 (29/06 → 05/07) 🌿 récup
 
 - [ ] **S4-A** (30/06) — RÉCUP 45 min Z1-Z2 — ⚠️ non faite (pas de rattrapage, règle du plan). Semaine de récup : sans conséquence.
-- [x] **S4-B** (ven. 03/07) — Canicule → séance remplacée : **1h Z2 souple, 27 km** le soir. Le ⏱️ chrono initial part au **sam. 11/07 à l'aube** (minimales ~18°C) → suivi dans tests.md, ce n'est pas une séance ratée. Sommeil récupéré ✅, point de départ repéré ✅. Si trop cassé par la semaine de boulot (extérieur, 35-38°C), recaler.
+- [x] **S4-B** (ven. 03/07) — Canicule → séance remplacée : **1h Z2 souple, 27 km** le soir. Le ⏱️ chrono initial part au **sam. 11/07 à l'aube** (minimales ~18°C) → suivi dans tests.md, ce n'est pas une séance ratée. Sommeil récupéré ✅, point de départ repéré ✅.
 - [x] **S4-C** (05/07) — 50,9 km / 2h02, 240 m D+, FCmoy 138 / max 166. Z2 tenue **malgré 39°C** 🥵 (arrêts pour se rafraîchir). Légère dérive en 2e moitié = chaleur, pas la forme. ⚠️ 2h à 39°C = limite côté sécurité (privilégier tôt le matin par ces températures).
   - Notes : 
 ### Semaine 5 (06/07 → 12/07)
@@ -72,7 +72,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 - [x] **S10-A** (11/08) — VO2 5×3 min @110-115 %, r3 sur MyWhoosh (ERG). **1re séance VO2 du plan**, cible 217-227 W. **Les 5 blocs dans la cible : 221,4 / 220,7 / 221,0 / 219,9 / 223,3 W** (moy. **221 W = 112 % FTP**), FC 161/158/161/165/167 (max **180** = 93 % de la FCmax observée), cad 82/87/91/97/91. Pics à 5 s plafonnés à 237 W → départs non sprintés. **RPE 8** = pile la sensation VO2 attendue → zones bien calées, aucun ajustement (prochain recalibrage au retest S16). ⚠️ **Découpage Strava re-bugué** (3e fois après S5-A et S7-A, toujours le dernier lap) : le lap 10 annonce 141,9 W en repliant le bloc 5 **et** tout le retour au calme (395 s au lieu de 180) → bloc 5 recalculé à la main sur le flux watts = **223,3 W**, son meilleur. 🔧 **Découverte matériel** : l'ERG perd des watts en haute cadence — dans le bloc 4, **218 W à 103 rpm contre 227 W à 94 rpm** au sein du même effort, sans récupérer (confirme le ressenti de Jules). Effet faible sur la moyenne d'un bloc (~3 W) mais bien réel → **plafonner la cadence à ~90-92 rpm en ERG**, voir CLAUDE.md § Matériel.
 - [x] **S10-B** (14/08) — 2h dont 2×20 min @155-165 bpm : **56,3 km / 2h02 en mouvement (2h06 avec arrêts), 229 m D+**, FCmoy 145 / max 171, 27,8 km/h. **Les 2 blocs pile au centre de la cible : ~159 puis ~161 bpm** (20:00 et ~19:15). ✅ **Leçon de S9-B appliquée** : parcours roulant (229 m D+ sur 56 km, vs 507 m sur 43 km en S9-B) → FC bien plus stable dans les blocs (152-166 puis 155-170, contre un yo-yo 150-169) à FC moyenne identique. Le bloc 2 pousse un peu au-dessus du plafond en fin (165-170) = chaleur. **RPE 7** sur des blocs allongés de 15 à 20 min. ⚠️ **Chaleur extrême : capteur à 41-43°C pendant toute la sortie, 44°C sur la fin** (départ 13h ; l'Edge au soleil surestime, ~38-40°C réels) → **vitesse et FC non comparables, aucun indicateur relevé**. 6 records perso de segments (or) malgré ça. ⚠️ 2h à cette température dépasse le seuil déjà signalé en S4-C et S5-C (39°C) — enjeu réel pour la 4h de S10-C.
-- [x] **S10-C** (16/08) — ⭐ **PREMIER 100 KM DU PLAN : 105,6 km / 3h58 en mouvement (4h32 avec arrêts), 418 m D+**, FCmoy 135 / max 170, 26,7 km/h. Nouveau record de distance (précédent : 97,9 km en S7-C) → **palier 100 km validé**. Déroulé « catastrophique » (ses mots) : **vent de face sur 50 km**, 2 déraillages, **panne de glucides**, et une urgence intestinale 😅. Départ 16h → **37-38°C sur la 1re heure**, puis refroidissement régulier jusqu'à 26°C. **Deux sorties en une** : 1re moitié (55 km) à **23,8 km/h @ 131,6 bpm** face au vent, 2e moitié (50,6 km) à **30,8 km/h @ 140,8 bpm** vent dans le dos. Profil FC en 3 actes : départ trop haut (143 bpm vers le km 20, chaleur), puis **35 km à 126-130 bpm = signature de la fringale** (la FC ne monte plus malgré le vent de face), puis 50 km stables à 140-145 après ravitaillement. ⚠️ Vitesse et dérive **non exploitables** (vent inversé + fringale + 38°C) ; watts estimés Strava trompeurs (ne modélisent pas le vent). 🍌 **Cause racine = la boisson iso.** Parti avec ~125-130 g de glucides pour 4h (50 g d'iso + 1 banane + 125 g de trail mix) = à peine la moitié du minimum. Surtout, **l'iso lui a détruit le ventre dès le km 20** (arrêt de 21 min visible dans le lap 5) → il n'y touche presque plus et perd d'un coup un tiers de ses glucides. Sauvé au km 50 par un **distributeur automatique : 50 cl de Coca + un Snickers ≈ 85 g de glucides** (arrêt de 9 min dans le lap 10) — autant que tout ce qu'il avait ingéré depuis le départ, et la FC remonte à 140-145 dans les 15 km qui suivent. ⚠️ **Concentration et stratégie bidons mises hors de cause** (vérifié après coup) : sa poudre titre **86 g de glucides pour 100 g**, donc ses 50 g dans 800 ml font **43 g de glucides = 5,4 %**, contre 6,5 % pour la notice (38 g de poudre/500 ml). Il est donc **sous la bande isotonique 6-8 %**, et il part toujours avec un 2e bidon d'eau claire. Son montage est bon, et à 5,4 % la tonicité est **hors de cause** : au km 20 il n'avait bu que ~20-25 g de glucides. Suspects restants, dans l'ordre : (1) la **chaleur** (37-38°C sur la 1re heure) — perfusion intestinale effondrée et bidon qui chauffe ; (2) les **125 g de trail mix**, gras et fibreux, et surtout riches en **fructose** via les cranberries séchées (l'absorption du fructose sature vers 30 g/h et l'excédent appelle l'eau dans l'intestin — mécanisme qui produit exactement ces symptômes). 🔄 **Diagnostic révisé le 22/08 par Jules** : deux choses se sont superposées. (a) Il avait pris un **café avant de partir** → la caféine stimule la motricité colique, cause classique d'urgence en sortie longue : c'est le **déclencheur aigu**, sans lien avec l'iso ni la chaleur. (b) L'iso lui fait « **plus ou moins mal au ventre à chaque fois** » — donc pas un incident mais une **intolérance chronique de bas bruit**. Les deux ont coïncidé au km 20. ⚠️ Conséquence : le problème de fond n'est pas la chaleur, c'est **le produit**. À remplacer avant le 150 km → voir `plan/04-phase-2-build.md`. À noter : la « flemme » du début est tombée pile quand les glucides sont arrivés — l'hypoglycémie se déguise très bien en manque de motivation. **Protocole nutrition + montée progressive → `plan/04-phase-2-build.md`**
+- [x] **S10-C** (16/08) — ⭐ **PREMIER 100 KM DU PLAN : 105,6 km / 3h58 en mouvement (4h32 avec arrêts), 418 m D+**, FCmoy 135 / max 170, 26,7 km/h. Nouveau record de distance (précédent : 97,9 km en S7-C) → **palier 100 km validé**. Déroulé « catastrophique » (ses mots) : **vent de face sur 50 km**, 2 déraillages, **panne de glucides**, et une urgence intestinale 😅. Départ 16h → **37-38°C sur la 1re heure**, puis refroidissement régulier jusqu'à 26°C. **Deux sorties en une** : 1re moitié (55 km) à **23,8 km/h @ 131,6 bpm** face au vent, 2e moitié (50,6 km) à **30,8 km/h @ 140,8 bpm** vent dans le dos. Profil FC en 3 actes : départ trop haut (143 bpm vers le km 20, chaleur), puis **35 km à 126-130 bpm = signature de la fringale** (la FC ne monte plus malgré le vent de face), puis 50 km stables à 140-145 après ravitaillement. ⚠️ Vitesse et dérive **non exploitables** (vent inversé + fringale + 38°C) ; watts estimés Strava trompeurs (ne modélisent pas le vent). 🍌 **Nutrition** : parti avec ~125-130 g de glucides pour 4h (50 g d'iso + 1 banane + 125 g de trail mix) = à peine la moitié du minimum. **Urgence intestinale au km 20** (arrêt de 21 min, lap 5) → iso quasi abandonnée, un tiers des glucides perdus. Sauvé au km 50 par un **distributeur : 50 cl de Coca + un Snickers ≈ 85 g** (lap 10) — la FC remonte à 140-145 dans les 15 km qui suivent. **Cause, établie après S11-C** : le **café pris juste avant le départ** (et/ou le fructose des fruits secs) ; l'iso, identique en S11-C sans aucun souci, est disculpée — son vrai défaut est le **goût**. À noter : la « flemme » du début est tombée pile quand les glucides sont arrivés — l'hypoglycémie se déguise très bien en manque de motivation. **Protocole nutrition → `plan/04-phase-2-build.md`**
   - Notes : 
 ### Semaine 11 (17/08 → 23/08)
 
@@ -106,27 +106,27 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : 
 ### Semaine 16 (21/09 → 27/09)
 
-- [x] **S16-A** (lun. 21/09) — 🎯 **RETEST FTP : 20 min @ 226 W → FTP 215 W** (×0,95), W/kg **3,5**. **+18 W / +9,1 % sur les 197 W de juillet, et ce malgré 3 semaines sans vélo.** FCmax **191** (vs 186 en juillet) = effort réellement maximal, à 99 % de la FCmax observée ; FC moyenne de l'effort ~177, ce qui **confirme la FC seuil de 178**. ✅ **Fait le lundi matin ~9h30 sur jambes fraîches**, ~19 h après S15-C (écourtée exprès la veille) et après une nuit de sommeil — exactement le plan retenu. ⚠️ Strava affichait « dim. 20/09 23h51 » : **horodatage faux**, dû au fuseau horaire du **compte Strava** mal réglé (~UTC−8), depuis corrigé — voir CLAUDE.md. ⚠️ **Lap non pressé** → bloc recalculé à la main sur le flux watts (226,0 W sur 1200 s exactement) ; le « 214w » de la description Strava était la FTP, pas la moyenne. ERG bien désactivé. **Allure par quart : 234 / 228 / 214 / 229 W** — 250 W sur la 1re minute (trop haut), creux au 3e quart, relance à 252 W sur la dernière. Pas régulier au cordeau, mais **pas de négative split** → test valide. Cadence basse (~70-75 rpm). Zones recalibrées → `plan/02-zones.md`, `CLAUDE.md`, détail dans `tests.md`.
-- [ ] **S16-B** (25/09) — 1h45 dont 2×15 min Z3
-- [ ] **S16-C** (27/09) — 3h30-4h (~95 km) Z2 — 📍 **mesure vitesse@135 protocolée** : plat, vent < 20 km/h, 1re heure à FC 135 (repli S17-C si vent)
+- [x] **S16-A** (lun. 21/09) — 🎯 **RETEST FTP : 20 min @ 226 W → FTP 215 W** (×0,95), W/kg **3,5**. **+18 W / +9,1 % sur les 197 W de juillet, et ce malgré 3 semaines sans vélo.** FCmax **191** (vs 186 en juillet) = effort réellement maximal, à 99 % de la FCmax observée ; FC moyenne de l'effort ~177. ✅ **Fait le lundi matin sur jambes fraîches**, au lendemain de S15-C (écourtée exprès) et après une nuit de sommeil — exactement le plan retenu. ⚠️ **Lap non pressé** → bloc recalculé à la main sur le flux watts (226,0 W sur 1200 s exactement) ; le « 214w » de la description Strava était la FTP, pas la moyenne. ERG bien désactivé. **Allure par quart : 234 / 228 / 214 / 229 W** — 250 W sur la 1re minute (trop haut), creux au 3e quart, relance à 252 W sur la dernière. Pas régulier au cordeau, mais **pas de négative split** → test valide. Cadence basse (~70-75 rpm). Zones recalibrées → `plan/02-zones.md`, `CLAUDE.md`, détail dans `tests.md`.
+- [ ] **S16-B** (25/09) — 1h45 dont 2×15 min Z3 — ❌ non faite (pas de rattrapage, règle du plan).
+- [x] **S16-C** (dim. 27/09) — Longue **raccourcie** (3h30-4h prévues) : 61,4 km / 2h15 en mouvement (2h24 avec arrêts), 346 m D+, FCmoy 143 / max 176, 27,3 km/h. Tronçons de 5 km entre 138 et 148 bpm = Z2, dans le haut de la zone. 📍 Mesure vitesse@135 protocolée **non faite** (sortie courte, FC moyenne 143) → reportée à S17-C.
   - Notes : 
 ### Semaine 17 (28/09 → 04/10)
 
-- [ ] **S17-A** (29/09) — Seuil 2×18 min @95-100%
+- [ ] **S17-A** (29/09) — Seuil 2×18 min @95-100% (204-215 W) — noter RPE + FC des 5 dernières min du bloc 2
 - [ ] **S17-B** (02/10) — 2h dont 2×20 min @155-165 bpm
-- [ ] **S17-C** (04/10) — 4h15 (~105 km) Z2
+- [ ] **S17-C** (04/10) — 4h15 (~105 km) Z2 — 📍 **mesure vitesse@135 protocolée** (reportée de S16-C) : plat, vent < 20 km/h, 1re heure à FC 135 · 🍌 60 g/h, test n°1 du remplaçant de l'iso
   - Notes : 
 ### Semaine 18 (05/10 → 11/10)
 
 - [ ] **S18-A** (06/10) — VO2 5×4 min @108-112%, r4
 - [ ] **S18-B** (09/10) — 1h30 dont 3×10 min @160-170 bpm
-- [ ] **S18-C** (11/10) — 4h30 (~115 km) Z2
+- [ ] **S18-C** (11/10) — 4h30 (~115 km) Z2 · 🍌 75 g/h, test n°2 du remplaçant
   - Notes : 
 ### Semaine 19 (12/10 → 18/10)
 
-- [ ] **S19-A** (13/10) — Seuil 2×20 min @95-100%
+- [ ] **S19-A** (13/10) — Seuil 2×20 min @95-100% — noter RPE + FC des 5 dernières min du bloc 2 (→ règle d'ajustement, plan/02-zones.md)
 - [ ] **S19-B** (16/10) — 2h Z2 + 30 min final Z3
-- [ ] **S19-C** (18/10) — ⭐ 5h (~130 km) Z2
+- [ ] **S19-C** (18/10) — ⭐ 5h (~130 km) Z2 · 🍌 répétition générale : 90 g/h avec le produit retenu
   - Notes : 
 
 ## Phase 3 — Spécifique vitesse
@@ -134,7 +134,7 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 20 (19/10 → 25/10) 🌿 récup
 
 - [ ] **S20-A** (20/10) — RÉCUP 45 min Z2
-- [ ] **S20-B** (23/10) — 1h Z2
+- [ ] **S20-B** (23/10) — ❤️ Test FCmax : ramp sur HT, jambes fraîches (protocole dans tests.md)
 - [ ] **S20-C** (25/10) — 2h30 Z2
   - Notes : 
 ### Semaine 21 (26/10 → 01/11)
@@ -165,14 +165,18 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 - [ ] **S24-C** (22/11) — 🏆 SORTIE OBJECTIF 150 km+
   - Notes : 
 
-## Course à pied — footing Z2 optionnel (mercredi)
+## Course à pied — footings Z2 (lundi + mercredi)
 
-Brique 100 % foncier, **1×/semaine à partir du 24/06** (le mercredi : entre le HT
-du mardi et la qualité du vendredi, loin des jours où il faut des jambes fraîches).
+Brique 100 % foncier. Du 24/06 à mi-septembre : 1×/semaine le mercredi, optionnel.
+**Depuis S17 : 2×/semaine, lundi + mercredi** (3e sortie courte optionnelle le samedi des
+semaines légères, S20 et S22). Jamais le jeudi (veille de la qualité) ni la veille d'une
+grosse longue. Le lundi suit la longue : toujours très facile, et on zappe sans hésiter
+au lendemain des 130 et 150 km.
 **Que du facile** (allure conversation), **zéro intensité** — l'intensité, c'est
 sur le vélo. ⚠️ Se fier au **talk test** (parler librement), PAS aux zones FC vélo :
-en course la FC est naturellement +10-15 bpm à effort égal. Progression douce (~+5 min toutes les 2-3 sem), plafond ~35 min pour
-l'instant. Passer à 2×/sem seulement si je le sens.
+en course la FC est naturellement +10-15 bpm à effort égal. Reprise à 25-30 min (rien
+depuis le 08/09), plafond ~40 min jusqu'au 150 km. Après le plan (dès le 23/11) :
+3×/semaine — de quoi tenir la régularité l'hiver, la faiblesse historique.
 **Variable d'ajustement** : jambes lourdes, ou la moindre douleur (tibia, tendon
 d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 
@@ -189,10 +193,20 @@ d'Achille, genou) → on zappe sans culpabiliser. Le vélo reste la priorité.
 - [x] **S14** (08/09) — 🏃 **10,3 km en 1h00:01**, FCmoy 160 / max 189, allure 5:49/km, cadence 82. **Record de distance et de durée** (+51 % sur les 6,83 km du 19/08). Fait 4 jours après la fin du trek. ⚠️ Progression rapide : 4,8 km fin juillet → 6,8 km mi-août → 10,3 km début septembre. Cohérent avec son projet de monter à 2-3 footings/semaine, mais surveiller tibias et Achille — c'est le 3e saut consécutif de +40 % et plus.
 - [ ] **S15** (16/09) — 20-25 min, reprise douce (jambes post-rando)
 - [ ] **S16** (23/09) — 30 min
-- [ ] **S17** (30/09) — 30 min
-- [ ] **S18** (07/10) — 35 min
-- [ ] **S19** (14/10) — 35 min
-- [ ] **S20** (21/10) — 20 min facile 🌿 récup
-- [ ] **S21** (28/10) — 30 min, léger (150 km le 01/11)
-- [ ] **S22** (04/11) — 30 min
-- _S23-S24 — pause (affûtage : priorité à la fraîcheur)_
+- [ ] **S17** (lun. 28/09) — 25 min, reprise (3 semaines sans courir)
+- [ ] **S17** (mer. 30/09) — 30 min
+- [ ] **S18** (lun. 05/10) — 30 min
+- [ ] **S18** (mer. 07/10) — 35 min
+- [ ] **S19** (lun. 12/10) — 30 min
+- [ ] **S19** (mer. 14/10) — 40 min
+- [ ] **S20** (lun. 19/10) — 20-25 min très facile, lendemain de la 130 km (ou zapper) 🌿
+- [ ] **S20** (mer. 21/10) — 35 min 🌿
+- [ ] **S20** (sam. 24/10) — 20 min, optionnel (3e) 🌿
+- [ ] **S21** (lun. 26/10) — 30 min
+- [ ] **S21** (mer. 28/10) — 25 min, léger (150 km le 01/11)
+- [ ] **S22** (lun. 02/11) — 20 min très facile, lendemain du 150 km (ou zapper)
+- [ ] **S22** (mer. 04/11) — 40 min
+- [ ] **S22** (sam. 07/11) — 20 min, optionnel (3e)
+- [ ] **S23** (lun. 09/11) — 30 min
+- [ ] **S23** (mer. 11/11) — 20 min (test final le 13/11)
+- [ ] **S24** (lun. 16/11) — 20 min, puis rien avant le 150 km du 22/11
