@@ -22,7 +22,13 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   cibles extérieures restent en FC et on ne rapporte pas les watts pédales à la FTP (mesurée
   sur le HT). **Protocole retenu par Jules : tout dans MyWhoosh**, home trainer en source de
   puissance principale et pédales en source **secondaire**. ⚠️ Ne pas proposer d'enregistrer
-  en parallèle sur l'Edge : Jules juge ce montage source de problèmes
+  en parallèle sur l'Edge : Jules juge ce montage source de problèmes. Jules fournira les deux
+  moyennes par bloc ou le `.fit` MyWhoosh.
+  📌 **Décidé avec Jules (27/09), à faire dès l'analyse de S17-A** : réécrire en **watts** les
+  cibles des séances B restantes (S17-B si possible → S22-B, dont l'allure 32 km/h de S22-B),
+  avec la FC en garde-fou ; ajouter un **plafond en watts sur les bosses** des longues ; faire
+  de la **puissance à FC fixe** (~135 bpm) un indicateur officiel dans `suivi/indicateurs.md`.
+  Mettre à jour plan, journal et `.ics` (UID conservés), puis cette section
 - Garmin Edge 1040, ceinture cardio Polar (fiable : l'élastique HS de début de plan a été
   remplacé le 16/06, S2-A), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
