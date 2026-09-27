@@ -724,13 +724,15 @@ function renderMilestones(tests, today) {
 function renderBadges(stats, tests, indic) {
   const ftp = tests.ftpTests.filter((t) => t.ftp).at(-1);
   const bestSpeed = indic.speeds.reduce((a, s) => (s.clean ? Math.max(a, s.value) : a), 0);
-  const bestDrift = indic.drifts.reduce((a, d) => Math.min(a, d.value), Infinity);
+  // on garde la ligne entière (pas seulement la valeur) pour afficher la date du record
+  const bestDrift = indic.drifts.reduce((a, d) => (!a || d.value < a.value ? d : a), null);
+  const driftOk = !!bestDrift && bestDrift.value < 5;
   const chrono = tests.chronos[0];
   const badges = [
     { icon: "🛣️", title: `${fmtNum(stats.maxKm, 1)} km`, sub: "plus longue sortie", ok: stats.maxKm > 0 },
     { icon: "⛰️", title: `${fmtNum(stats.maxDplus)} m D+`, sub: "plus gros dénivelé", ok: stats.maxDplus > 0 },
     { icon: "⚡", title: ftp ? `FTP ${ftp.ftp} W` : "FTP", sub: ftp ? `test du ${ftp.date.slice(0, 5)}` : "à tester", ok: !!ftp },
-    { icon: "🎯", title: "Dérive < 5 %", sub: bestDrift < 5 ? `${fmtNum(bestDrift, 1)} % le 28/06 — foncier solide` : "sur une longue propre", ok: bestDrift < 5 },
+    { icon: "🎯", title: "Dérive < 5 %", sub: driftOk ? `${fmtNum(bestDrift.value, 1)} % le ${bestDrift.date.slice(0, 5)} — foncier solide` : "sur une longue propre", ok: driftOk },
     { icon: "💨", title: `${fmtNum(bestSpeed, 1)} km/h @ Z2`, sub: "record à ~135 bpm, mesure comparable", ok: bestSpeed > 0 },
     { icon: "🔥", title: `Série de ${stats.bestStreak}`, sub: "séances d'affilée sans trou", ok: stats.bestStreak >= 5 },
     { icon: "💯", title: "Premier 100 km", sub: "à débloquer", ok: stats.maxKm >= 100 },
