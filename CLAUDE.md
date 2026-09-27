@@ -13,12 +13,16 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 
 ## Matériel
 
-- Vélo route Van Rysel NCR CF (Rival AXS) — **pédales capteur de puissance depuis le
-  27/09/2026** (1re sortie : S16-C). Avant cette date, aucune puissance mesurée en extérieur
+- Vélo route Van Rysel NCR CF (Rival AXS) — **pédales capteur de puissance Favero Assioma
+  Duo** (double face, donc mesure des 2 jambes) **depuis le 27/09/2026** (1re sortie : S16-C).
+  Avant cette date, aucune puissance mesurée en extérieur
 - Home trainer AVEC puissance → séances intérieures ciblées en watts
 - Sorties extérieures ciblées en fréquence cardiaque. Les watts des pédales sont enregistrés,
-  mais ⏳ **séance croisée pédales vs HT pas encore faite** : d'ici là, les cibles extérieures
-  restent en FC et on ne rapporte pas les watts pédales à la FTP (mesurée sur le HT)
+  mais ⏳ **séance croisée pédales vs HT pas encore faite** (prévue en S17-A) : d'ici là, les
+  cibles extérieures restent en FC et on ne rapporte pas les watts pédales à la FTP (mesurée
+  sur le HT). **Protocole retenu par Jules : tout dans MyWhoosh**, home trainer en source de
+  puissance principale et pédales en source **secondaire**. ⚠️ Ne pas proposer d'enregistrer
+  en parallèle sur l'Edge : Jules juge ce montage source de problèmes
 - Garmin Edge 1040, ceinture Polar (capricieuse), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
   (mesuré en S10-A : **218 W à 103 rpm vs 227 W à 94 rpm** dans le même bloc).
@@ -72,11 +76,11 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   flux `watts` avant de conclure ; vérifier la cohérence `elapsed_time` vs
   `end_index - start_index`
 - ✅ **RÉSOLU (22/09) — horodatage faux sur les séances home trainer.** Cause : le **fuseau
-  horaire du compte Strava de Jules** était mal réglé (sur ~UTC−8), alors que sa localisation
+  horaire du compte Strava de Jules** était mal réglé (heure du Pacifique, UTC−7 en été), alors que sa localisation
   indiquait bien une ville française. Strava applique le fuseau **du compte** aux activités
   **sans GPS réel** (MyWhoosh, VirtualRide) et le fuseau **déduit du GPS** aux sorties
-  extérieures — d'où des sorties dehors toujours justes et des séances HT décalées de 10 h,
-  au point de **changer de jour** (le retest FTP du lun. 21/09 à 9h51 apparaissait en
+  extérieures — d'où des sorties dehors toujours justes et des séances HT décalées de 9 h,
+  au point de **changer de jour** (le retest FTP du lun. 21/09 à 8h51 apparaissait en
   « dim. 20/09 à 23h51 »). Jules a corrigé le réglage ; les nouvelles séances sont bonnes.
   ⚠️ **Piège à éviter** : le lieu affiché sur une VirtualRide (« Mompóx, Colombie », « Dubai »)
   est **le monde virtuel, pas la source du fuseau**. Ne pas refaire ce raisonnement — c'est la
