@@ -13,10 +13,24 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 
 ## Matériel
 
-- Vélo route Van Rysel NCR CF (Rival AXS) — PAS de capteur de puissance
+- Vélo route Van Rysel NCR CF (Rival AXS) — **pédales capteur de puissance Favero Assioma
+  Duo** (double face, donc mesure des 2 jambes) **depuis le 27/09/2026** (1re sortie : S16-C).
+  Avant cette date, aucune puissance mesurée en extérieur
 - Home trainer AVEC puissance → séances intérieures ciblées en watts
-- Sorties extérieures ciblées en fréquence cardiaque
-- Garmin Edge 1040, ceinture Polar (capricieuse), MyWhoosh
+- Sorties extérieures ciblées en fréquence cardiaque. Les watts des pédales sont enregistrés,
+  mais ⏳ **séance croisée pédales vs HT pas encore faite** (prévue en S17-A) : d'ici là, les
+  cibles extérieures restent en FC et on ne rapporte pas les watts pédales à la FTP (mesurée
+  sur le HT). **Protocole retenu par Jules : tout dans MyWhoosh**, home trainer en source de
+  puissance principale et pédales en source **secondaire**. ⚠️ Ne pas proposer d'enregistrer
+  en parallèle sur l'Edge : Jules juge ce montage source de problèmes. Jules fournira les deux
+  moyennes par bloc ou le `.fit` MyWhoosh.
+  📌 **Décidé avec Jules (27/09), à faire dès l'analyse de S17-A** : réécrire en **watts** les
+  cibles des séances B restantes (S17-B si possible → S22-B, dont l'allure 32 km/h de S22-B),
+  avec la FC en garde-fou ; ajouter un **plafond en watts sur les bosses** des longues ; faire
+  de la **puissance à FC fixe** (~135 bpm) un indicateur officiel dans `suivi/indicateurs.md`.
+  Mettre à jour plan, journal et `.ics` (UID conservés), puis cette section
+- Garmin Edge 1040, ceinture cardio Polar (fiable : l'élastique HS de début de plan a été
+  remplacé le 16/06, S2-A), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
   (mesuré en S10-A : **218 W à 103 rpm vs 227 W à 94 rpm** dans le même bloc).
   → En ERG, plafonner la cadence à **~90-92 rpm**. Pour les séances où la cadence doit
@@ -69,11 +83,11 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   flux `watts` avant de conclure ; vérifier la cohérence `elapsed_time` vs
   `end_index - start_index`
 - ✅ **RÉSOLU (22/09) — horodatage faux sur les séances home trainer.** Cause : le **fuseau
-  horaire du compte Strava de Jules** était mal réglé (sur ~UTC−8), alors que sa localisation
+  horaire du compte Strava de Jules** était mal réglé (heure du Pacifique, UTC−7 en été), alors que sa localisation
   indiquait bien une ville française. Strava applique le fuseau **du compte** aux activités
   **sans GPS réel** (MyWhoosh, VirtualRide) et le fuseau **déduit du GPS** aux sorties
-  extérieures — d'où des sorties dehors toujours justes et des séances HT décalées de 10 h,
-  au point de **changer de jour** (le retest FTP du lun. 21/09 à 9h51 apparaissait en
+  extérieures — d'où des sorties dehors toujours justes et des séances HT décalées de 9 h,
+  au point de **changer de jour** (le retest FTP du lun. 21/09 à 8h51 apparaissait en
   « dim. 20/09 à 23h51 »). Jules a corrigé le réglage ; les nouvelles séances sont bonnes.
   ⚠️ **Piège à éviter** : le lieu affiché sur une VirtualRide (« Mompóx, Colombie », « Dubai »)
   est **le monde virtuel, pas la source du fuseau**. Ne pas refaire ce raisonnement — c'est la
@@ -84,7 +98,8 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   **demander à Jules** plutôt que de déduire. Deux notes du journal affirment une heure
   (S6-A « le soir », S8-A « le matin (8h53) ») : non vérifiées, sans incidence sur les
   conclusions
-- ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
+- ⚠️ **Watts « estimés » Strava en extérieur (sorties avant le 27/09 ou sans les pédales) :
+  ne modélisent pas le vent.** (Avec les pédales, `has_device_watts` = true : watts mesurés.)
   Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
   face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).
   → En extérieur, juger **uniquement sur la FC** ; ne jamais citer ces watts sur une
