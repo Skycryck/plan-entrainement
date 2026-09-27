@@ -23,7 +23,8 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   sur le HT). **Protocole retenu par Jules : tout dans MyWhoosh**, home trainer en source de
   puissance principale et pédales en source **secondaire**. ⚠️ Ne pas proposer d'enregistrer
   en parallèle sur l'Edge : Jules juge ce montage source de problèmes
-- Garmin Edge 1040, ceinture Polar (capricieuse), MyWhoosh
+- Garmin Edge 1040, ceinture cardio Polar (fiable : l'élastique HS de début de plan a été
+  remplacé le 16/06, S2-A), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
   (mesuré en S10-A : **218 W à 103 rpm vs 227 W à 94 rpm** dans le même bloc).
   → En ERG, plafonner la cadence à **~90-92 rpm**. Pour les séances où la cadence doit
