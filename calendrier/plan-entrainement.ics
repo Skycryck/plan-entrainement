@@ -676,12 +676,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-a@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260927T200000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
-SUMMARY:🚴 S17-A [Build] Home trainer
-DESCRIPTION:Seuil 2×18 min @95-100%
+SUMMARY:🚴 S17-A [Build] Home trainer + seance croisee
+DESCRIPTION:Seuil 2×18 min @95-100% (204-215 W). SEANCE CROISEE : dans My
+ Whoosh\, home trainer en source de puissance principale et pedales Assiom
+ a en source secondaire. Zero offset des pedales avant de partir.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -704,12 +706,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-c@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260927T200000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
-SUMMARY:🚴 S17-C [Build] Sortie longue
-DESCRIPTION:4h15 (~105 km) Z2
+SUMMARY:🚴 S17-C [Build] Sortie longue + mesure vitesse@135
+DESCRIPTION:3h30 (~90 km) Z2 (au lieu de 4h15 : remontee progressive apre
+ s S16). MESURE PROTOCOLEE vitesse @ 135 bpm : parcours plat\, vent < 2
+ 0 km/h\, 1re heure tenue a FC 135. Nutrition : 70 g de glucides/h.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

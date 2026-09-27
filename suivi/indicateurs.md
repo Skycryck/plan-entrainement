@@ -12,11 +12,16 @@ barre d'objectif du dashboard (elle reste affichée, en gris, sur le graphe). Ap
 relevé exploitable. ✅ **Série cassée le 09/08** : Marais plat, 23-27°C sur la 1re moitié,
 **28,4 km/h à FC 135,6** — meilleure mesure du plan à ce jour.
 
-📍 **Mesure protocolée maintenue en septembre** (cible : **S16-C, dim. 27/09**, repli S17-C
-si vent) : parcours plat, **vent < 20 km/h rafales comprises**, températures redevenues
-normales, 1re heure tenue à FC 135 sans à-coups. Le 09/08 remplit tout sauf les rafales
-(9 m/s) — et comme c'était **de face**, le chiffre est un plancher. Reste à le confirmer
-dans des conditions propres.
+📍 **Mesure protocolée maintenue en septembre** (cible : ~~S16-C, dim. 27/09~~ → **S17-C,
+dim. 04/10** : S16-C écourtée et roulée à FC 142, protocole non tenu) : parcours plat,
+**vent < 20 km/h rafales comprises**, températures redevenues normales, 1re heure tenue à
+FC 135 sans à-coups. Le 09/08 remplit tout sauf les rafales (9 m/s) — et comme c'était
+**de face**, le chiffre est un plancher. Reste à le confirmer dans des conditions propres.
+
+⚡ **Pédales capteur de puissance depuis le 27/09** : la **puissance** à FC fixe, elle, ne
+dépend pas du vent. 1er relevé le 27/09 : **~136 W @ 136 bpm** (tronçons à FC 130-140 des
+2 premières heures). Comparable d'une sortie à l'autre avec les mêmes pédales, même avant
+la séance croisée avec le HT.
 
 | Date | Sortie | Vitesse @ ~135 bpm | Notes (vent, parcours) |
 |---|---|---|---|
@@ -31,6 +36,7 @@ dans des conditions propres.
 | 09/08/2026 | 92 km | **~28,4 km/h (FC 135,6, 1re moitié)** | ✅ **Meilleure mesure du plan.** Marais **plat** (415 m D+ sur 92 km), 23-27°C sur la 1re moitié, **vent de face** 3 m/s (rafales 9) → chiffre **sous-estimé**, pas flatté. Seul écart au protocole = les rafales, et le biais joue contre lui. Réf. pré-plan du 07/06 sur la **même distance** : 23,8 km/h @ 131 bpm → **+4,6 km/h** pour 5 bpm de plus. Vitesse moy globale 27,9 km/h |
 | 16/08/2026 | 105,6 km | ~23,8 km/h (FC ~132, 1re moitié) | non comparable : **vent de face sur 50 km** + fringale + 37-38°C sur la 1re heure (départ 16h). La 2e moitié, vent dans le dos, passe à **30,8 km/h @ 141 bpm** → les +7 km/h pour 9 bpm mesurent le vent, pas la forme. Vitesse moy globale 26,7 km/h |
 | 23/08/2026 | 101,5 km | ~30,4 km/h (FC 134,4, 1re moitié) | non comparable : **vent portant** sur toute la moitié mesurée (et de face sur la 2e, qui tombe à 24,7 km/h @ 141,6 bpm). Le chiffre est **flatté**, à l'inverse du 09/08 qui était un plancher. Sur l'ensemble — où l'aller-retour compense en partie le vent — **27,2 km/h @ 138 bpm**, en ligne avec les 27,9 km/h @ 140 bpm du 09/08 : ni progrès ni recul mesurable en 2 semaines |
+| 27/09/2026 | 61,4 km | ~28,7 km/h (FC 136, tronçons) | non comparable : **protocole non tenu** — 1re heure à FC **142** (pas 135), sortie écourtée à 2h15, vent non relevé. Chiffre = moyenne des tronçons à FC 130-140 des 2 premières heures, pas une allure tenue. Sur ces mêmes tronçons, les pédales donnent **~136 W** (1re sortie avec capteur). Vitesse moy globale 27,3 km/h @ 143 bpm |
 
 ## 2. Dérive cardiaque sur les longues
 
@@ -48,6 +54,7 @@ FC moyenne 1re heure vs 3e heure à allure constante. < 5 % = foncier solide, > 
 | 09/08/2026 | 92 km | ~134 | ~144 | ~8 % | **Dérive de chaleur** (23°C → **35°C** sur la dernière heure), ressentie fortement sur les 10 derniers km mais gérée. ⚠️ Cette fois les deux autres suspects sont écartés : parcours **plat** (415 m) et **vent plus fort en 1re moitié** (3 m/s de face vs 2 m/s ensuite) → ni le relief ni le vent ne peuvent l'expliquer, c'est la température seule. Z2 tenue de bout en bout (FCmoy 140). En moitiés : 135,6 → 144,6 bpm (~7 %) |
 | 16/08/2026 | 105,6 km | n/a | n/a | n/a | Allure et vent totalement non constants : **vent de face sur 50 km puis dans le dos** (23,8 → 30,8 km/h entre les 2 moitiés), plus une **fringale** vers le km 25-55 → dérive non mesurable. FCmoy 135 sur 3h58, max 170 |
 | 23/08/2026 | 101,5 km | n/a | n/a | n/a | **Vent inversé à mi-parcours** (portant puis de face) + 3 arrêts longs (~25 min) → allure non constante, dérive non mesurable. ✅ À noter tout de même : contrairement à S10-C, **pas d'effondrement de FC** en 2e moitié (elle monte à 141,6) → pas de fringale. FCmoy 138 sur 3h44, sur le parcours le plus plat des longues (372 m) |
+| 27/09/2026 | 61,4 km | ~142 | n/a (2h15) | n/a | Sortie écourtée : **pas de 3e heure**, donc pas de mesure au sens du tableau. Mais signal très propre : FC **142,2 la 1re heure → 143,5 la dernière** (+1 %), et **1re dérive mesurée en puissance** grâce aux pédales : **découplage puissance/FC de 1,4 %** hors échauffement (143 → 142 W pour 142 → 143 bpm). < 5 % = excellent, à confirmer au-delà de 3h. 346 m D+, 25-31°C avec rafraîchissement en fin de sortie (favorable) |
 
 ## 3. Progression distance longue
 
