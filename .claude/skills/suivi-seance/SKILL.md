@@ -115,6 +115,8 @@ zones, UID du `.ics`, semaines de récup intouchables) : tout est décrit dans l
 - **`suivi/tests.md`** (séances de test) : reporter un test non fait plutôt que
   de laisser vide. Après un retest FTP, mettre à jour les zones (`plan/02-zones.md`
   **et** le bloc « Valeurs de référence » de `CLAUDE.md`).
+- **`suivi/historique-hebdo.json`** (toute sortie vélo, HT compris) : ajouter les km
+  Strava à la semaine ISO et avancer `snapshot` à la date de la sortie.
 
 ## 6. Créer la PR
 
@@ -122,7 +124,7 @@ Sauf si Jules dit le contraire, termine en ouvrant la PR.
 
 1. `git status` pour voir les modifs.
 2. Committer avec un message décrivant la/les séance(s) et les chiffres clés,
-   terminé par : `Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>`
+   terminé par la ligne `Co-Authored-By` fournie par le système (modèle courant).
 3. `git push origin <branche courante>`.
 4. S'il existe déjà une PR **ouverte** pour la branche
    (`gh pr list --head <branche> --state open`), le push la met à jour : donner

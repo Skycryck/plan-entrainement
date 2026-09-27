@@ -475,16 +475,28 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-footing-hebdo@claude
-DTSTAMP:20260621T120000Z
-SEQUENCE:0
+DTSTAMP:20260927T180000Z
+SEQUENCE:1
 DTSTART;VALUE=DATE:20260624
 DTEND;VALUE=DATE:20260625
-RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20261104
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20260923
 EXDATE;VALUE=DATE:20260826,20260902,20260909
 SUMMARY:🏃 Footing Z2 (optionnel)
 DESCRIPTION:Footing facile Z2, ~20-35 min progressif (durees par semaine dans
   suivi/journal.md). Que du facile, zero intensite. Variable d'ajustement : ja
  mbes lourdes ou douleur = on zappe. Pause pendant la rando et l'affutage.
+END:VEVENT
+BEGIN:VEVENT
+UID:plan-footing-2x@claude
+DTSTAMP:20260927T180000Z
+SEQUENCE:0
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+RRULE:FREQ=WEEKLY;BYDAY=MO,WE;UNTIL=20261116
+SUMMARY:🏃 Footing Z2
+DESCRIPTION:Footing facile (talk test)\, 20-40 min : duree du jour dans 
+ suivi/journal.md. Le lundi suit la longue : tres facile\, zapper sans 
+ hesiter apres les 130 et 150 km. Jambes lourdes ou douleur = on zappe.
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-rando-2026@claude
@@ -629,14 +641,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s16-a@claude
-DTSTAMP:20260807T120000Z
-SEQUENCE:4
-DTSTART;VALUE=DATE:20260922
-DTEND;VALUE=DATE:20260923
-SUMMARY:🚴 S16-A [Build] RETEST FTP 20 min
-DESCRIPTION:RETEST FTP 20 min. Partir a ~205 W et tenir (repere : 207 W
-  le 28/07). Surtout PAS de depart prudent : c'est le negative split qui
-  avait sandbage le test de juin. ERG DESACTIVE. Reporter dans tests.md.
+DTSTAMP:20260927T180000Z
+SEQUENCE:5
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:✅ S16-A [Build] RETEST FTP → 215 W
+DESCRIPTION:Fait le lundi 21/09 : 20 min @ 226 W → FTP 215 W (+18 W sur 
+ juillet). Zones recalibrees dans plan/02-zones.md.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -659,15 +670,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s16-c@claude
-DTSTAMP:20260807T120000Z
-SEQUENCE:4
+DTSTAMP:20260927T180000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20260927
 DTEND;VALUE=DATE:20260928
 SUMMARY:🚴 S16-C [Build] Sortie longue + mesure vitesse@135
-DESCRIPTION:3h30-4h (~95 km) Z2. MESURE PROTOCOLEE vitesse @ 135 bpm :
-  parcours plat, vent < 20 km/h, 1re heure tenue a FC 135 sans a-coups.
-  Toutes les mesures depuis le 28/06 sont invalidees par la canicule.
-  Si vent : reporter sur S17-C. Reporter dans suivi/indicateurs.md.
+DESCRIPTION:Faite raccourcie : 61\,4 km / 2h15\, FCmoy 143. Mesure 
+ vitesse @ 135 bpm reportee a S17-C.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -676,14 +685,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-a@claude
-DTSTAMP:20260927T200000Z
-SEQUENCE:4
+DTSTAMP:20260927T210000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:🚴 S17-A [Build] Home trainer + seance croisee
-DESCRIPTION:Seuil 2×18 min @95-100% (204-215 W). SEANCE CROISEE : dans My
- Whoosh\, home trainer en source de puissance principale et pedales Assiom
- a en source secondaire. Zero offset des pedales avant de partir.
+DESCRIPTION:Seuil 2x18 min @95-100% (204-215 W). SEANCE CROISEE : dans 
+ MyWhoosh\, home trainer en source de puissance principale et pedales 
+ Assioma en source secondaire. Zero offset des pedales avant de partir. 
+ Noter le RPE et la FC moyenne des 5 dernieres minutes du bloc 2 (= FC 
+ seuil velo\, et regle d'ajustement des cibles : plan/02-zones.md).
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -706,14 +717,16 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-c@claude
-DTSTAMP:20260927T200000Z
-SEQUENCE:4
+DTSTAMP:20260927T210000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:🚴 S17-C [Build] Sortie longue + mesure vitesse@135
-DESCRIPTION:3h30 (~90 km) Z2 (au lieu de 4h15 : remontee progressive apre
- s S16). MESURE PROTOCOLEE vitesse @ 135 bpm : parcours plat\, vent < 2
- 0 km/h\, 1re heure tenue a FC 135. Nutrition : 70 g de glucides/h.
+DESCRIPTION:3h30 (~90 km) Z2 (au lieu de 4h15 : remontee progressive 
+ apres S16). MESURE PROTOCOLEE vitesse @ 135 bpm : parcours plat\, vent 
+ < 20 km/h\, 1re heure tenue a FC 135. Reporter dans 
+ suivi/indicateurs.md. Nutrition : 60 g/h\, test n°1 du remplacant de 
+ l'iso.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -750,12 +763,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s18-c@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260927T180000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:🚴 S18-C [Build] Sortie longue
-DESCRIPTION:4h30 (~115 km) Z2
+DESCRIPTION:4h30 (~115 km) Z2. Nutrition : 75 g/h\, test n°2 du 
+ remplacant de l'iso\, format exact du 150 km.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -764,12 +778,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s19-a@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260927T180000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:🚴 S19-A [Build] Home trainer
-DESCRIPTION:Seuil 2×20 min @95-100%
+DESCRIPTION:Seuil 2x20 min @95-100% = 204-215 W. Noter le RPE et la FC 
+ moyenne des 5 dernieres minutes du bloc 2. Si S17-A et S19-A a RPE <= 
+ 7 : cibles +3 % (plan/02-zones.md).
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -792,12 +808,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s19-c@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260927T180000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:🚴 S19-C [Build] Sortie longue
-DESCRIPTION:⭐ 5h (~130 km) Z2
+DESCRIPTION:⭐ 5h (~130 km) Z2. Repetition generale du 150 km : 90 g/h 
+ avec le produit retenu\, rien de nouveau apres ca.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -820,12 +837,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s20-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20260927T180000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-SUMMARY:🚴 S20-B [Spécifique] Sortie qualite
-DESCRIPTION:1h Z2
+SUMMARY:❤️ S20-B [Spécifique] Test FC max (home trainer)
+DESCRIPTION:Ramp sur MyWhoosh en mode libre (pas d'ERG). 15 min Z2 + 
+ 2x1 min haute cadence\, puis paliers de 1 min : 140 W puis +20 W chaque 
+ minute. Quand le palier ne tient plus : a fond 20-30 s\, puis 10 min 
+ tres facile. Noter la FC max dans suivi/tests.md.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

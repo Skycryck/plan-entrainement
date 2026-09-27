@@ -7,16 +7,13 @@
 Sur les 2 premières heures des sorties longues, vitesse moyenne quand FC ≈ 130-140 bpm.
 
 ⚠️ **Une mesure notée « non comparable » ne compte pas** : ni pour les records, ni pour la
-barre d'objectif du dashboard (elle reste affichée, en gris, sur le graphe). Après le
-28/06, la canicule a invalidé **4 mesures d'affilée** (05/07 → 02/08) → 6 semaines sans
-relevé exploitable. ✅ **Série cassée le 09/08** : Marais plat, 23-27°C sur la 1re moitié,
-**28,4 km/h à FC 135,6** — meilleure mesure du plan à ce jour.
+barre d'objectif du dashboard (elle reste affichée, en gris, sur le graphe). Meilleure
+mesure à ce jour : **28,4 km/h à FC 135,6 le 09/08** (Marais plat, vent de face → plancher).
 
-📍 **Mesure protocolée maintenue en septembre** (cible : ~~S16-C, dim. 27/09~~ → **S17-C,
-dim. 04/10** : S16-C écourtée et roulée à FC 142, protocole non tenu) : parcours plat,
-**vent < 20 km/h rafales comprises**, températures redevenues normales, 1re heure tenue à
-FC 135 sans à-coups. Le 09/08 remplit tout sauf les rafales (9 m/s) — et comme c'était
-**de face**, le chiffre est un plancher. Reste à le confirmer dans des conditions propres.
+📍 **Mesure protocolée reportée à S17-C (dim. 04/10)** — S16-C écourtée et roulée à FC 142,
+protocole non tenu. Conditions : parcours plat, **vent < 20 km/h rafales comprises**, 1re heure
+tenue à FC 135 sans à-coups. Le 09/08 remplit tout sauf les rafales (9 m/s) — et comme
+c'était **de face**, le chiffre est un plancher. Reste à le confirmer dans des conditions propres.
 
 ⚡ **Pédales capteur de puissance depuis le 27/09** : la **puissance** à FC fixe, elle, ne
 dépend pas du vent. 1er relevé le 27/09 : **~136 W @ 136 bpm** (tronçons à FC 130-140 des
