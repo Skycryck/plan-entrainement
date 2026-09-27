@@ -13,9 +13,12 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 
 ## Matériel
 
-- Vélo route Van Rysel NCR CF (Rival AXS) — PAS de capteur de puissance
+- Vélo route Van Rysel NCR CF (Rival AXS) — **pédales capteur de puissance depuis le
+  27/09/2026** (1re sortie : S16-C). Avant cette date, aucune puissance mesurée en extérieur
 - Home trainer AVEC puissance → séances intérieures ciblées en watts
-- Sorties extérieures ciblées en fréquence cardiaque
+- Sorties extérieures ciblées en fréquence cardiaque. Les watts des pédales sont enregistrés,
+  mais ⏳ **séance croisée pédales vs HT pas encore faite** : d'ici là, les cibles extérieures
+  restent en FC et on ne rapporte pas les watts pédales à la FTP (mesurée sur le HT)
 - Garmin Edge 1040, ceinture Polar (capricieuse), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
   (mesuré en S10-A : **218 W à 103 rpm vs 227 W à 94 rpm** dans le même bloc).
@@ -84,7 +87,8 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   **demander à Jules** plutôt que de déduire. Deux notes du journal affirment une heure
   (S6-A « le soir », S8-A « le matin (8h53) ») : non vérifiées, sans incidence sur les
   conclusions
-- ⚠️ **Watts « estimés » Strava en extérieur (pas de capteur) : ne modélisent pas le vent.**
+- ⚠️ **Watts « estimés » Strava en extérieur (sorties avant le 27/09 ou sans les pédales) :
+  ne modélisent pas le vent.** (Avec les pédales, `has_device_watts` = true : watts mesurés.)
   Ils se déduisent de la vitesse et de la pente → sous-estiment fortement dans le vent de
   face et surestiment dans le dos (S10-C : 73 W affichés face au vent, 185 W dans le dos).
   → En extérieur, juger **uniquement sur la FC** ; ne jamais citer ces watts sur une
