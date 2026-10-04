@@ -26,6 +26,10 @@ un effort à **105 % de la FTP**, donc au-dessus du seuil (elle ne peut pas « c
 Impact limité au haut des zones (Z3 haute, SS, Z4). **Vérification sans test dédié** : sur
 S17-A et S19-A, noter la FC moyenne des 5 dernières minutes du 2e bloc (≈ FC seuil vélo). Si
 elle plafonne à ≤ 174 bpm, abaisser la FC seuil à cette valeur et décaler Z3, SS et Z4 d'autant.
+→ ✅ **S17-A (01/10) : 178,0 bpm** sur les 5 dernières minutes du bloc 2, à 95 % de la FTP
+(203 W), après une montée régulière dans le bloc (156 → 178). Au-dessus de 174 : **la FC
+seuil de 178 tient aussi à vélo**, zones inchangées. Seule réserve : en intérieur, la chaleur
+peut ajouter quelques battements. S19-A confirmera.
 
 **Rappel des cibles qui bougent :** seuil 95-100 % = **204-215 W** (contre 187-197) ·
 VO2 108-112 % = **232-241 W** · sweet spot = **189-202 W** · over-unders 95/110 % = **204 / 237 W**.

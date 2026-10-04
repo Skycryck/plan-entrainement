@@ -685,16 +685,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-a@claude
-DTSTAMP:20260927T210000Z
-SEQUENCE:5
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:🚴 S17-A [Build] Home trainer + seance croisee
-DESCRIPTION:Seuil 2x18 min @95-100% (204-215 W). SEANCE CROISEE : dans 
- MyWhoosh\, home trainer en source de puissance principale et pedales 
- Assioma en source secondaire. Zero offset des pedales avant de partir. 
- Noter le RPE et la FC moyenne des 5 dernieres minutes du bloc 2 (= FC 
- seuil velo\, et regle d'ajustement des cibles : plan/02-zones.md).
+DTSTAMP:20261004T120000Z
+SEQUENCE:6
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:✅ S17-A [Build] Seuil 2x18 min → 203 W
+DESCRIPTION:Fait le jeudi 01/10 (decalee : trop fatigue mardi). Blocs a 20
+ 3\,7 et 203\,3 W (95 % FTP)\, FC 167 puis 172\, RPE 7. FC seuil 178 confi
+ rmee a velo. Seance croisee impossible : le .fit MyWhoosh ne garde que la
+  puissance du home trainer.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

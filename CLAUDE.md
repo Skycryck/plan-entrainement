@@ -19,13 +19,15 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   Avant cette date, aucune puissance mesurée en extérieur
 - Home trainer AVEC puissance → séances intérieures ciblées en watts
 - Sorties extérieures ciblées en fréquence cardiaque. Les watts des pédales sont enregistrés,
-  mais ⏳ **séance croisée pédales vs HT pas encore faite** (prévue en S17-A) : d'ici là, les
-  cibles extérieures restent en FC et on ne rapporte pas les watts pédales à la FTP (mesurée
-  sur le HT). **Protocole retenu par Jules : tout dans MyWhoosh**, home trainer en source de
-  puissance principale et pédales en source **secondaire**. ⚠️ Ne pas proposer d'enregistrer
-  en parallèle sur l'Edge : Jules juge ce montage source de problèmes. Jules fournira les deux
-  moyennes par bloc ou le `.fit` MyWhoosh.
-  📌 **Décidé avec Jules (27/09), à faire dès l'analyse de S17-A** : réécrire en **watts** les
+  mais ⏳ **pas encore de comparaison pédales vs HT** : d'ici là, les cibles extérieures restent
+  en FC et on ne rapporte pas les watts pédales à la FTP (mesurée sur le HT).
+  ❌ **Séance croisée tentée en S17-A (01/10), impossible via MyWhoosh** : pédales connectées en
+  source secondaire, mais le `.fit` téléchargé sur le **site** MyWhoosh ne contient **qu'une
+  puissance, celle du HT** (vérifié champ par champ, et par Jules avec des lecteurs `.fit`).
+  MyWhoosh garde la 2e source pour sa vérification interne. Ne pas reproposer ce montage.
+  ⚠️ Ne pas proposer non plus d'enregistrer en parallèle sur l'Edge : Jules juge ce montage
+  source de problèmes. Mode de calage à trancher avec Jules.
+  📌 **Décidé avec Jules (27/09), à faire après l'analyse de S17-A** : réécrire en **watts** les
   cibles des séances B restantes (S17-B si possible → S22-B, dont l'allure 32 km/h de S22-B),
   avec la FC en garde-fou ; ajouter un **plafond en watts sur les bosses** des longues ; faire
   de la **puissance à FC fixe** (~135 bpm) un indicateur officiel dans `suivi/indicateurs.md`.
@@ -47,10 +49,11 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   de `plan/02-zones.md` (+3 % si S17-A et S19-A sont faciles). Test final = chrono boucle S23 (13/11).
 - FC max observée : **193 bpm** (11/06) ; 191 en fin de retest maximal (21/09), 191 en montée
   (S6-C), 189 en course. FCmax réelle estimée ~193-196. Test ramp sur HT programmé en **S20-B (23/10)**
-- FC seuil lactique (Garmin) : 178 bpm — ⚠️ très probablement détectée par la **Fenix en course
-  à pied** (la détection auto du seuil est une fonction course chez Garmin, valeur partagée entre
-  appareils). En vélo elle est sans doute plus basse, **~172-176** (voir `plan/02-zones.md`) :
-  à vérifier sur la fin des blocs seuil de S17-A et S19-A
+- FC seuil lactique (Garmin) : 178 bpm — valeur très probablement détectée par la **Fenix en
+  course à pied** (la détection auto du seuil est une fonction course chez Garmin, valeur
+  partagée entre appareils), d'où le doute de l'audit (~172-176 à vélo ?). ✅ **S17-A (01/10) :
+  178,0 bpm** sur les 5 dernières min du 2e bloc à 95 % de la FTP → **178 tient aussi à vélo**,
+  zones inchangées. À confirmer sur S19-A (voir `plan/02-zones.md`)
 - VO2max estimé (Garmin) : 52
 
 ## Conventions du dépôt
