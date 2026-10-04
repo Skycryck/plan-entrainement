@@ -27,8 +27,19 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   MyWhoosh garde la 2e source pour sa vérification interne. Ne pas reproposer ce montage.
   ⚠️ Jules **n'a jamais réussi à faire marcher l'ERG avec un appareil Garmin** : ses séances HT
   se font **toujours sur MyWhoosh**, qui pilote le HT. Un Garmin ne peut servir qu'à
-  *enregistrer* les pédales en parallèle, sans se connecter au HT. Jules jugeait ce montage
-  source de problèmes ; question rouverte le 04/10, réponse en attente. Ne pas l'imposer.
+  *enregistrer* les pédales en parallèle, sans se connecter au HT (malentendu levé le 04/10 :
+  Jules croyait qu'on lui proposait de piloter le HT avec le Garmin).
+  ✅ **Décidé le 04/10 — nouveau montage des séances HT** : MyWhoosh **pilote** le HT en ERG,
+  le **Garmin enregistre** avec les **pédales** comme seule source de puissance (HT pas appairé
+  comme « home trainer » sur le Garmin, envoi MyWhoosh → Strava coupé). Bonus pour Jules : fin
+  du bricolage `.fit` MyWhoosh → Garmin, charge d'entraînement Garmin fiable.
+  - **S18-A (06/10) = séance de comparaison** : garder aussi le `.fit` MyWhoosh (puissance HT)
+    en plus du `.fit` Garmin (pédales), puis les recaler seconde par seconde.
+  - ⚠️ **Ensuite, la puissance des séances HT sur Strava sera celle des pédales**, alors que
+    l'ERG tient la puissance **mesurée par le HT** : les blocs afficheront la cible ± l'écart
+    pédales/HT. En tenir compte avant de juger une cible « ratée » ou « dépassée ». Les
+    activités HT ne seront plus des VirtualRide MyWhoosh (distance éventuellement absente
+    pour `historique-hebdo.json`)
   🔎 **Vérif indirecte S17-B (02/10)** : 193 W @ 158 bpm dehors contre 204 W @ 167 bpm sur le
   HT la veille. Écart dans le sens attendu (chaleur en intérieur, pédales avant la chaîne),
   rien d'aberrant, mais non chiffrable.
