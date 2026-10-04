@@ -718,16 +718,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-c@claude
-DTSTAMP:20260927T210000Z
-SEQUENCE:5
+DTSTAMP:20261004T170000Z
+SEQUENCE:6
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
-SUMMARY:🚴 S17-C [Build] Sortie longue + mesure vitesse@135
-DESCRIPTION:3h30 (~90 km) Z2 (au lieu de 4h15 : remontee progressive 
- apres S16). MESURE PROTOCOLEE vitesse @ 135 bpm : parcours plat\, vent 
- < 20 km/h\, 1re heure tenue a FC 135. Reporter dans 
- suivi/indicateurs.md. Nutrition : 60 g/h\, test n°1 du remplacant de 
- l'iso.
+SUMMARY:✅ S17-C [Build] Sortie longue : 89 km
+DESCRIPTION:Fait le 04/10 : 89\,3 km en 3h24\, FC 136\, Marais. Vent d'est
+  : vitesse@135 inexploitable\, puissance a FC fixe 140 W @ 134 bpm. Nutri
+ tion ~50 g/h (iso + 3 bananes + Coca)\, ventre RAS. Remplacant de l'iso p
+ as encore teste.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -765,13 +764,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s18-c@claude
-DTSTAMP:20260927T180000Z
-SEQUENCE:4
+DTSTAMP:20261004T170000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:🚴 S18-C [Build] Sortie longue
-DESCRIPTION:4h30 (~115 km) Z2. Nutrition : 75 g/h\, test n°2 du 
- remplacant de l'iso\, format exact du 150 km.
+DESCRIPTION:4h30 (~115 km) Z2. Bosses et relances <= 190 W. Nutrition : 75
+  g/h\, test n°1 du remplacant de l'iso (glisse de S17-C)\, format exact 
+ du 150 km.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -810,13 +810,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s19-c@claude
-DTSTAMP:20260927T180000Z
-SEQUENCE:4
+DTSTAMP:20261004T170000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:🚴 S19-C [Build] Sortie longue
-DESCRIPTION:⭐ 5h (~130 km) Z2. Repetition generale du 150 km : 90 g/h 
- avec le produit retenu\, rien de nouveau apres ca.
+DESCRIPTION:⭐ 5h (~130 km) Z2. Bosses et relances <= 190 W. Repetition g
+ enerale du 150 km : 90 g/h avec le produit retenu (test n°2 du remplacan
+ t)\, rien de nouveau apres ca.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

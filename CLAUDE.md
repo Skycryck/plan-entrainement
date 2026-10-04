@@ -45,10 +45,11 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   rien d'aberrant, mais non chiffrable.
   📌 **Décidé avec Jules** : séances B en **watts**, avec la FC en garde-fou. ✅ S18-B passée à
   **190-200 W à titre provisoire** (04/10). ⏳ S19-B → S22-B (dont l'allure 32 km/h de S22-B)
-  à passer en watts une fois l'écart pédales/HT mesuré. Également à faire, à partir de S17-C :
-  ajouter un **plafond en watts sur les bosses** des longues et faire de la **puissance à FC
-  fixe** (~135 bpm) un indicateur officiel dans `suivi/indicateurs.md`. Mettre à jour plan,
-  journal et `.ics` (UID conservés), puis cette section
+  à passer en watts une fois l'écart pédales/HT mesuré (plan, journal, `.ics` avec UID
+  conservés, puis cette section). ✅ Fait le 04/10 : **plafond de 190 W dans les bosses** des
+  longues (`plan/04-phase-2-build.md`) et **puissance à FC fixe** (~135 bpm) devenue
+  l'indicateur officiel (`suivi/indicateurs.md` §5) ; la mesure protocolée vitesse@135 est
+  abandonnée
 - Garmin Edge 1040 + montre Garmin Fenix 8, ceinture cardio Polar (fiable : l'élastique HS de début de plan a été
   remplacé le 16/06, S2-A), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
@@ -103,7 +104,8 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 
 ## Données Strava utiles
 
-- Analyser les sorties via l'export ou l'API : vitesse à FC fixe (~135 bpm),
+- Analyser les sorties via l'export ou l'API : **puissance à FC fixe** (~135 bpm, pédales,
+  depuis le 27/09 ; la vitesse à FC fixe reste notée mais le vent la fausse presque toujours),
   dérive cardiaque sur les longues, distance max — voir suivi/indicateurs.md
 - ⚠️ **Laps Strava non fiables sur le DERNIER bloc d'une séance d'intervalles**
   (constaté en S5-A, S7-A, S10-A, S11-A, S15-A) : le dernier lap replie systématiquement le bloc

@@ -53,25 +53,33 @@ calé sur S17-B (193 W pour 158 bpm, RPE 6), avec la FC 160-170 en garde-fou. C'
 provisoire : l'écart entre pédales et home trainer n'est pas encore mesuré. Les B suivantes
 (S19-B → S22-B) passeront en watts une fois cet écart connu.
 
+**Longues : plafond de 190 W dans les bosses et les relances (en place depuis le 04/10).**
+Sur une bosse d'une ou deux minutes, la FC n'a pas le temps de monter et ne freine rien : en
+S16-C, ~40 min au-dessus de la Z2 alors que la FC disait Z2, avec jusqu'à 215 W dans les
+côtes. Les watts, eux, réagissent tout de suite. 190 W, c'est le haut de la Z3 : au-delà, on
+brûle des réserves dont le 150 km aura besoin. En S17-C (Marais plat), les bosses sont
+restées à 150-177 W.
+
 ## Nutrition des longues (> 3h)
 
 **Cible finale : 60-90 g de glucides/h, dès la 1re heure.** Mais l'estomac s'entraîne
 comme les jambes : S10-C (16/08) a montré qu'on part de **~30 g/h** réels, avec une
 fringale au km 25. On monte donc par paliers sur les longues qui restent.
 
-⏳ **État au 27/09 : toujours l'ISO Decathlon**, dont le goût ne passera pas 6h (voir règle 3).
-Paliers recalés : S15-C et S16-C, raccourcies, n'ont rien testé → on repart des 47 g/h de
-S11-C. **Choisir le remplaçant avant S17-C (04/10)** pour le tester sur 2 longues (S17-C,
-S18-C) avant la répétition générale de S19-C — règle 4.
+⏳ **État au 04/10 : toujours l'ISO Decathlon**, dont le goût ne passera pas 6h (voir règle 3).
+Le remplaçant n'a pas été testé en S17-C : ses deux tests glissent sur **S18-C puis S19-C**,
+ce qui respecte encore la règle 4 (deux longues avant le 150 km). **Le choisir avant S18-C
+(11/10).** Côté quantité, S17-C a atteint ~50 g/h pour une cible de 60 : il manque environ
+une banane par heure.
 
 | Sortie | Date | Durée | Cible g/h | À tester |
 |---|---|---|---|---|
 | S11-C | 23/08 | 4h15 | **45-50** | ✅ Fait : 2×43 g d'iso + 2 bananes + barre Clif + gel + compote ≈ **47 g/h**, café 4h30 avant, sans fruits secs → **aucun souci digestif** |
 | S15-C | 20/09 | 3h | 50 | Raccourcie à 1h29 (retest FTP le lendemain) : pas de test |
 | S16-C | 27/09 | 3h30-4h → 2h15 (écourtée) | 60 | Pas de test |
-| S17-C | 04/10 | 3h30 (au lieu de 4h15) | **60** | **Remplaçant de l'iso — test n°1** (60 et pas 70 : on repart des 47 g/h de S11-C, avec un produit nouveau) |
-| S18-C | 11/10 | 4h30 | **75** | **Remplaçant — test n°2** + format exact du 150 km |
-| S19-C | 18/10 | 5h / 130 km | **90** | ⭐ Répétition générale complète |
+| S17-C | 04/10 | 3h30 (au lieu de 4h15) | **60** | Fait (89 km / 3h24) : **remplaçant pas testé**. Iso habituelle (43 g) + 3 bananes (~75 g) + Coca 50 cl (~53 g) ≈ **171 g, soit ~50 g/h** de roulage. **Ventre RAS**, avec un café avant le départ et un autre à la pause (km 46) |
+| S18-C | 11/10 | 4h30 | **75** | **Remplaçant — test n°1** (glissé de S17-C) + format exact du 150 km |
+| S19-C | 18/10 | 5h / 130 km | **90** | ⭐ Répétition générale complète + **remplaçant — test n°2** |
 | S21-C | 01/11 | 150 km | **90** | ❌ **Rien de nouveau ce jour-là** |
 
 ### Les 5 règles
