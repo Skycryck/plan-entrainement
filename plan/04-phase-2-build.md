@@ -66,11 +66,15 @@ restées à 150-177 W.
 comme les jambes : S10-C (16/08) a montré qu'on part de **~30 g/h** réels, avec une
 fringale au km 25. On monte donc par paliers sur les longues qui restent.
 
-⏳ **État au 04/10 : toujours l'ISO Decathlon**, dont le goût ne passera pas 6h (voir règle 3).
-Le remplaçant n'a pas été testé en S17-C : ses deux tests glissent sur **S18-C puis S19-C**,
-ce qui respecte encore la règle 4 (deux longues avant le 150 km). **Le choisir avant S18-C
-(11/10).** Côté quantité, S17-C a atteint ~50 g/h pour une cible de 60 : il manque environ
-une banane par heure.
+⏳ **État au 04/10 : toujours l'ISO+ Decathlon « Long Duration »** (avec BCAA). Son goût n'a
+**pas gêné** Jules en S17-C (3h24), mais le paquet de 2 kg se termine. **Décision de Jules :
+passer à une iso Decathlon sans BCAA.** Les BCAA n'apportent rien sur ce type d'effort.
+Précision honnête : ils n'ont jamais été établis comme cause des maux de ventre, c'était un
+suspect mineur (1,3 g par dose), et cette iso est passée sans souci en S11-C et S17-C. Le
+changement ne coûte rien, mais il n'y a pas de quoi en attendre un gain digestif.
+Le nouveau produit sera testé sur **S18-C puis S19-C**, ce qui respecte encore la règle 4
+(deux longues avant le 150 km) : **l'acheter avant S18-C (11/10).** Côté quantité, S17-C a
+atteint ~50 g/h pour une cible de 60 : il manque environ une banane par heure.
 
 | Sortie | Date | Durée | Cible g/h | À tester |
 |---|---|---|---|---|
@@ -102,14 +106,17 @@ une banane par heure.
    sature vers 30 g/h sans glucose associé — jamais retesté). Ce sont eux les suspects.
    **Leçon de méthode : ne pas conclure sur une sortie où plusieurs variables bougent.**
 
-   🔄 **Le vrai sujet est désormais le GOÛT.** Jules trouve cette iso « un peu dégoûtante »
+   🔄 **Le vrai sujet était devenu le GOÛT** (23/08 ; plus gênant en S17-C). Jules trouvait cette iso « un peu dégoûtante »
    et a jugé la compote de S11-C « immonde » (à moitié mangée). Sur 4h c'est anecdotique ;
    sur les **6h+ du 150 km c'est disqualifiant** — une boisson qu'on n'a plus envie de
    boire, on ne la boit plus, et on finit sous-alimenté **et** déshydraté.
 
    📋 **Critères du remplaçant, par ordre** : (1) **un goût qu'il aime vraiment**, testé à
-   froid avant d'acheter 2 kg ; (2) glucides 60-90 g/L ; (3) sodium 400-800 mg/L ;
-   (4) accessoirement potassium < 200 mg/L et magnésium bas. La version maison
+   froid avant d'acheter 2 kg ; (2) glucides 60-90 g/L, avec un **mélange maltodextrine /
+   glucose + fructose** (au-delà de ~60 g/h, le glucose seul sature l'absorption intestinale ;
+   le fructose passe par une autre voie et permet de viser 75-90 g/h) ; (3) sodium 400-800 mg/L ;
+   (4) accessoirement potassium < 200 mg/L et magnésium bas ; (5) **sans BCAA ni protéines**
+   (choix de Jules, 04/10). La version maison
    (~60 g de sucre + **1 g de sel** dans 750 ml) coche tout et se parfume à volonté.
    Alterner bidon sucré / bidon d'eau limite aussi la lassitude gustative — déjà acquis.
 
