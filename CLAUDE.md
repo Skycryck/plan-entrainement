@@ -25,13 +25,19 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   source secondaire, mais le `.fit` téléchargé sur le **site** MyWhoosh ne contient **qu'une
   puissance, celle du HT** (vérifié champ par champ, et par Jules avec des lecteurs `.fit`).
   MyWhoosh garde la 2e source pour sa vérification interne. Ne pas reproposer ce montage.
-  ⚠️ Ne pas proposer non plus d'enregistrer en parallèle sur l'Edge : Jules juge ce montage
-  source de problèmes. Mode de calage à trancher avec Jules.
-  📌 **Décidé avec Jules (27/09), à faire après l'analyse de S17-A** : réécrire en **watts** les
-  cibles des séances B restantes (S17-B si possible → S22-B, dont l'allure 32 km/h de S22-B),
-  avec la FC en garde-fou ; ajouter un **plafond en watts sur les bosses** des longues ; faire
-  de la **puissance à FC fixe** (~135 bpm) un indicateur officiel dans `suivi/indicateurs.md`.
-  Mettre à jour plan, journal et `.ics` (UID conservés), puis cette section
+  ⚠️ Jules **n'a jamais réussi à faire marcher l'ERG avec un appareil Garmin** : ses séances HT
+  se font **toujours sur MyWhoosh**, qui pilote le HT. Un Garmin ne peut servir qu'à
+  *enregistrer* les pédales en parallèle, sans se connecter au HT. Jules jugeait ce montage
+  source de problèmes ; question rouverte le 04/10, réponse en attente. Ne pas l'imposer.
+  🔎 **Vérif indirecte S17-B (02/10)** : 193 W @ 158 bpm dehors contre 204 W @ 167 bpm sur le
+  HT la veille. Écart dans le sens attendu (chaleur en intérieur, pédales avant la chaîne),
+  rien d'aberrant, mais non chiffrable.
+  📌 **Décidé avec Jules** : séances B en **watts**, avec la FC en garde-fou. ✅ S18-B passée à
+  **190-200 W à titre provisoire** (04/10). ⏳ S19-B → S22-B (dont l'allure 32 km/h de S22-B)
+  à passer en watts une fois l'écart pédales/HT mesuré. Également à faire, à partir de S17-C :
+  ajouter un **plafond en watts sur les bosses** des longues et faire de la **puissance à FC
+  fixe** (~135 bpm) un indicateur officiel dans `suivi/indicateurs.md`. Mettre à jour plan,
+  journal et `.ics` (UID conservés), puis cette section
 - Garmin Edge 1040 + montre Garmin Fenix 8, ceinture cardio Polar (fiable : l'élastique HS de début de plan a été
   remplacé le 16/06, S2-A), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas

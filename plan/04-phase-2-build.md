@@ -35,7 +35,7 @@ coûte nettement plus cher qu'un fractionné de même durée totale — 2×20 mi
 | 15 (14-20/09) | REPRISE : 45 min Z2 + 3×5 min @85-90 % | 1h30 Z2 souple | 3h (~75 km) |
 | 16 (21-27/09) | ✅ **RETEST FTP** (lun. 21/09) → **215 W** | 1h45 dont 2×15 min Z3 | 3h30-4h (~95 km) |
 | 17 (28/09-04/10) | Seuil 2×18 min @95-100 % | 2h dont 2×20 min @155-165 bpm | ~~4h15 (~105 km)~~ **3h30 (~90 km)** |
-| 18 (05-11/10) | VO2 5×4 min @108-112 %, r4 | 1h30 dont 3×10 min @160-170 bpm | 4h30 (~115 km) |
+| 18 (05-11/10) | VO2 5×4 min @108-112 %, r4 | 1h30 dont 3×10 min @**190-200 W** (FC 160-170 en garde-fou) | 4h30 (~115 km) |
 | 19 (12-18/10) | Seuil 2×20 min @95-100 % | 2h Z2 + 30 min final Z3 | ⭐ 5h (~130 km) |
 
 Règle de reprise (S15) : si une cible paraît dure, réduire de 5-10 % sans culpabiliser.
@@ -45,6 +45,13 @@ Règle de reprise (S15) : si une cible paraît dure, réduire de 5-10 % sans cul
 vacances sans sport en S16. Enchaîner 61 → 105 km aurait fait un saut de +70 %. S17-C passe
 donc à **3h30 (~90 km)**, puis retour au plan écrit à partir de S18-C (4h30, ~115 km).
 Le cœur, lui, suit déjà : aucune dérive sur S16-C (découplage puissance/FC 1,4 %).
+
+**Séances B en watts, à titre provisoire (décidé le 04/10).** Depuis S16-C, les pédales
+Assioma mesurent la puissance dehors. S17-B a montré la limite d'une cible à la FC : même FC
+dans les 2 blocs, mais 20 W d'écart (circulation, descentes). S18-B passe donc à **190-200 W**,
+calé sur S17-B (193 W pour 158 bpm, RPE 6), avec la FC 160-170 en garde-fou. C'est
+provisoire : l'écart entre pédales et home trainer n'est pas encore mesuré. Les B suivantes
+(S19-B → S22-B) passeront en watts une fois cet écart connu.
 
 ## Nutrition des longues (> 3h)
 
