@@ -34,6 +34,26 @@ au fil du plan. Le skill, lui, change rarement.
 5. Mettre à jour les fichiers de suivi
 6. Créer / mettre à jour la PR GitHub
 
+## ⚠️ Plusieurs séances en attente : une à la fois (règle de Jules, 04/10)
+
+Quand plusieurs séances se sont accumulées depuis le dernier suivi (retour de vacances,
+semaine entière, 2, 3 ou 4 sorties d'un coup), **on les traite une par une, dans l'ordre
+chronologique**, avec le même soin que s'il n'y en avait qu'une. Jules n'a pas à le
+redemander.
+
+- Au départ, **lister** les séances en attente (Strava comparé au journal) et les annoncer
+  à Jules, sans les analyser.
+- Pour **chaque** séance, faire le cycle complet §1 → §6 : analyse détaillée, questions de
+  ressenti, mise à jour des fichiers, commit. **Ne jamais survoler les premières pour aller
+  droit à la dernière.**
+- **Attendre le feu vert de Jules** avant de passer à la séance suivante.
+- Une seule PR pour le lot, complétée séance après séance (un commit par séance).
+
+*Pourquoi :* au retour de la coupure (S12-S15), plusieurs séances avaient été traitées d'un
+coup et les premières survolées. Traitée une à une, la semaine 17 a fait ressortir à chaque
+étape des informations qu'un survol aurait perdues (fatigue de S17-A, circulation dans le
+bloc 2 de S17-B, nutrition de S17-C).
+
 ---
 
 ## 1. Identifier la séance
@@ -63,8 +83,9 @@ dans `CLAUDE.md` § matériel ; les zones cibles sont dans `plan/02-zones.md`) :
   via les `laps` et compare-la à la cible. Regarde la régularité d'un bloc à
   l'autre. En HT sans ERG, la puissance *instantanée* part dans tous les sens :
   c'est normal, seule la moyenne du bloc compte.
-- **Sortie longue** : dérive cardiaque (FC 1re heure vs dernière) et vitesse à
-  FC fixe (~135 bpm) → `indicateurs.md`. ⚠️ Ces indicateurs ne valent que sur du
+- **Sortie longue** : dérive cardiaque (FC 1re heure vs dernière) et **puissance
+  à FC fixe** (~135 bpm, pédales ; la vitesse à FC fixe reste notée pour
+  l'historique) → `indicateurs.md`. ⚠️ Ces indicateurs ne valent que sur du
   **plat à allure régulière** : si le parcours est vallonné (regarde le D+) ou
   l'allure irrégulière, signale que la mesure est faussée plutôt que d'inscrire
   un chiffre trompeur.
@@ -110,8 +131,8 @@ zones, UID du `.ics`, semaines de récup intouchables) : tout est décrit dans l
 
 - **`suivi/journal.md`** (toujours) : `- [ ]` → `- [x]` + note courte et
   factuelle (chiffres clés + contexte/ressenti recueilli en §3).
-- **`suivi/indicateurs.md`** (longues) : dérive et/ou vitesse @135 bpm, avec les
-  réserves utiles ; progression distance si nouveau palier.
+- **`suivi/indicateurs.md`** (longues) : dérive, puissance @135 bpm (§5) et
+  vitesse @135 bpm, avec les réserves utiles ; progression distance si nouveau palier.
 - **`suivi/tests.md`** (séances de test) : reporter un test non fait plutôt que
   de laisser vide. Après un retest FTP, mettre à jour les zones (`plan/02-zones.md`
   **et** le bloc « Valeurs de référence » de `CLAUDE.md`).

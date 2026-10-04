@@ -19,17 +19,37 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   Avant cette date, aucune puissance mesurée en extérieur
 - Home trainer AVEC puissance → séances intérieures ciblées en watts
 - Sorties extérieures ciblées en fréquence cardiaque. Les watts des pédales sont enregistrés,
-  mais ⏳ **séance croisée pédales vs HT pas encore faite** (prévue en S17-A) : d'ici là, les
-  cibles extérieures restent en FC et on ne rapporte pas les watts pédales à la FTP (mesurée
-  sur le HT). **Protocole retenu par Jules : tout dans MyWhoosh**, home trainer en source de
-  puissance principale et pédales en source **secondaire**. ⚠️ Ne pas proposer d'enregistrer
-  en parallèle sur l'Edge : Jules juge ce montage source de problèmes. Jules fournira les deux
-  moyennes par bloc ou le `.fit` MyWhoosh.
-  📌 **Décidé avec Jules (27/09), à faire dès l'analyse de S17-A** : réécrire en **watts** les
-  cibles des séances B restantes (S17-B si possible → S22-B, dont l'allure 32 km/h de S22-B),
-  avec la FC en garde-fou ; ajouter un **plafond en watts sur les bosses** des longues ; faire
-  de la **puissance à FC fixe** (~135 bpm) un indicateur officiel dans `suivi/indicateurs.md`.
-  Mettre à jour plan, journal et `.ics` (UID conservés), puis cette section
+  mais ⏳ **pas encore de comparaison pédales vs HT** : d'ici là, les cibles extérieures restent
+  en FC et on ne rapporte pas les watts pédales à la FTP (mesurée sur le HT).
+  ❌ **Séance croisée tentée en S17-A (01/10), impossible via MyWhoosh** : pédales connectées en
+  source secondaire, mais le `.fit` téléchargé sur le **site** MyWhoosh ne contient **qu'une
+  puissance, celle du HT** (vérifié champ par champ, et par Jules avec des lecteurs `.fit`).
+  MyWhoosh garde la 2e source pour sa vérification interne. Ne pas reproposer ce montage.
+  ⚠️ Jules **n'a jamais réussi à faire marcher l'ERG avec un appareil Garmin** : ses séances HT
+  se font **toujours sur MyWhoosh**, qui pilote le HT. Un Garmin ne peut servir qu'à
+  *enregistrer* les pédales en parallèle, sans se connecter au HT (malentendu levé le 04/10 :
+  Jules croyait qu'on lui proposait de piloter le HT avec le Garmin).
+  ✅ **Décidé le 04/10 — nouveau montage des séances HT** : MyWhoosh **pilote** le HT en ERG,
+  le **Garmin enregistre** avec les **pédales** comme seule source de puissance (HT pas appairé
+  comme « home trainer » sur le Garmin, envoi MyWhoosh → Strava coupé). Bonus pour Jules : fin
+  du bricolage `.fit` MyWhoosh → Garmin, charge d'entraînement Garmin fiable.
+  - **S18-A (06/10) = séance de comparaison** : garder aussi le `.fit` MyWhoosh (puissance HT)
+    en plus du `.fit` Garmin (pédales), puis les recaler seconde par seconde.
+  - ⚠️ **Ensuite, la puissance des séances HT sur Strava sera celle des pédales**, alors que
+    l'ERG tient la puissance **mesurée par le HT** : les blocs afficheront la cible ± l'écart
+    pédales/HT. En tenir compte avant de juger une cible « ratée » ou « dépassée ». Les
+    activités HT ne seront plus des VirtualRide MyWhoosh (distance éventuellement absente
+    pour `historique-hebdo.json`)
+  🔎 **Vérif indirecte S17-B (02/10)** : 193 W @ 158 bpm dehors contre 204 W @ 167 bpm sur le
+  HT la veille. Écart dans le sens attendu (chaleur en intérieur, pédales avant la chaîne),
+  rien d'aberrant, mais non chiffrable.
+  📌 **Décidé avec Jules** : séances B en **watts**, avec la FC en garde-fou. ✅ S18-B passée à
+  **190-200 W à titre provisoire** (04/10). ⏳ S19-B → S22-B (dont l'allure 32 km/h de S22-B)
+  à passer en watts une fois l'écart pédales/HT mesuré (plan, journal, `.ics` avec UID
+  conservés, puis cette section). ✅ Fait le 04/10 : **plafond de 190 W dans les bosses** des
+  longues (`plan/04-phase-2-build.md`) et **puissance à FC fixe** (~135 bpm) devenue
+  l'indicateur officiel (`suivi/indicateurs.md` §5) ; la mesure protocolée vitesse@135 est
+  abandonnée
 - Garmin Edge 1040 + montre Garmin Fenix 8, ceinture cardio Polar (fiable : l'élastique HS de début de plan a été
   remplacé le 16/06, S2-A), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
@@ -47,15 +67,21 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   de `plan/02-zones.md` (+3 % si S17-A et S19-A sont faciles). Test final = chrono boucle S23 (13/11).
 - FC max observée : **193 bpm** (11/06) ; 191 en fin de retest maximal (21/09), 191 en montée
   (S6-C), 189 en course. FCmax réelle estimée ~193-196. Test ramp sur HT programmé en **S20-B (23/10)**
-- FC seuil lactique (Garmin) : 178 bpm — ⚠️ très probablement détectée par la **Fenix en course
-  à pied** (la détection auto du seuil est une fonction course chez Garmin, valeur partagée entre
-  appareils). En vélo elle est sans doute plus basse, **~172-176** (voir `plan/02-zones.md`) :
-  à vérifier sur la fin des blocs seuil de S17-A et S19-A
+- FC seuil lactique (Garmin) : 178 bpm — valeur très probablement détectée par la **Fenix en
+  course à pied** (la détection auto du seuil est une fonction course chez Garmin, valeur
+  partagée entre appareils), d'où le doute de l'audit (~172-176 à vélo ?). ✅ **S17-A (01/10) :
+  178,0 bpm** sur les 5 dernières min du 2e bloc à 95 % de la FTP → **178 tient aussi à vélo**,
+  zones inchangées. À confirmer sur S19-A (voir `plan/02-zones.md`)
 - VO2max estimé (Garmin) : 52
 
 ## Conventions du dépôt
 
 - Cocher les séances dans `suivi/journal.md` (- [ ] → - [x]) avec note éventuelle
+- ⚠️ **Plusieurs séances en attente → les traiter UNE PAR UNE**, dans l'ordre chronologique,
+  avec l'analyse complète de chacune (questions de ressenti comprises) et le **feu vert de
+  Jules** avant de passer à la suivante. Jamais de survol des premières pour aller droit à la
+  dernière. Règle permanente demandée par Jules (04/10) : il n'a pas à la redemander. Détail
+  dans le skill `suivi-seance`
 - Tout nouveau test (FTP : S8 ✅, S16 ✅ ; FCmax : S20-B ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
 - Modifications du `.ics` : TOUJOURS conserver les UID existants
   (`plan-velo-s{semaine}-{a|b|c}@claude`) pour éviter les doublons côté calendriers
@@ -83,7 +109,8 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 
 ## Données Strava utiles
 
-- Analyser les sorties via l'export ou l'API : vitesse à FC fixe (~135 bpm),
+- Analyser les sorties via l'export ou l'API : **puissance à FC fixe** (~135 bpm, pédales,
+  depuis le 27/09 ; la vitesse à FC fixe reste notée mais le vent la fausse presque toujours),
   dérive cardiaque sur les longues, distance max — voir suivi/indicateurs.md
 - ⚠️ **Laps Strava non fiables sur le DERNIER bloc d'une séance d'intervalles**
   (constaté en S5-A, S7-A, S10-A, S11-A, S15-A) : le dernier lap replie systématiquement le bloc

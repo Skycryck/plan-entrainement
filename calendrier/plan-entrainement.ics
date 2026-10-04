@@ -685,16 +685,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-a@claude
-DTSTAMP:20260927T210000Z
-SEQUENCE:5
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:🚴 S17-A [Build] Home trainer + seance croisee
-DESCRIPTION:Seuil 2x18 min @95-100% (204-215 W). SEANCE CROISEE : dans 
- MyWhoosh\, home trainer en source de puissance principale et pedales 
- Assioma en source secondaire. Zero offset des pedales avant de partir. 
- Noter le RPE et la FC moyenne des 5 dernieres minutes du bloc 2 (= FC 
- seuil velo\, et regle d'ajustement des cibles : plan/02-zones.md).
+DTSTAMP:20261004T120000Z
+SEQUENCE:6
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:✅ S17-A [Build] Seuil 2x18 min → 203 W
+DESCRIPTION:Fait le jeudi 01/10 (decalee : trop fatigue mardi). Blocs a 20
+ 3\,7 et 203\,3 W (95 % FTP)\, FC 167 puis 172\, RPE 7. FC seuil 178 confi
+ rmee a velo. Seance croisee impossible : le .fit MyWhoosh ne garde que la
+  puissance du home trainer.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -703,12 +702,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20261004T130000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-SUMMARY:🚴 S17-B [Build] Sortie qualite
-DESCRIPTION:2h dont 2×20 min @155-165 bpm
+SUMMARY:✅ S17-B [Build] 2x20 min a 155-165 bpm
+DESCRIPTION:Fait le 02/10 : 62\,2 km. Bloc 1 a FC 158 pour 193 W ; bloc 2 
+ a FC 157 pour 172 W (circulation avant La Creche). RPE 6. 1re seance B av
+ ec les pedales.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -717,16 +718,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s17-c@claude
-DTSTAMP:20260927T210000Z
-SEQUENCE:5
+DTSTAMP:20261004T170000Z
+SEQUENCE:6
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
-SUMMARY:🚴 S17-C [Build] Sortie longue + mesure vitesse@135
-DESCRIPTION:3h30 (~90 km) Z2 (au lieu de 4h15 : remontee progressive 
- apres S16). MESURE PROTOCOLEE vitesse @ 135 bpm : parcours plat\, vent 
- < 20 km/h\, 1re heure tenue a FC 135. Reporter dans 
- suivi/indicateurs.md. Nutrition : 60 g/h\, test n°1 du remplacant de 
- l'iso.
+SUMMARY:✅ S17-C [Build] Sortie longue : 89 km
+DESCRIPTION:Fait le 04/10 : 89\,3 km en 3h24\, FC 136\, Marais. Vent d'est
+  : vitesse@135 inexploitable\, puissance a FC fixe 140 W @ 134 bpm. Nutri
+ tion ~50 g/h (iso + 3 bananes + Coca)\, ventre RAS. Remplacant de l'iso p
+ as encore teste.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -749,12 +749,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s18-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20261004T130000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:🚴 S18-B [Build] Sortie qualite
-DESCRIPTION:1h30 dont 3×10 min @160-170 bpm
+DESCRIPTION:1h30 dont 3x10 min a 190-200 W (pedales\, cible provisoire). F
+ C 160-170 en garde-fou : au-dessus de 170\, lever le pied.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -763,13 +764,15 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s18-c@claude
-DTSTAMP:20260927T180000Z
-SEQUENCE:4
+DTSTAMP:20261004T190000Z
+SEQUENCE:6
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:🚴 S18-C [Build] Sortie longue
-DESCRIPTION:4h30 (~115 km) Z2. Nutrition : 75 g/h\, test n°2 du 
- remplacant de l'iso\, format exact du 150 km.
+DESCRIPTION:4h30 (~115 km) Z2. Bosses et relances <= 190 W. Nutrition : 75
+  g/h\, test n°1 de la boisson 1:0.8 : 1\,5 doseur par bidon de 800 ml\, 
+ un bidon toutes les 1h30 (2 doses a sec pour le cafe) + ~200 g de solide.
+  Format exact du 150 km.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -808,13 +811,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s19-c@claude
-DTSTAMP:20260927T180000Z
-SEQUENCE:4
+DTSTAMP:20261004T190000Z
+SEQUENCE:6
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:🚴 S19-C [Build] Sortie longue
-DESCRIPTION:⭐ 5h (~130 km) Z2. Repetition generale du 150 km : 90 g/h 
- avec le produit retenu\, rien de nouveau apres ca.
+DESCRIPTION:⭐ 5h (~130 km) Z2. Bosses et relances <= 190 W. Repetition g
+ enerale du 150 km : 90 g/h\, test n°2 de la boisson 1:0.8 (2 doseurs par
+  bidon si S18-C est passee)\, rien de nouveau apres ca.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

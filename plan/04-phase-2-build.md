@@ -35,7 +35,7 @@ coûte nettement plus cher qu'un fractionné de même durée totale — 2×20 mi
 | 15 (14-20/09) | REPRISE : 45 min Z2 + 3×5 min @85-90 % | 1h30 Z2 souple | 3h (~75 km) |
 | 16 (21-27/09) | ✅ **RETEST FTP** (lun. 21/09) → **215 W** | 1h45 dont 2×15 min Z3 | 3h30-4h (~95 km) |
 | 17 (28/09-04/10) | Seuil 2×18 min @95-100 % | 2h dont 2×20 min @155-165 bpm | ~~4h15 (~105 km)~~ **3h30 (~90 km)** |
-| 18 (05-11/10) | VO2 5×4 min @108-112 %, r4 | 1h30 dont 3×10 min @160-170 bpm | 4h30 (~115 km) |
+| 18 (05-11/10) | VO2 5×4 min @108-112 %, r4 | 1h30 dont 3×10 min @**190-200 W** (FC 160-170 en garde-fou) | 4h30 (~115 km) |
 | 19 (12-18/10) | Seuil 2×20 min @95-100 % | 2h Z2 + 30 min final Z3 | ⭐ 5h (~130 km) |
 
 Règle de reprise (S15) : si une cible paraît dure, réduire de 5-10 % sans culpabiliser.
@@ -46,25 +46,59 @@ vacances sans sport en S16. Enchaîner 61 → 105 km aurait fait un saut de +70 
 donc à **3h30 (~90 km)**, puis retour au plan écrit à partir de S18-C (4h30, ~115 km).
 Le cœur, lui, suit déjà : aucune dérive sur S16-C (découplage puissance/FC 1,4 %).
 
+**Séances B en watts, à titre provisoire (décidé le 04/10).** Depuis S16-C, les pédales
+Assioma mesurent la puissance dehors. S17-B a montré la limite d'une cible à la FC : même FC
+dans les 2 blocs, mais 20 W d'écart (circulation, descentes). S18-B passe donc à **190-200 W**,
+calé sur S17-B (193 W pour 158 bpm, RPE 6), avec la FC 160-170 en garde-fou. C'est
+provisoire : l'écart entre pédales et home trainer n'est pas encore mesuré. Les B suivantes
+(S19-B → S22-B) passeront en watts une fois cet écart connu.
+
+**Longues : plafond de 190 W dans les bosses et les relances (en place depuis le 04/10).**
+Sur une bosse d'une ou deux minutes, la FC n'a pas le temps de monter et ne freine rien : en
+S16-C, ~40 min au-dessus de la Z2 alors que la FC disait Z2, avec jusqu'à 215 W dans les
+côtes. Les watts, eux, réagissent tout de suite. 190 W, c'est le haut de la Z3 : au-delà, on
+brûle des réserves dont le 150 km aura besoin. En S17-C (Marais plat), les bosses sont
+restées à 150-177 W.
+
 ## Nutrition des longues (> 3h)
 
 **Cible finale : 60-90 g de glucides/h, dès la 1re heure.** Mais l'estomac s'entraîne
 comme les jambes : S10-C (16/08) a montré qu'on part de **~30 g/h** réels, avec une
 fringale au km 25. On monte donc par paliers sur les longues qui restent.
 
-⏳ **État au 27/09 : toujours l'ISO Decathlon**, dont le goût ne passera pas 6h (voir règle 3).
-Paliers recalés : S15-C et S16-C, raccourcies, n'ont rien testé → on repart des 47 g/h de
-S11-C. **Choisir le remplaçant avant S17-C (04/10)** pour le tester sur 2 longues (S17-C,
-S18-C) avant la répétition générale de S19-C — règle 4.
+⏳ **État au 04/10 : toujours l'ISO+ Decathlon « Long Duration »** (avec BCAA). Son goût n'a
+**pas gêné** Jules en S17-C (3h24), mais le paquet de 2 kg se termine. **Décision de Jules :
+passer à une iso Decathlon sans BCAA.** Les BCAA n'apportent rien sur ce type d'effort.
+Précision honnête : ils n'ont jamais été établis comme cause des maux de ventre, c'était un
+suspect mineur (1,3 g par dose), et cette iso est passée sans souci en S11-C et S17-C. Le
+changement ne coûte rien, mais il n'y a pas de quoi en attendre un gain digestif.
+Côté quantité, S17-C a atteint ~50 g/h pour une cible de 60 : il manque environ une banane
+par heure.
+
+✅ **Nouveau produit acheté le 04/10 : boisson Decathlon « 1:0.8 », co-conçue avec l'équipe
+CMA CGM, goût fruits rouges, 2 kg** (25 €). Étiquette (relevée sur la version pêche, même
+formule) : **96 g de glucides pour 100 g** (dont 45 g de sucres), **0 g de protéines → pas
+de BCAA**, sodium 500 mg, potassium 300 mg, magnésium 56 mg pour 100 g. **1 doseur ≈ 33 g de
+poudre ≈ 32 g de glucides** (3 doseurs = 100 g). Le rapport 1:0.8 maltodextrine / fructose est
+le mélange conçu pour 75-90 g/h. La dose de la notice (~90 g de glucides) correspond à une
+heure entière dans un seul bidon : **trop concentré pour l'instant → on sous-dose** et on monte
+par paliers. Testé sur **S18-C puis S19-C** (règle 4 respectée) :
+- **S18-C (75 g/h)** : **1,5 doseur (~50 g) par bidon de 800 ml** = 48 g de glucides, **6 %**,
+  soit la même concentration que l'ancienne iso (seul le produit change). **Un bidon toutes
+  les ~1h30** (3 sur la sortie ≈ 145 g, 2 doses à sec pour remplir au café) + ~200 g de
+  solide (ex. 4 bananes, 1 Coca, 2 gels ou barres). Bidon d'eau en plus, comme d'habitude.
+- **S19-C (90 g/h)**, si S18-C passe bien : **2 doseurs par bidon** (64 g de glucides, 8 %).
+- Sous-dosé, le sodium tombe à ~300 mg/L (sous la fourchette 400-800) : sans enjeu en
+  octobre ; par temps chaud, ajouter une pincée de sel (~0,5 g) par bidon.
 
 | Sortie | Date | Durée | Cible g/h | À tester |
 |---|---|---|---|---|
 | S11-C | 23/08 | 4h15 | **45-50** | ✅ Fait : 2×43 g d'iso + 2 bananes + barre Clif + gel + compote ≈ **47 g/h**, café 4h30 avant, sans fruits secs → **aucun souci digestif** |
 | S15-C | 20/09 | 3h | 50 | Raccourcie à 1h29 (retest FTP le lendemain) : pas de test |
 | S16-C | 27/09 | 3h30-4h → 2h15 (écourtée) | 60 | Pas de test |
-| S17-C | 04/10 | 3h30 (au lieu de 4h15) | **60** | **Remplaçant de l'iso — test n°1** (60 et pas 70 : on repart des 47 g/h de S11-C, avec un produit nouveau) |
-| S18-C | 11/10 | 4h30 | **75** | **Remplaçant — test n°2** + format exact du 150 km |
-| S19-C | 18/10 | 5h / 130 km | **90** | ⭐ Répétition générale complète |
+| S17-C | 04/10 | 3h30 (au lieu de 4h15) | **60** | Fait (89 km / 3h24) : **remplaçant pas testé**. Iso habituelle (43 g) + 3 bananes (~75 g) + Coca 50 cl (~53 g) ≈ **171 g, soit ~50 g/h** de roulage. **Ventre RAS**, avec un café avant le départ et un autre à la pause (km 46) |
+| S18-C | 11/10 | 4h30 | **75** | **Boisson 1:0.8 — test n°1** (glissé de S17-C) : 1,5 doseur / 800 ml (6 %), un bidon toutes les ~1h30 + ~200 g de solide. Format exact du 150 km |
+| S19-C | 18/10 | 5h / 130 km | **90** | ⭐ Répétition générale complète + **boisson 1:0.8 — test n°2** : 2 doseurs / 800 ml (8 %) si S18-C est passée |
 | S21-C | 01/11 | 150 km | **90** | ❌ **Rien de nouveau ce jour-là** |
 
 ### Les 5 règles
@@ -87,14 +121,17 @@ S18-C) avant la répétition générale de S19-C — règle 4.
    sature vers 30 g/h sans glucose associé — jamais retesté). Ce sont eux les suspects.
    **Leçon de méthode : ne pas conclure sur une sortie où plusieurs variables bougent.**
 
-   🔄 **Le vrai sujet est désormais le GOÛT.** Jules trouve cette iso « un peu dégoûtante »
+   🔄 **Le vrai sujet était devenu le GOÛT** (23/08 ; plus gênant en S17-C). Jules trouvait cette iso « un peu dégoûtante »
    et a jugé la compote de S11-C « immonde » (à moitié mangée). Sur 4h c'est anecdotique ;
    sur les **6h+ du 150 km c'est disqualifiant** — une boisson qu'on n'a plus envie de
    boire, on ne la boit plus, et on finit sous-alimenté **et** déshydraté.
 
    📋 **Critères du remplaçant, par ordre** : (1) **un goût qu'il aime vraiment**, testé à
-   froid avant d'acheter 2 kg ; (2) glucides 60-90 g/L ; (3) sodium 400-800 mg/L ;
-   (4) accessoirement potassium < 200 mg/L et magnésium bas. La version maison
+   froid avant d'acheter 2 kg ; (2) glucides 60-90 g/L, avec un **mélange maltodextrine /
+   glucose + fructose** (au-delà de ~60 g/h, le glucose seul sature l'absorption intestinale ;
+   le fructose passe par une autre voie et permet de viser 75-90 g/h) ; (3) sodium 400-800 mg/L ;
+   (4) accessoirement potassium < 200 mg/L et magnésium bas ; (5) **sans BCAA ni protéines**
+   (choix de Jules, 04/10). La version maison
    (~60 g de sucre + **1 g de sel** dans 750 ml) coche tout et se parfume à volonté.
    Alterner bidon sucré / bidon d'eau limite aussi la lassitude gustative — déjà acquis.
 
