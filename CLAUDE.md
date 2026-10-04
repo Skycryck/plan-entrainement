@@ -77,6 +77,11 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 ## Conventions du dépôt
 
 - Cocher les séances dans `suivi/journal.md` (- [ ] → - [x]) avec note éventuelle
+- ⚠️ **Plusieurs séances en attente → les traiter UNE PAR UNE**, dans l'ordre chronologique,
+  avec l'analyse complète de chacune (questions de ressenti comprises) et le **feu vert de
+  Jules** avant de passer à la suivante. Jamais de survol des premières pour aller droit à la
+  dernière. Règle permanente demandée par Jules (04/10) : il n'a pas à la redemander. Détail
+  dans le skill `suivi-seance`
 - Tout nouveau test (FTP : S8 ✅, S16 ✅ ; FCmax : S20-B ; chronos : S5 ✅, S23) → `suivi/tests.md` + mise à jour zones (`plan/02-zones.md` et ici)
 - Modifications du `.ics` : TOUJOURS conserver les UID existants
   (`plan-velo-s{semaine}-{a|b|c}@claude`) pour éviter les doublons côté calendriers
