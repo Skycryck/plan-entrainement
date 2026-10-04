@@ -72,9 +72,24 @@ passer à une iso Decathlon sans BCAA.** Les BCAA n'apportent rien sur ce type d
 Précision honnête : ils n'ont jamais été établis comme cause des maux de ventre, c'était un
 suspect mineur (1,3 g par dose), et cette iso est passée sans souci en S11-C et S17-C. Le
 changement ne coûte rien, mais il n'y a pas de quoi en attendre un gain digestif.
-Le nouveau produit sera testé sur **S18-C puis S19-C**, ce qui respecte encore la règle 4
-(deux longues avant le 150 km) : **l'acheter avant S18-C (11/10).** Côté quantité, S17-C a
-atteint ~50 g/h pour une cible de 60 : il manque environ une banane par heure.
+Côté quantité, S17-C a atteint ~50 g/h pour une cible de 60 : il manque environ une banane
+par heure.
+
+✅ **Nouveau produit acheté le 04/10 : boisson Decathlon « 1:0.8 », co-conçue avec l'équipe
+CMA CGM, goût fruits rouges, 2 kg** (25 €). Étiquette (relevée sur la version pêche, même
+formule) : **96 g de glucides pour 100 g** (dont 45 g de sucres), **0 g de protéines → pas
+de BCAA**, sodium 500 mg, potassium 300 mg, magnésium 56 mg pour 100 g. **1 doseur ≈ 33 g de
+poudre ≈ 32 g de glucides** (3 doseurs = 100 g). Le rapport 1:0.8 maltodextrine / fructose est
+le mélange conçu pour 75-90 g/h. La dose de la notice (~90 g de glucides) correspond à une
+heure entière dans un seul bidon : **trop concentré pour l'instant → on sous-dose** et on monte
+par paliers. Testé sur **S18-C puis S19-C** (règle 4 respectée) :
+- **S18-C (75 g/h)** : **1,5 doseur (~50 g) par bidon de 800 ml** = 48 g de glucides, **6 %**,
+  soit la même concentration que l'ancienne iso (seul le produit change). **Un bidon toutes
+  les ~1h30** (3 sur la sortie ≈ 145 g, 2 doses à sec pour remplir au café) + ~200 g de
+  solide (ex. 4 bananes, 1 Coca, 2 gels ou barres). Bidon d'eau en plus, comme d'habitude.
+- **S19-C (90 g/h)**, si S18-C passe bien : **2 doseurs par bidon** (64 g de glucides, 8 %).
+- Sous-dosé, le sodium tombe à ~300 mg/L (sous la fourchette 400-800) : sans enjeu en
+  octobre ; par temps chaud, ajouter une pincée de sel (~0,5 g) par bidon.
 
 | Sortie | Date | Durée | Cible g/h | À tester |
 |---|---|---|---|---|
@@ -82,8 +97,8 @@ atteint ~50 g/h pour une cible de 60 : il manque environ une banane par heure.
 | S15-C | 20/09 | 3h | 50 | Raccourcie à 1h29 (retest FTP le lendemain) : pas de test |
 | S16-C | 27/09 | 3h30-4h → 2h15 (écourtée) | 60 | Pas de test |
 | S17-C | 04/10 | 3h30 (au lieu de 4h15) | **60** | Fait (89 km / 3h24) : **remplaçant pas testé**. Iso habituelle (43 g) + 3 bananes (~75 g) + Coca 50 cl (~53 g) ≈ **171 g, soit ~50 g/h** de roulage. **Ventre RAS**, avec un café avant le départ et un autre à la pause (km 46) |
-| S18-C | 11/10 | 4h30 | **75** | **Remplaçant — test n°1** (glissé de S17-C) + format exact du 150 km |
-| S19-C | 18/10 | 5h / 130 km | **90** | ⭐ Répétition générale complète + **remplaçant — test n°2** |
+| S18-C | 11/10 | 4h30 | **75** | **Boisson 1:0.8 — test n°1** (glissé de S17-C) : 1,5 doseur / 800 ml (6 %), un bidon toutes les ~1h30 + ~200 g de solide. Format exact du 150 km |
+| S19-C | 18/10 | 5h / 130 km | **90** | ⭐ Répétition générale complète + **boisson 1:0.8 — test n°2** : 2 doseurs / 800 ml (8 %) si S18-C est passée |
 | S21-C | 01/11 | 150 km | **90** | ❌ **Rien de nouveau ce jour-là** |
 
 ### Les 5 règles

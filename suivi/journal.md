@@ -120,13 +120,13 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 
 - [ ] **S18-A** (06/10) — VO2 5×4 min @108-112%, r4
 - [ ] **S18-B** (09/10) — 1h30 dont 3×10 min @**190-200 W** (pédales, cible provisoire) · FC 160-170 en garde-fou : au-dessus de 170, lever le pied
-- [ ] **S18-C** (11/10) — 4h30 (~115 km) Z2 · ⛰️ bosses ≤ 190 W · 🍌 75 g/h, test n°1 du remplaçant de l'iso (pas testé en S17-C)
+- [ ] **S18-C** (11/10) — 4h30 (~115 km) Z2 · ⛰️ bosses ≤ 190 W · 🍌 75 g/h, **test n°1 de la boisson 1:0.8** : 1,5 doseur par bidon de 800 ml, un bidon toutes les ~1h30 + ~200 g de solide
   - Notes : 
 ### Semaine 19 (12/10 → 18/10)
 
 - [ ] **S19-A** (13/10) — Seuil 2×20 min @95-100% — noter RPE + FC des 5 dernières min du bloc 2 (→ règle d'ajustement, plan/02-zones.md)
 - [ ] **S19-B** (16/10) — 2h Z2 + 30 min final Z3
-- [ ] **S19-C** (18/10) — ⭐ 5h (~130 km) Z2 · ⛰️ bosses ≤ 190 W · 🍌 répétition générale : 90 g/h avec le produit retenu (test n°2 du remplaçant)
+- [ ] **S19-C** (18/10) — ⭐ 5h (~130 km) Z2 · ⛰️ bosses ≤ 190 W · 🍌 répétition générale : 90 g/h, **test n°2 de la boisson 1:0.8** (2 doseurs par bidon si S18-C est passée)
   - Notes : 
 
 ## Phase 3 — Spécifique vitesse
