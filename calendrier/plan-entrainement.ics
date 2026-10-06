@@ -735,12 +735,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s18-a@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20261006T200000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
-SUMMARY:🚴 S18-A [Build] Home trainer
-DESCRIPTION:VO2 5×4 min @108-112%, r4
+SUMMARY:✅ S18-A [Build] VO2 5x4 min → 235 W
+DESCRIPTION:Fait le 06/10 : 5 blocs a 233-236 W au home trainer (239-247 W
+  aux pedales)\, FC max 188\, RPE 8. Comparaison pedales / HT : pedales +4
+  % dans les blocs\, selon la cadence. FTP pedales ~222 W.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -749,13 +751,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s18-b@claude
-DTSTAMP:20261004T130000Z
-SEQUENCE:4
+DTSTAMP:20261006T200000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20261009
 DTEND;VALUE=DATE:20261010
 SUMMARY:🚴 S18-B [Build] Sortie qualite
-DESCRIPTION:1h30 dont 3x10 min a 190-200 W (pedales\, cible provisoire). F
- C 160-170 en garde-fou : au-dessus de 170\, lever le pied.
+DESCRIPTION:1h30 dont 3x10 min a 190-200 W (pedales). FC 160-170 en garde-
+ fou : au-dessus de 170\, lever le pied.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -797,12 +799,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s19-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20261006T200000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
 SUMMARY:🚴 S19-B [Build] Sortie qualite
-DESCRIPTION:2h Z2 + 30 min final Z3
+DESCRIPTION:2h Z2 (120-160 W) + 30 min final Z3 a 180-195 W (pedales). FC 
+ 149-165 en garde-fou.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -886,12 +889,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s21-b@claude
-DTSTAMP:20260611T180000Z
-SEQUENCE:3
+DTSTAMP:20261006T200000Z
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:🚴 S21-B [Spécifique] Sortie qualite
-DESCRIPTION:1h Z2 + 4 sprints (fraîcheur !)
+DESCRIPTION:1h Z2 (120-160 W) + 4 sprints (fraicheur !). Deux jours avant 
+ le 150 km.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui
@@ -929,14 +933,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:plan-velo-s22-b@claude
-DTSTAMP:20260807T120000Z
-SEQUENCE:4
+DTSTAMP:20261006T200000Z
+SEQUENCE:5
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:🚴 S22-B [Spécifique] Sortie qualite
-DESCRIPTION:1h30 : 3×15 min a l'allure cible du test final = 32 km/h, r5.
-  Valable sur du plat SANS VENT : sinon la vitesse ne veut rien dire, on
-  pilote a la FC 168-175 et on oublie le compteur.
+DESCRIPTION:1h30 : 3x15 min a 205-215 W (pedales\, allure du test final)\,
+  r5. FC 168-175 en garde-fou. La vitesse (objectif 32 km/h) est un result
+ at a relever\, plus la consigne.
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Seance aujourd'hui

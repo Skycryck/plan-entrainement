@@ -36,7 +36,7 @@ coûte nettement plus cher qu'un fractionné de même durée totale — 2×20 mi
 | 16 (21-27/09) | ✅ **RETEST FTP** (lun. 21/09) → **215 W** | 1h45 dont 2×15 min Z3 | 3h30-4h (~95 km) |
 | 17 (28/09-04/10) | Seuil 2×18 min @95-100 % | 2h dont 2×20 min @155-165 bpm | ~~4h15 (~105 km)~~ **3h30 (~90 km)** |
 | 18 (05-11/10) | VO2 5×4 min @108-112 %, r4 | 1h30 dont 3×10 min @**190-200 W** (FC 160-170 en garde-fou) | 4h30 (~115 km) |
-| 19 (12-18/10) | Seuil 2×20 min @95-100 % | 2h Z2 + 30 min final Z3 | ⭐ 5h (~130 km) |
+| 19 (12-18/10) | Seuil 2×20 min @95-100 % | 2h Z2 + 30 min final Z3 @**180-195 W** (FC 149-165 en garde-fou) | ⭐ 5h (~130 km) |
 
 Règle de reprise (S15) : si une cible paraît dure, réduire de 5-10 % sans culpabiliser.
 
@@ -46,12 +46,13 @@ vacances sans sport en S16. Enchaîner 61 → 105 km aurait fait un saut de +70 
 donc à **3h30 (~90 km)**, puis retour au plan écrit à partir de S18-C (4h30, ~115 km).
 Le cœur, lui, suit déjà : aucune dérive sur S16-C (découplage puissance/FC 1,4 %).
 
-**Séances B en watts, à titre provisoire (décidé le 04/10).** Depuis S16-C, les pédales
-Assioma mesurent la puissance dehors. S17-B a montré la limite d'une cible à la FC : même FC
-dans les 2 blocs, mais 20 W d'écart (circulation, descentes). S18-B passe donc à **190-200 W**,
-calé sur S17-B (193 W pour 158 bpm, RPE 6), avec la FC 160-170 en garde-fou. C'est
-provisoire : l'écart entre pédales et home trainer n'est pas encore mesuré. Les B suivantes
-(S19-B → S22-B) passeront en watts une fois cet écart connu.
+**Séances B en watts pédales (provisoire le 04/10, définitif le 06/10).** Depuis S16-C, les
+pédales Assioma mesurent la puissance dehors. S17-B a montré la limite d'une cible à la FC :
+même FC dans les 2 blocs, mais 20 W d'écart (circulation, descentes). S18-B est passée à
+**190-200 W**, calé sur S17-B (193 W pour 158 bpm, RPE 6). L'écart pédales / home trainer a
+été mesuré en S18-A (pédales ≈ HT +3 % dès la Z3, voir `plan/02-zones.md`) : **toutes les B
+restantes sont désormais en watts pédales**, la FC en garde-fou. S19-B : 30 min de Z3 à
+**180-195 W** ; S21-B et S22-B dans `plan/05-phase-3-specifique.md`.
 
 **Longues : plafond de 190 W dans les bosses et les relances (en place depuis le 04/10).**
 Sur une bosse d'une ou deux minutes, la FC n'a pas le temps de monter et ne freine rien : en
