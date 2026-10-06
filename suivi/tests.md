@@ -39,3 +39,31 @@ avant le 150 km : effort court, sans impact sur la fraîcheur.
 3. Quand le palier ne tient plus, **tout donner 20-30 s**, puis 10 min très facile.
 4. Relever la **FC max de l'Edge** et la noter ici, même si elle reste sous 193.
    Ne pas en déduire de FTP : un ramp n'est pas comparable au test de 20 min.
+
+## Comparaison pédales / home trainer
+
+**S18-A (mar. 06/10), VO2 5×4 min en ERG.** MyWhoosh pilotait le HT et enregistrait sa
+puissance, l'Edge enregistrait les pédales Assioma Duo seules. Les deux `.fit` ont été
+recalés à la seconde : l'Edge avait démarré 3 s plus tôt, et le HT a ~1 s de retard sur les
+pédales (corrélation des puissances 0,98).
+
+| Portion | Home trainer | Pédales | Écart | Cadence |
+|---|---|---|---|---|
+| Échauffement 10 min | 128,9 W | 127,9 W | −0,7 % | 74 rpm |
+| Récupérations (×4) | 100-108 W | 104-107 W | −2 à +3 % | 44-79 rpm |
+| Bloc 1 | 235,3 W | 239,3 W | +1,7 % | 79 rpm |
+| Bloc 2 | 235,6 W | 243,8 W | +3,5 % | 72 rpm |
+| Bloc 3 | 233,7 W | 246,0 W | +5,3 % | 64 rpm |
+| Bloc 4 | 235,1 W | 245,5 W | +4,4 % | 74 rpm |
+| Bloc 5 | 233,3 W | 247,4 W | +6,0 % | 61 rpm |
+| **Moyenne des blocs** | **234,6 W** | **244,4 W** | **+4,2 %** | |
+| Séance entière | 161,3 W | 164,6 W | +2,0 % | |
+
+Dans les blocs, l'écart **suit la cadence** (corrélation −0,93) : **+1 % à 80-90 rpm, +3 % à
+70-80, +6 % à 60-70, +8 % sous 60 rpm**. Le HT sous-estime quand on force à basse cadence ;
+les pédales mesurent directement à la pédale (±1 % annoncé), avant la chaîne. Équilibre
+gauche / droite : 50/50 dans les blocs.
+
+**Décisions (avec Jules, 06/10)** : les pédales deviennent la référence ; **FTP pédales ≈
+222 W** (215 W au HT, retest fait à 70-75 rpm → +3 %) ; zones pédales = zones HT +3 % dès la
+Z3 (`plan/02-zones.md`) ; au HT, blocs à 80-90 rpm.

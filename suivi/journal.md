@@ -118,14 +118,14 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
   - Notes : semaine à **181,5 km**, la plus grosse depuis S11. S17-A décalée au jeudi → 3 séances en 4 jours (jeu., ven., dim.), à RPE 7 puis 6.
 ### Semaine 18 (05/10 → 11/10)
 
-- [ ] **S18-A** (06/10) — VO2 5×4 min @108-112%, r4
-- [ ] **S18-B** (09/10) — 1h30 dont 3×10 min @**190-200 W** (pédales, cible provisoire) · FC 160-170 en garde-fou : au-dessus de 170, lever le pied
+- [x] **S18-A** (06/10) — VO2 5×4 min sur MyWhoosh (ERG), cible 232-241 W, le soir (19:49). **5 blocs à 235 / 236 / 234 / 235 / 233 W au HT** (109 % de la FTP), soit **239 / 244 / 246 / 246 / 247 W aux pédales**. FC de la dernière minute de 176 à 185, max **188** (~97 % de la FCmax) → stimulus VO2 complet. **RPE 8**, comme attendu ; bloc 5 au bout (« plus rien dans le sac »). Cadence de 79 → 61 rpm selon les blocs : alternance assis / danseuse. Pas de retour au calme. ⚖️ **Séance de comparaison pédales / HT** (Edge sur les pédales + `.fit` MyWhoosh, recalés à la seconde) : identiques à faible puissance (±2 %), mais **+4 % aux pédales dans les blocs**, avec un écart qui suit la cadence (+1 % à 80-90 rpm → +8 % sous 60 rpm). → **Pédales = référence, FTP pédales ≈ 222 W**, zones pédales = HT +3 % dès la Z3, blocs HT à 80-90 rpm. Détail → `tests.md`. Équilibre gauche / droite 50/50.
+- [ ] **S18-B** (09/10) — 1h30 dont 3×10 min @**190-200 W** (pédales) · FC 160-170 en garde-fou : au-dessus de 170, lever le pied
 - [ ] **S18-C** (11/10) — 4h30 (~115 km) Z2 · ⛰️ bosses ≤ 190 W · 🍌 75 g/h, **test n°1 de la boisson 1:0.8** : 1,5 doseur par bidon de 800 ml, un bidon toutes les ~1h30 + ~200 g de solide
   - Notes : 
 ### Semaine 19 (12/10 → 18/10)
 
 - [ ] **S19-A** (13/10) — Seuil 2×20 min @95-100% — noter RPE + FC des 5 dernières min du bloc 2 (→ règle d'ajustement, plan/02-zones.md)
-- [ ] **S19-B** (16/10) — 2h Z2 + 30 min final Z3
+- [ ] **S19-B** (16/10) — 2h Z2 (120-160 W) + 30 min final Z3 @**180-195 W** (pédales) · FC 149-165 en garde-fou
 - [ ] **S19-C** (18/10) — ⭐ 5h (~130 km) Z2 · ⛰️ bosses ≤ 190 W · 🍌 répétition générale : 90 g/h, **test n°2 de la boisson 1:0.8** (2 doseurs par bidon si S18-C est passée)
   - Notes : 
 
@@ -140,13 +140,13 @@ Semaine aménagée : test jeudi, repos vendredi, longue samedi, B dimanche.
 ### Semaine 21 (26/10 → 01/11)
 
 - [ ] **S21-A** (27/10) — Over-unders 3×12 min (2'@95%/1'@110%), r6
-- [ ] **S21-B** (30/10) — 1h Z2 + 4 sprints (fraîcheur !)
+- [ ] **S21-B** (30/10) — 1h Z2 (120-160 W) + 4 sprints (fraîcheur !)
 - [ ] **S21-C** (01/11) — ⭐ OBJECTIF 150 KM+ (60-90 g gluc./h)
   - Notes : 
 ### Semaine 22 (02/11 → 08/11)
 
 - [ ] **S22-A** (03/11) — 5×5 min @105-108%
-- [ ] **S22-B** (06/11) — 1h30 : 3×15 min allure cible **32 km/h**, r5 (plat sans vent ; sinon FC 168-175)
+- [ ] **S22-B** (06/11) — 1h30 : 3×15 min @**205-215 W** (pédales, allure du test final), r5 · FC 168-175 en garde-fou ; la vitesse (objectif 32 km/h) devient un résultat, plus la consigne
 - [ ] **S22-C** (08/11) — 4h (~100 km) Z2
   - Notes : 
 

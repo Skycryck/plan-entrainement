@@ -17,45 +17,39 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
 - Vélo route Van Rysel NCR CF (Rival AXS) — **pédales capteur de puissance Favero Assioma
   Duo** (double face, donc mesure des 2 jambes) **depuis le 27/09/2026** (1re sortie : S16-C).
   Avant cette date, aucune puissance mesurée en extérieur
-- Home trainer AVEC puissance → séances intérieures ciblées en watts
-- Sorties extérieures ciblées en fréquence cardiaque. Les watts des pédales sont enregistrés,
-  mais ⏳ **pas encore de comparaison pédales vs HT** : d'ici là, les cibles extérieures restent
-  en FC et on ne rapporte pas les watts pédales à la FTP (mesurée sur le HT).
-  ❌ **Séance croisée tentée en S17-A (01/10), impossible via MyWhoosh** : pédales connectées en
-  source secondaire, mais le `.fit` téléchargé sur le **site** MyWhoosh ne contient **qu'une
-  puissance, celle du HT** (vérifié champ par champ, et par Jules avec des lecteurs `.fit`).
-  MyWhoosh garde la 2e source pour sa vérification interne. Ne pas reproposer ce montage.
-  ⚠️ Jules **n'a jamais réussi à faire marcher l'ERG avec un appareil Garmin** : ses séances HT
-  se font **toujours sur MyWhoosh**, qui pilote le HT. Un Garmin ne peut servir qu'à
-  *enregistrer* les pédales en parallèle, sans se connecter au HT (malentendu levé le 04/10 :
-  Jules croyait qu'on lui proposait de piloter le HT avec le Garmin).
-  ✅ **Décidé le 04/10 — nouveau montage des séances HT** : MyWhoosh **pilote** le HT en ERG,
-  le **Garmin enregistre** avec les **pédales** comme seule source de puissance (HT pas appairé
-  comme « home trainer » sur le Garmin, envoi MyWhoosh → Strava coupé). Bonus pour Jules : fin
-  du bricolage `.fit` MyWhoosh → Garmin, charge d'entraînement Garmin fiable.
-  - **S18-A (06/10) = séance de comparaison** : garder aussi le `.fit` MyWhoosh (puissance HT)
-    en plus du `.fit` Garmin (pédales), puis les recaler seconde par seconde.
-  - ⚠️ **Ensuite, la puissance des séances HT sur Strava sera celle des pédales**, alors que
-    l'ERG tient la puissance **mesurée par le HT** : les blocs afficheront la cible ± l'écart
-    pédales/HT. En tenir compte avant de juger une cible « ratée » ou « dépassée ». Les
-    activités HT ne seront plus des VirtualRide MyWhoosh (distance éventuellement absente
-    pour `historique-hebdo.json`)
-  🔎 **Vérif indirecte S17-B (02/10)** : 193 W @ 158 bpm dehors contre 204 W @ 167 bpm sur le
-  HT la veille. Écart dans le sens attendu (chaleur en intérieur, pédales avant la chaîne),
-  rien d'aberrant, mais non chiffrable.
-  📌 **Décidé avec Jules** : séances B en **watts**, avec la FC en garde-fou. ✅ S18-B passée à
-  **190-200 W à titre provisoire** (04/10). ⏳ S19-B → S22-B (dont l'allure 32 km/h de S22-B)
-  à passer en watts une fois l'écart pédales/HT mesuré (plan, journal, `.ics` avec UID
-  conservés, puis cette section). ✅ Fait le 04/10 : **plafond de 190 W dans les bosses** des
-  longues (`plan/04-phase-2-build.md`) et **puissance à FC fixe** (~135 bpm) devenue
-  l'indicateur officiel (`suivi/indicateurs.md` §5) ; la mesure protocolée vitesse@135 est
-  abandonnée
+- **Pédales = référence de puissance depuis le 06/10** (décidé avec Jules après la comparaison
+  de S18-A, détail dans `suivi/tests.md`). Elles équipent **tous** les enregistrements : dehors,
+  et au home trainer via le Garmin.
+- ⚖️ **Écart pédales / home trainer (S18-A, 06/10, `.fit` recalés à la seconde)** : identiques
+  à faible puissance (±2 % à 105-130 W) ; **dans les blocs à ~235 W, pédales +4 % en moyenne**,
+  et l'écart **dépend de la cadence** : +1 % à 80-90 rpm, +3 % à 70-80, +6 % à 60-70, +8 % sous
+  60 rpm. Le HT sous-estime quand on force à basse cadence. Conséquences :
+  - **FTP pédales ≈ 222 W** (215 W au HT, test fait à 70-75 rpm, soit +3 %)
+  - **Zones en watts pédales = zones HT +3 % à partir de la Z3**, Z2 inchangée
+    (`plan/02-zones.md`). Les séances B se font **en watts pédales**, la FC en garde-fou
+  - **Séances HT** : MyWhoosh garde **FTP 215** (l'ERG se règle sur la mesure du HT) ; viser
+    **80-90 rpm** dans les blocs, sinon l'effort réel dépasse la cible (S18-A bloc 5 : 233 W au
+    HT, **247 W réels** à 61 rpm)
+- **Montage des séances HT (depuis le 04/10)** : MyWhoosh **pilote** le HT en ERG, le **Garmin
+  enregistre** avec les **pédales** comme seule source de puissance (HT pas appairé comme
+  « home trainer » sur le Garmin, envoi MyWhoosh → Strava coupé). Bonus pour Jules : charge
+  d'entraînement Garmin fiable, fin du bricolage de `.fit`. ⚠️ **Sur Strava, la puissance des
+  séances HT est donc celle des pédales** : les blocs affichent la cible HT **+1 à +8 %**
+  selon la cadence. En tenir compte avant de juger une cible « dépassée ». Distance
+  éventuellement absente (pas de VirtualRide) pour `historique-hebdo.json`.
+  ⚠️ Jules **n'a jamais réussi à faire marcher l'ERG avec un appareil Garmin** : ne jamais
+  proposer de piloter le HT avec le Garmin. ❌ Et ne pas reproposer les pédales en 2e source
+  dans MyWhoosh : le `.fit` du site MyWhoosh ne garde que la puissance du HT (constaté en S17-A)
+- ✅ Fait le 04/10 : **plafond de 190 W dans les bosses** des longues
+  (`plan/04-phase-2-build.md`) et **puissance à FC fixe** (~135 bpm) devenue l'indicateur
+  officiel (`suivi/indicateurs.md` §5) ; la mesure protocolée vitesse@135 est abandonnée
 - Garmin Edge 1040 + montre Garmin Fenix 8, ceinture cardio Polar (fiable : l'élastique HS de début de plan a été
   remplacé le 16/06, S2-A), MyWhoosh
 - ⚠️ **ERG MyWhoosh : perd des watts au-dessus de ~95 rpm** et ne les récupère pas
   (mesuré en S10-A : **218 W à 103 rpm vs 227 W à 94 rpm** dans le même bloc).
-  → En ERG, plafonner la cadence à **~90-92 rpm**. Pour les séances où la cadence doit
-  rester libre (VO2, test FTP), préférer le **mode libre/slope**
+  → En ERG, rester **entre 80 et 90-92 rpm** dans les blocs (au-dessus, l'ERG perd des watts ;
+  en dessous, le HT sous-estime l'effort, voir l'écart pédales / HT). Pour les séances où la
+  cadence doit rester libre (VO2, test FTP, ramp), préférer le **mode libre/slope**
 
 ## Valeurs de référence (retest FTP du 21/09/2026 — voir suivi/tests.md)
 
@@ -63,6 +57,7 @@ de 24 semaines (8 juin → 22 novembre 2026). Lis ce fichier en premier.
   l'effort ~177). **3,5 W/kg** (61 kg). **+18 W / +9,1 % sur les 197 W de juillet**, malgré
   3 semaines sans vélo. Test fait le lundi matin sur jambes fraîches (veille écourtée
   exprès). Historique : 155 W (juin, sandbagé) → 197 W (28/07) → 215 W (21/09).
+  **Sur les pédales (référence depuis le 06/10) : FTP ≈ 222 W** (+3 %, voir § Matériel).
   Pas d'autre test FTP programmé : les cibles watts évoluent par la **règle d'ajustement**
   de `plan/02-zones.md` (+3 % si S17-A et S19-A sont faciles). Test final = chrono boucle S23 (13/11).
 - FC max observée : **193 bpm** (11/06) ; 191 en fin de retest maximal (21/09), 191 en montée

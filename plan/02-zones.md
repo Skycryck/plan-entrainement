@@ -34,6 +34,25 @@ peut ajouter quelques battements. S19-A confirmera.
 **Rappel des cibles qui bougent :** seuil 95-100 % = **204-215 W** (contre 187-197) ·
 VO2 108-112 % = **232-241 W** · sweet spot = **189-202 W** · over-unders 95/110 % = **204 / 237 W**.
 
+## Watts pédales (extérieur) — depuis le 06/10
+
+Les pédales Assioma sont la **référence de puissance** depuis la comparaison de S18-A
+(détail dans `suivi/tests.md`). Elles lisent comme le home trainer en Z2, mais **~3 % de
+plus à partir de la Z3**, d'autant plus que la cadence est basse. **FTP pédales ≈ 222 W.**
+Les séances **B** (dehors) se pilotent sur ces watts, avec la FC du tableau ci-dessus en
+garde-fou. Les séances **HT** gardent les watts HT (l'ERG de MyWhoosh se règle sur le HT, à
+80-90 rpm), mais le Garmin y affiche les watts pédales, donc 1 à 8 % de plus selon la cadence.
+
+| Zone (pédales) | Watts pédales | Équivalent HT |
+|---|---|---|
+| Z2 Endurance | 120-161 W | identique |
+| Z3 Tempo | 168-200 W | 163-194 W |
+| Sweet Spot | 195-208 W | 189-202 W |
+| Z4 Seuil | 210-233 W | 204-226 W |
+| Z5 VO2max | 235-266 W | 228-258 W |
+
+Plafond des bosses sur les longues : **190 W** (haut de Z3, voir `plan/04-phase-2-build.md`).
+
 ## Règle d'ajustement des cibles (pas de retest FTP d'ici la fin)
 
 Si les deux séances seuil restantes, **S17-A puis S19-A**, sont tenues dans la cible à
